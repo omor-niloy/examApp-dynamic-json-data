@@ -1,0 +1,321 @@
+{
+  "id": "modelTest1",
+  "title": "W3 Ignite Model Test - Set 1",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "In C, what is the size of an 'int' data type?",
+      "options": ["2 bytes", "4 bytes", "8 bytes", "Depends on the compiler"],
+      "correctIndex": 3,
+      "Explanation": "The C standard does not specify an exact size for 'int', only that it must be at least 2 bytes. In older 16-bit systems it was 2 bytes, while in modern 32-bit and 64-bit systems it is typically 4 bytes."
+    },
+    {
+      "id": "q2",
+      "text": "Which of the following is the correct syntax to print a message in C++?",
+      "options": ["cout << \"Hello\";", "printf(\"Hello\");", "console.log(\"Hello\");", "print(\"Hello\");"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "text": "What is the output of `printf(\"%d\", 5/2);` in C?",
+      "options": ["2.5", "2", "3", "Error"],
+      "correctIndex": 1,
+      "Explanation": "In C, dividing two integers results in integer division, meaning the fractional part is truncated. 5 / 2 evaluates to exactly 2."
+    },
+    {
+      "id": "q4",
+      "text": "Which operator is used to access members of a structure using a pointer in C?",
+      "options": [".", "&", "->", "*"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q5",
+      "text": "Does C++ support multiple inheritance?",
+      "options": ["Yes", "No", "Only in newer versions", "Only through interfaces"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q6",
+      "text": "What does the 'break' statement do in a loop?",
+      "options": ["Restarts the loop", "Exits the loop completely", "Skips the current iteration", "Pauses the program"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "text": "Which of the following is not a valid C variable name?",
+      "options": ["_myVar", "my_var", "1myVar", "myVar1"],
+      "correctIndex": 2,
+      "Explanation": "Variable names in C cannot start with a number."
+    },
+    {
+      "id": "q8",
+      "text": "What does HTML stand for?",
+      "options": ["Hyper Text Markup Language", "High Text Machine Language", "Hyper Tabular Markup Language", "None of these"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q9",
+      "text": "Which HTML tag is used to define an internal style sheet?",
+      "options": ["<css>", "<style>", "<script>", "<link>"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "text": "Which CSS property controls the text size?",
+      "options": ["font-style", "text-size", "font-size", "text-style"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q11",
+      "text": "How do you select an element with id \"demo\" in CSS?",
+      "options": [".demo", "#demo", "*demo", "demo"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q12",
+      "text": "What is the correct HTML element for inserting a line break?",
+      "options": ["<break>", "<lb>", "<br>", "<hr>"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q13",
+      "text": "Which CSS property is used to change the background color?",
+      "options": ["color", "bgcolor", "background-color", "background"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q14",
+      "text": "In HTML, which attribute is used to specify that an input field must be filled out?",
+      "options": ["placeholder", "validate", "required", "formvalidate"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q15",
+      "text": "How do you declare a JavaScript variable?",
+      "options": ["variable carName;", "v carName;", "var carName;", "string carName;"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q16",
+      "text": "Which of the following is NOT a JavaScript data type?",
+      "options": ["Undefined", "Number", "Boolean", "Float"],
+      "correctIndex": 3,
+      "Explanation": "JavaScript does not have separate data types for integers and floating-point values. All numbers are represented by the single 'Number' type."
+    },
+    {
+      "id": "q17",
+      "text": "How do you write \"Hello World\" in an alert box?",
+      "options": ["alert(\"Hello World\");", "msg(\"Hello World\");", "msgBox(\"Hello World\");", "alertBox(\"Hello World\");"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q18",
+      "text": "What will `typeof null` return in JavaScript?",
+      "options": ["\"null\"", "\"undefined\"", "\"object\"", "\"boolean\""],
+      "correctIndex": 2,
+      "Explanation": "This is a famous legacy quirk in JavaScript. Even though null is a primitive value, 'typeof null' incorrectly returns 'object'."
+    },
+    {
+      "id": "q19",
+      "text": "How does a FOR loop start?",
+      "options": ["for (i <= 5; i++)", "for (i = 0; i <= 5; i++)", "for i = 1 to 5", "for (i = 0; i <= 5)"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q20",
+      "text": "Which company developed JavaScript?",
+      "options": ["Microsoft", "Netscape", "Oracle", "Google"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q21",
+      "text": "What is the output of `\"2\" + 2` in JS?",
+      "options": ["4", "\"4\"", "\"22\"", "NaN"],
+      "correctIndex": 2,
+      "Explanation": "Because the first operand is a string, JavaScript uses type coercion to convert the second operand (number 2) into a string and concatenates them."
+    },
+    {
+      "id": "q22",
+      "text": "Which of the following is the correct extension of the Python file?",
+      "options": [".python", ".pl", ".py", ".p"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q23",
+      "text": "How do you insert comments in Python code?",
+      "options": ["// This is a comment", "/* This is a comment */", "# This is a comment", ""],
+      "correctIndex": 2
+    },
+    {
+      "id": "q24",
+      "text": "Which data structure is immutable in Python?",
+      "options": ["List", "Dictionary", "Set", "Tuple"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q25",
+      "text": "What is the output of `print(2 ** 3)`?",
+      "options": ["6", "8", "9", "5"],
+      "correctIndex": 1,
+      "Explanation": "The '**' operator in Python is used for exponentiation. So, 2 ** 3 means 2 raised to the power of 3, which is 8."
+    },
+    {
+      "id": "q26",
+      "text": "How do you create a function in Python?",
+      "options": ["function my_function():", "create my_function():", "def my_function():", "fun my_function():"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q27",
+      "text": "Which keyword is used for exception handling in Python?",
+      "options": ["catch", "except", "handle", "error"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q28",
+      "text": "What does the `len()` function do?",
+      "options": ["Returns the memory size of an object", "Returns the length of an object", "Converts to a string", "None of the above"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q29",
+      "text": "What does SQL stand for?",
+      "options": ["Structured Query Language", "Strong Question Language", "Structured Question Language", "Simple Query Language"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q30",
+      "text": "Which SQL statement is used to extract data from a database?",
+      "options": ["GET", "EXTRACT", "SELECT", "OPEN"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q31",
+      "text": "Which SQL statement is used to update data in a database?",
+      "options": ["SAVE", "MODIFY", "UPDATE", "CHANGE"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q32",
+      "text": "What is the purpose of the PRIMARY KEY?",
+      "options": ["To uniquely identify each record in a table", "To link two tables together", "To sort the database", "To allow null values"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q33",
+      "text": "Which keyword is used to sort the result-set?",
+      "options": ["SORT BY", "ORDER BY", "ALIGN BY", "GROUP BY"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q34",
+      "text": "How do you select all columns from a table named \"Persons\"?",
+      "options": ["SELECT Persons", "SELECT * FROM Persons", "SELECT *.Persons", "SELECT ALL FROM Persons"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q35",
+      "text": "Which operator is used to search for a specified pattern in a column?",
+      "options": ["LIKE", "GET", "MATCH", "PATTERN"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q36",
+      "text": "What does PHP stand for?",
+      "options": ["Private Home Page", "PHP: Hypertext Preprocessor", "Personal Hypertext Processor", "Public Home Page"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q37",
+      "text": "PHP server scripts are surrounded by delimiters, which?",
+      "options": ["<?php ... ?>", "<script> ... </script>", "<&> ... </&>", "<?php> ... </?>"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q38",
+      "text": "How do you write \"Hello World\" in PHP?",
+      "options": ["\"Hello World\";", "echo \"Hello World\";", "Document.Write(\"Hello World\");", "print(\"Hello World\")"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q39",
+      "text": "All variables in PHP start with which symbol?",
+      "options": ["&", "!", "$", "#"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q40",
+      "text": "How do you get information from a form that is submitted using the \"get\" method?",
+      "options": ["$_GET[];", "Request.QueryString;", "Request.Form;", "$GET;"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q41",
+      "text": "Which of the following is NOT a superglobal in PHP?",
+      "options": ["$_SERVER", "$_POST", "$_FILES", "$_SEND"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q42",
+      "text": "How to connect to a MySQL database in PHP?",
+      "options": ["mysqli_connect()", "mysql_open()", "connect_mysql()", "db_connect()"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q43",
+      "text": "Find the next number in the series: 2, 6, 12, 20, 30, ?",
+      "options": ["40", "42", "38", "44"],
+      "correctIndex": 1,
+      "Explanation": "The differences between consecutive numbers are 4, 6, 8, 10. The next difference should be 12. Therefore, 30 + 12 = 42."
+    },
+    {
+      "id": "q44",
+      "text": "If A is the brother of B; B is the sister of C; and C is the father of D, how D is related to A?",
+      "options": ["Brother", "Sister", "Nephew", "Cannot be determined"],
+      "correctIndex": 3,
+      "Explanation": "We know C is the father of D, so A is D's uncle. However, the question asks how D is related to A. Because D's gender is not specified, D could be a nephew or a niece."
+    },
+    {
+      "id": "q45",
+      "text": "A clock shows 3:15. What is the angle between the hour and minute hands?",
+      "options": ["0 degrees", "7.5 degrees", "15 degrees", "22.5 degrees"],
+      "correctIndex": 1,
+      "Explanation": "At 3:15, the minute hand is exactly on the 3. The hour hand moves 0.5 degrees per minute. In 15 minutes, it moves 15 * 0.5 = 7.5 degrees past the 3."
+    },
+    {
+      "id": "q46",
+      "text": "If \"APPLE\" is coded as \"EPPLA\", how is \"LEMON\" coded?",
+      "options": ["NOMEL", "NOLEM", "MELON", "NMOEL"],
+      "correctIndex": 0,
+      "Explanation": "The word is simply reversed."
+    },
+    {
+      "id": "q47",
+      "text": "A train running at the speed of 60 km/hr crosses a pole in 9 seconds. What is the length of the train?",
+      "options": ["120 metres", "180 metres", "324 metres", "150 metres"],
+      "correctIndex": 3,
+      "Explanation": "First, convert speed to m/s: 60 * (5/18) = 50/3 m/s. Since Distance = Speed * Time, the length of the train is (50/3) * 9 = 150 metres."
+    },
+    {
+      "id": "q48",
+      "text": "Pointing to a photograph, a man said, \"I have no brother or sister but that man's father is my father's son.\" Whose photograph was it?",
+      "options": ["His own", "His son's", "His father's", "His nephew's"],
+      "correctIndex": 1,
+      "Explanation": "Since the speaker has no siblings, 'my father's son' is the speaker himself. Thus, the statement translates to 'that man's father is me.' Therefore, the photograph is of his son."
+    },
+    {
+      "id": "q49",
+      "text": "Which word does NOT belong with the others?",
+      "options": ["Tulip", "Rose", "Bud", "Daisy"],
+      "correctIndex": 2,
+      "Explanation": "Tulip, Rose, and Daisy are specific types of flowers. A bud is a stage of development for a flower."
+    },
+    {
+      "id": "q50",
+      "text": "10 cats catch 10 mice in 10 minutes. How many cats are needed to catch 100 mice in 100 minutes?",
+      "options": ["10", "100", "1", "50"],
+      "correctIndex": 0,
+      "Explanation": "This is a rate problem. 1 cat catches 1 mouse in 10 minutes. Given 100 minutes, that same 1 cat can catch 10 mice. So, to catch 100 mice in 100 minutes, you still only need 10 cats."
+    }
+  ]
+}

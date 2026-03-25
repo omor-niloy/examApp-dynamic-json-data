@@ -1,0 +1,328 @@
+{
+  "id": "exam_set_3",
+  "title": "W3 Ignite Model Test - Set 3",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "Which data structure uses LIFO?",
+      "options": ["Queue", "Stack", "Linked List", "Tree"],
+      "correctIndex": 1,
+      "Explanation": "A Stack operates on a Last-In-First-Out (LIFO) principle, much like a stack of plates. A Queue uses FIFO (First-In-First-Out)."
+    },
+    {
+      "id": "q2",
+      "text": "In C, arrays are passed to functions by:",
+      "options": ["Value", "Reference (Pointer)", "Both", "Depends on array size"],
+      "correctIndex": 1,
+      "Explanation": "When you pass an array to a function in C, it 'decays' into a pointer to its first element. Therefore, you are passing the memory reference, not duplicating the array."
+    },
+    {
+      "id": "q3",
+      "text": "What keyword is used to prevent a variable from being modified?",
+      "options": ["static", "volatile", "const", "final"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q4",
+      "text": "Which operator has the highest precedence?",
+      "options": ["*", "+", "()", "=="],
+      "correctIndex": 2,
+      "Explanation": "Parentheses override standard order of operations and always have the highest precedence during code execution."
+    },
+    {
+      "id": "q5",
+      "text": "Memory leak in C++ occurs when:",
+      "options": ["'new' is used without 'delete'", "'delete' is used without 'new'", "Program crashes", "Array index out of bounds"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q6",
+      "text": "The standard C++ library used for input/output is:",
+      "options": ["<stdio.h>", "<iostream>", "<conio.h>", "<math.h>"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "text": "What is polymorphism in C++?",
+      "options": ["Hiding data", "Having many forms", "Binding data", "Inheriting classes"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q8",
+      "text": "How do you add a background color for all <h1> elements?",
+      "options": ["h1 {background-color:#FFFFFF;}", "h1.all {background-color:#FFFFFF;}", "all.h1 {background-color:#FFFFFF;}", "h1=bg:#FFFFFF;"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q9",
+      "text": "Which property is used to change the left margin of an element?",
+      "options": ["padding-left", "margin-left", "indent", "spacing-left"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "text": "How do you make the text italic in CSS?",
+      "options": ["font-style: italic;", "text-style: italic;", "font: italic;", "format: italic;"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q11",
+      "text": "What is the correct HTML for making a drop-down list?",
+      "options": ["<input type=\"dropdown\">", "<select>", "<list>", "<dropdown>"],
+      "correctIndex": 1,
+      "Explanation": "A dropdown list is built using the <select> tag to create the menu, paired with multiple <option> tags representing the individual choices."
+    },
+    {
+      "id": "q12",
+      "text": "Which HTML attribute specifies an inline style?",
+      "options": ["style", "class", "id", "font"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q13",
+      "text": "HTML comments start with",
+      "options": ["<!-- -->", "<!>", "</comment>"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q14",
+      "text": "The z-index property is used to specify:",
+      "options": ["Element width", "Element depth/stack order", "Font size", "Opacity"],
+      "correctIndex": 1,
+      "Explanation": "Z-index controls the Z-axis (depth). An element with a higher z-index generally overlaps an element with a lower z-index."
+    },
+    {
+      "id": "q15",
+      "text": "Which event occurs when the user clicks on an HTML element?",
+      "options": ["onchange", "onmouseover", "onclick", "onmouseclick"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q16",
+      "text": "How do you round the number 7.25, to the nearest integer in JS?",
+      "options": ["Math.round(7.25)", "Math.rnd(7.25)", "round(7.25)", "rnd(7.25)"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q17",
+      "text": "What is JSON?",
+      "options": ["JavaScript Object Notation", "Java Standard Output Network", "JavaScript Output Name", "Java Source Open Network"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q18",
+      "text": "What does `===` mean in JavaScript?",
+      "options": ["Assignment", "Equality of value", "Equality of value and type", "Not equal"],
+      "correctIndex": 2,
+      "Explanation": "While `==` attempts to convert types before comparing (e.g., '5' == 5 is true), the strict equality operator `===` requires both the value AND the variable type to be exactly the same."
+    },
+    {
+      "id": "q19",
+      "text": "How do you find the number with the highest value of x and y?",
+      "options": ["Math.ceil(x, y)", "Math.max(x, y)", "top(x, y)", "ceil(x, y)"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q20",
+      "text": "Promises in JavaScript represent:",
+      "options": ["An object that will produce a single value some time in the future", "A loop construct", "A variable", "A DOM element"],
+      "correctIndex": 0,
+      "Explanation": "A Promise is a proxy for a value not necessarily known when the promise is created. It allows you to associate handlers with an asynchronous action's eventual success or failure."
+    },
+    {
+      "id": "q21",
+      "text": "Which method converts JSON data to a JavaScript object?",
+      "options": ["JSON.stringify()", "JSON.parse()", "JSON.toObject()", "JSON.convert()"],
+      "correctIndex": 1,
+      "Explanation": "JSON.parse() turns a JSON string into an active JS object. JSON.stringify() does the reverse, converting an object back into a string representation."
+    },
+    {
+      "id": "q22",
+      "text": "Which operator is used for string concatenation in Python?",
+      "options": [".", "&", "+", "*"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q23",
+      "text": "What is the result of `3 // 2` in Python 3?",
+      "options": ["1.5", "1", "2", "Error"],
+      "correctIndex": 1,
+      "Explanation": "The `//` syntax represents floor division. It divides the first number by the second and rounds the result down to the nearest whole integer, discarding the decimal."
+    },
+    {
+      "id": "q24",
+      "text": "What keyword is used to return a value from a function?",
+      "options": ["send", "output", "return", "yield"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q25",
+      "text": "A Tuple is created using:",
+      "options": ["[]", "{}", "()", "<>"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q26",
+      "text": "Which function is used to open a file in Python?",
+      "options": ["open()", "read()", "file()", "load()"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q27",
+      "text": "What does the `pass` statement do?",
+      "options": ["Exits the program", "Raises an error", "Nothing, it's a null operation", "Skips to next iteration"],
+      "correctIndex": 2,
+      "Explanation": "It acts as a placeholder when a statement is syntactically required by Python (like an empty function or if-block), but you don't want any code to actually execute."
+    },
+    {
+      "id": "q28",
+      "text": "Which of the following is used to import a module in Python?",
+      "options": ["include", "require", "import", "using"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q29",
+      "text": "Which SQL statement is used to return only different values?",
+      "options": ["SELECT DIFFERENT", "SELECT UNIQUE", "SELECT DISTINCT", "SELECT SEPARATE"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q30",
+      "text": "The BETWEEN operator is used in which clause?",
+      "options": ["WHERE", "SELECT", "ORDER BY", "GROUP BY"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q31",
+      "text": "In SQL, how do you select records where the \"City\" column starts with an \"a\"?",
+      "options": ["SELECT * FROM Customers WHERE City LIKE '%a'", "SELECT * FROM Customers WHERE City LIKE 'a%'", "SELECT * FROM Customers WHERE City='a'", "SELECT * FROM Customers WHERE City STARTS 'a'"],
+      "correctIndex": 1,
+      "Explanation": "The `%` wildcard represents zero, one, or multiple characters. Therefore, 'a%' indicates the value must begin with 'a' and can be followed by anything."
+    },
+    {
+      "id": "q32",
+      "text": "What does ACID stand for in databases?",
+      "options": ["Atomicity, Consistency, Isolation, Durability", "Accuracy, Creation, Insertion, Deletion", "Active, Concurrent, Independent, Durable", "Automatic, Custom, Indexed, Database"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q33",
+      "text": "Which constraint ensures that a column does not have a NULL value?",
+      "options": ["UNIQUE", "NOT NULL", "PRIMARY KEY", "DEFAULT"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q34",
+      "text": "The HAVING clause is added to SQL because:",
+      "options": ["The WHERE keyword cannot be used with aggregate functions", "It executes faster than WHERE", "It is required for JOINs", "It sorts data"],
+      "correctIndex": 0,
+      "Explanation": "WHERE is used to filter individual rows before they are grouped. HAVING was introduced because you cannot use aggregate functions like COUNT(), SUM(), or MAX() inside a standard WHERE clause."
+    },
+    {
+      "id": "q35",
+      "text": "A foreign key is:",
+      "options": ["A key from an external database", "A field that refers to the primary key in another table", "A key used for encryption", "A temporary primary key"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q36",
+      "text": "What is the correct way to check if a session variable 'user' is set?",
+      "options": ["if(isset($_SESSION['user']))", "if($_SESSION['user'] != null)", "if(session('user'))", "if(check($_SESSION['user']))"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q37",
+      "text": "Which PHP function is used to redirect the user to a new page?",
+      "options": ["redirect()", "header()", "location()", "forward()"],
+      "correctIndex": 1,
+      "Explanation": "You redirect the browser in PHP by sending a raw HTTP header command formatted like this: header('Location: newpage.php');"
+    },
+    {
+      "id": "q38",
+      "text": "The `==` operator in PHP:",
+      "options": ["Checks type and value", "Checks value only", "Assigns value", "Checks memory location"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q39",
+      "text": "To fetch a row as an associative array using PDO, you use:",
+      "options": ["PDO::FETCH_ASSOC", "PDO::FETCH_OBJ", "PDO::FETCH_NUM", "PDO::FETCH_BOTH"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q40",
+      "text": "How do you instantiate an object in PHP?",
+      "options": ["$obj = new ClassName();", "$obj = ClassName();", "$obj = create ClassName();", "$obj = init ClassName();"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q41",
+      "text": "Which superglobal array holds data sent via HTTP POST method?",
+      "options": ["$_GET", "$_REQUEST", "$_POST", "Both B and C"],
+      "correctIndex": 3,
+      "Explanation": "$_POST strictly holds POSTed form data. However, $_REQUEST is a broader superglobal that contains the contents of $_GET, $_POST, and $_COOKIE combined."
+    },
+    {
+      "id": "q42",
+      "text": "What is the default port for MySQL?",
+      "options": ["80", "3306", "8080", "21"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q43",
+      "text": "A father is three times as old as his son. In 12 years, he will be twice as old as his son. What is the father's current age?",
+      "options": ["36", "42", "48", "30"],
+      "correctIndex": 0,
+      "Explanation": "Let Son = S. Father (F) = 3S. In 12 years: F + 12 = 2(S + 12). Substitute F: 3S + 12 = 2S + 24. So S = 12. F = 3 * 12 = 36."
+    },
+    {
+      "id": "q44",
+      "text": "Which word is the odd one out?",
+      "options": ["Apple", "Banana", "Carrot", "Mango"],
+      "correctIndex": 2,
+      "Explanation": "Apple, Banana, and Mango are fruits. A carrot is a root vegetable."
+    },
+    {
+      "id": "q45",
+      "text": "If the day before yesterday was Thursday, what day will tomorrow be?",
+      "options": ["Sunday", "Monday", "Saturday", "Tuesday"],
+      "correctIndex": 0,
+      "Explanation": "If the day before yesterday was Thursday, that means today is Saturday. Therefore, tomorrow must be Sunday."
+    },
+    {
+      "id": "q46",
+      "text": "What is the next letter in the sequence: A, C, F, J, O, ?",
+      "options": ["U", "S", "T", "V"],
+      "correctIndex": 0,
+      "Explanation": "The gap increases by one letter each time. Skip 1 letter (B) to get C. Skip 2 (DE) to get F. Skip 3 (GHI) to get J. Skip 4 (KLMN) to get O. Finally, skip 5 letters (PQRST) to land on U."
+    },
+    {
+      "id": "q47",
+      "text": "A store buys an item for $50 and sells it for $65. What is the percentage of profit?",
+      "options": ["15%", "20%", "25%", "30%"],
+      "correctIndex": 3,
+      "Explanation": "The gross profit is $15. To find the percentage relative to the cost: ($15 / $50) * 100 = 30%."
+    },
+    {
+      "id": "q48",
+      "text": "If 5 machines take 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets?",
+      "options": ["100 minutes", "50 minutes", "5 minutes", "1 minute"],
+      "correctIndex": 2,
+      "Explanation": "Don't get tricked by the numbers. The baseline rate is that 1 machine creates 1 widget in 5 minutes. If you have 100 machines operating simultaneously, they will output 100 widgets in those exact same 5 minutes."
+    },
+    {
+      "id": "q49",
+      "text": "Pen is to Poet as Needle is to:",
+      "options": ["Thread", "Button", "Tailor", "Sewing"],
+      "correctIndex": 2,
+      "Explanation": "This is an occupational relationship. A pen is the primary tool used by a poet, just as a needle is the primary tool used by a tailor."
+    },
+    {
+      "id": "q50",
+      "text": "8, 24, 12, 36, 18, 54, ?",
+      "options": ["27", "108", "68", "72"],
+      "correctIndex": 0,
+      "Explanation": "The mathematical pattern alternates operations: multiply by 3, then divide by 2. (8*3=24), (24/2=12), (12*3=36), (36/2=18), (18*3=54). The final step is 54 / 2 = 27."
+    }
+  ]
+}

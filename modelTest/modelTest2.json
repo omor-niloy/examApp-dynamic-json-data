@@ -1,0 +1,325 @@
+{
+  "id": "modelTest2",
+  "title": "W3 Ignite Model Test - Set 2",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "Which of the following is an exit-controlled loop?",
+      "options": ["for", "while", "do-while", "None of the above"],
+      "correctIndex": 2,
+      "Explanation": "A do-while loop evaluates its condition at the bottom (exit) of the loop, guaranteeing that the loop body executes at least once."
+    },
+    {
+      "id": "q2",
+      "text": "What is the default access specifier for members of a class in C++?",
+      "options": ["public", "private", "protected", "default"],
+      "correctIndex": 1,
+      "Explanation": "Unlike structs in C++ where the default is public, classes default to private to strictly enforce data hiding."
+    },
+    {
+      "id": "q3",
+      "text": "Which header file is required to use the `strlen()` function in C?",
+      "options": ["<stdlib.h>", "<string.h>", "<math.h>", "<conio.h>"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q4",
+      "text": "What is a pointer?",
+      "options": ["A variable that stores a memory address", "A keyword", "A function", "A data type"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "text": "In C++, `new` is used to:",
+      "options": ["Define a new class", "Allocate memory dynamically", "Free memory", "Include a library"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q6",
+      "text": "Which symbol is used for logical AND in C?",
+      "options": ["&", "||", "&&", "!"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q7",
+      "text": "A function in C++ that has the same name as the class is called:",
+      "options": ["Destructor", "Constructor", "Inline function", "Friend function"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q8",
+      "text": "Which tag is used for the largest heading in HTML?",
+      "options": ["<h6>", "<header>", "<h1>", "<head>"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q9",
+      "text": "What is the correct CSS syntax to make all the <p> elements bold?",
+      "options": ["p {text-size:bold;}", "p {font-weight:bold;}", "<p style=\"font-size:bold;\">", "p {style:bold;}"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "text": "How do you make a list that lists its items with squares?",
+      "options": ["list-type: square;", "list-style-type: square;", "type: 2;", "type: square;"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q11",
+      "text": "Which attribute specifies an alternate text for an image, if the image cannot be displayed?",
+      "options": ["title", "alt", "src", "longdesc"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q12",
+      "text": "In CSS, what does 'a:hover' signify?",
+      "options": ["A pseudo-class", "A pseudo-element", "An ID selector", "A class selector"],
+      "correctIndex": 0,
+      "Explanation": "Pseudo-classes specify a special state of the selected element, such as being hovered over by a user's mouse pointer."
+    },
+    {
+      "id": "q13",
+      "text": "Which HTML element is used to specify a footer for a document or section?",
+      "options": ["<bottom>", "<footer>", "<section>", "<foot>"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q14",
+      "text": "What property is used to change the font of an element?",
+      "options": ["font-family", "font-weight", "font-style", "typography"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q15",
+      "text": "Which built-in method adds one or more elements to the end of an array?",
+      "options": ["last()", "put()", "push()", "pop()"],
+      "correctIndex": 2,
+      "Explanation": "push() adds elements to the end, while unshift() adds to the beginning. pop() removes from the end."
+    },
+    {
+      "id": "q16",
+      "text": "What is the correct way to write an IF statement in JavaScript?",
+      "options": ["if i = 5 then", "if i == 5 then", "if (i == 5)", "if i = 5"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q17",
+      "text": "Which operator is used to assign a value to a variable?",
+      "options": ["*", "-", "=", "x"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q18",
+      "text": "What is the use of `isNaN` function?",
+      "options": ["Return true if the argument is not a number", "Return false if the argument is not a number", "Return true if the argument is a number", "None"],
+      "correctIndex": 0,
+      "Explanation": "NaN literally stands for 'Not-a-Number'. The function evaluates if the provided value cannot be parsed as a valid numeric type."
+    },
+    {
+      "id": "q19",
+      "text": "`console.log(typeof [])` returns:",
+      "options": ["\"array\"", "\"object\"", "\"list\"", "\"undefined\""],
+      "correctIndex": 1,
+      "Explanation": "Arrays are technically standard objects in JavaScript. If you want to check if a variable is specifically an array, you should use Array.isArray(value)."
+    },
+    {
+      "id": "q20",
+      "text": "Which keyword is used to declare a constant in modern JS?",
+      "options": ["var", "let", "const", "static"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q21",
+      "text": "What does DOM stand for?",
+      "options": ["Document Object Model", "Data Object Model", "Document Oriented Model", "Dynamic Object Model"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q22",
+      "text": "Which built-in function can get information from the user?",
+      "options": ["get()", "read()", "input()", "scan()"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q23",
+      "text": "What is the output of `type([])` in Python?",
+      "options": ["<class 'list'>", "<class 'tuple'>", "<class 'dict'>", "<class 'array'>"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q24",
+      "text": "How do you start a while loop in Python?",
+      "options": ["while x > y:", "while (x > y)", "while x > y {", "while x > y do"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q25",
+      "text": "What is the correct syntax to output \"Hello\" in Python?",
+      "options": ["echo(\"Hello\")", "print(\"Hello\")", "p(\"Hello\")", "printf(\"Hello\")"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q26",
+      "text": "Which module in Python is used for regular expressions?",
+      "options": ["regex", "re", "parse", "string"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q27",
+      "text": "`list.append(x)` does what in Python?",
+      "options": ["Adds x to the beginning", "Adds x to the end", "Removes x", "Sorts the list"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q28",
+      "text": "Which of these is a Python web framework?",
+      "options": ["Laravel", "React", "Django", "Spring"],
+      "correctIndex": 2,
+      "Explanation": "Django is a high-level Python framework. For context: Laravel uses PHP, React uses JS, and Spring uses Java."
+    },
+    {
+      "id": "q29",
+      "text": "Which SQL statement is used to insert new data in a database?",
+      "options": ["ADD RECORD", "INSERT INTO", "ADD NEW", "INSERT NEW"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q30",
+      "text": "Which SQL statement is used to delete data from a database?",
+      "options": ["REMOVE", "DELETE", "COLLAPSE", "DROP"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q31",
+      "text": "What is the difference between TRUNCATE and DROP?",
+      "options": ["TRUNCATE removes table structure, DROP removes rows", "DROP removes table structure, TRUNCATE removes rows", "Both do the same", "TRUNCATE is slower"],
+      "correctIndex": 1,
+      "Explanation": "DROP completely removes the table schema from the database. TRUNCATE clears out all the data (rows) inside the table, leaving the empty structure intact."
+    },
+    {
+      "id": "q32",
+      "text": "The OR operator displays a record if:",
+      "options": ["ANY conditions separated by OR are true", "ALL conditions separated by OR are true", "The first condition is true", "The last condition is true"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q33",
+      "text": "Which aggregate function returns the highest value?",
+      "options": ["TOP()", "MAX()", "HIGHEST()", "CEIL()"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q34",
+      "text": "A JOIN that returns all rows from both tables even if there are no matches is called:",
+      "options": ["INNER JOIN", "LEFT JOIN", "RIGHT JOIN", "FULL OUTER JOIN"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q35",
+      "text": "What does the NULL value represent?",
+      "options": ["Zero", "Space", "Missing or unknown data", "Error"],
+      "correctIndex": 2,
+      "Explanation": "NULL is not equivalent to zero or an empty space (' '). It specifically means that a value is entirely absent or undefined."
+    },
+    {
+      "id": "q36",
+      "text": "Which function is used to output text in PHP?",
+      "options": ["System.out.println()", "console.log()", "echo", "print_text()"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q37",
+      "text": "How do you create an array in PHP?",
+      "options": ["$cars = array(\"Volvo\", \"BMW\");", "$cars = \"Volvo\", \"BMW\";", "$cars = [\"Volvo\", \"BMW\"];", "Both A and C"],
+      "correctIndex": 3,
+      "Explanation": "PHP historically uses the array() constructor, but since PHP 5.4, the shorter array syntax [] is also fully supported."
+    },
+    {
+      "id": "q38",
+      "text": "Which variable is used to manage sessions in PHP?",
+      "options": ["$_SESSION", "$_COOKIE", "$SESSION_ID", "$_GET"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q39",
+      "text": "The `include()` function does what?",
+      "options": ["Connects to a database", "Includes a specified file", "Sends an email", "Compiles the code"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q40",
+      "text": "How to get the length of a string in PHP?",
+      "options": ["str_length()", "strlen()", "length()", "count()"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q41",
+      "text": "What is the correct way to add a comment in PHP?",
+      "options": ["", "// comment", "/* comment */", "Both B and C"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q42",
+      "text": "`die()` function is an alias for:",
+      "options": ["exit()", "stop()", "break()", "end()"],
+      "correctIndex": 0,
+      "Explanation": "In PHP, die() and exit() are perfectly identical language constructs. They terminate script execution immediately."
+    },
+    {
+      "id": "q43",
+      "text": "Look at this series: 36, 34, 30, 28, 24, ... What number should come next?",
+      "options": ["20", "22", "23", "26"],
+      "correctIndex": 1,
+      "Explanation": "The pattern alternates subtraction operations: subtract 2, then subtract 4. (36-2=34), (34-4=30), (30-2=28), (28-4=24). The next step is 24-2 = 22."
+    },
+    {
+      "id": "q44",
+      "text": "Which number replaces the question mark? 4, 9, 16, 25, 36, ?",
+      "options": ["47", "49", "42", "50"],
+      "correctIndex": 1,
+      "Explanation": "These represent the squares of consecutive integers: 2², 3², 4², 5², 6². The next integer is 7² = 49."
+    },
+    {
+      "id": "q45",
+      "text": "If you rearrange the letters \"CIFAIPC\", you would have the name of a(n):",
+      "options": ["City", "Animal", "Ocean", "River"],
+      "correctIndex": 2,
+      "Explanation": "Rearranging the letters forms the word PACIFIC, which is an Ocean."
+    },
+    {
+      "id": "q46",
+      "text": "John needs 13 bottles of water from the store. John can only carry 3 at a time. What's the minimum number of trips John needs to make?",
+      "options": ["4", "4.5", "5", "6"],
+      "correctIndex": 2,
+      "Explanation": "13 divided by 3 is 4 with a remainder of 1. He must make 4 full trips to carry 12 bottles, plus 1 more trip to get the final 13th bottle."
+    },
+    {
+      "id": "q47",
+      "text": "Odometer is to mileage as compass is to:",
+      "options": ["Speed", "Hiking", "Needle", "Direction"],
+      "correctIndex": 3,
+      "Explanation": "An odometer is an instrument used to measure mileage (distance). A compass is an instrument used to measure direction."
+    },
+    {
+      "id": "q48",
+      "text": "Statement 1: All birds have feathers. Statement 2: Penguins are birds. Conclusion: Penguins have feathers. If the first two statements are true, the conclusion is:",
+      "options": ["True", "False", "Uncertain", "Irrelevant"],
+      "correctIndex": 0,
+      "Explanation": "This is a basic deductive syllogism. If the rule states 100% of birds have feathers, and penguins fall into the bird category, the conclusion must be logically true."
+    },
+    {
+      "id": "q49",
+      "text": "A bat and a ball cost $1.10 in total. The bat costs $1.00 more than the ball. How much does the ball cost?",
+      "options": ["$0.10", "$0.05", "$0.15", "$0.01"],
+      "correctIndex": 1,
+      "Explanation": "Let the ball cost X. The bat costs X + 1.00. The equation is X + (X + 1.00) = 1.10. Therefore, 2X = 0.10, making X = 0.05."
+    },
+    {
+      "id": "q50",
+      "text": "SCD, TEF, UGH, ____, WKL",
+      "options": ["CMN", "UJI", "VIJ", "IJT"],
+      "correctIndex": 2,
+      "Explanation": "Look at the first letter of each chunk: S, T, U, V, W. The next two letters follow alphabetical sequence pairs: CD, EF, GH, IJ, KL. Combining them gives VIJ."
+    }
+  ]
+}
