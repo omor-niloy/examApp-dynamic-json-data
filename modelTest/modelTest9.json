@@ -1,0 +1,316 @@
+{
+  "id": "modelTest9",
+  "title": "W3 Ignite Model Test - Set 9 (Fundamentals & Shuffled)",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "What is the worst-case time complexity of accessing an element in an array by its index?",
+      "options": ["O(n)", "O(log n)", "O(1)", "O(n^2)"],
+      "correctIndex": 2,
+      "Explanation": "Arrays occupy contiguous memory locations. The address of any element is calculated instantly using a simple formula: base_address + (index * size_of_element), making it an O(1) operation."
+    },
+    {
+      "id": "q2",
+      "text": "In the context of databases and backend development, what does ORM stand for?",
+      "options": ["Object-Relational Mapping", "Online Record Management", "Object-Request Middleware", "Operational Relational Model"],
+      "correctIndex": 0,
+      "Explanation": "ORM is a programming technique that lets you query and manipulate data from a database using an object-oriented paradigm. It maps database tables to classes and rows to objects."
+    },
+    {
+      "id": "q3",
+      "text": "What will `console.log(typeof NaN);` output in JavaScript?",
+      "options": ["\"undefined\"", "\"NaN\"", "\"number\"", "\"string\""],
+      "correctIndex": 2
+    },
+    {
+      "id": "q4",
+      "text": "Which HTTP method is considered 'idempotent', meaning making multiple identical requests has the same effect as making a single request?",
+      "options": ["POST", "PUT", "PATCH", "Both PUT and GET"],
+      "correctIndex": 3,
+      "Explanation": "GET reads data safely without changing it. PUT replaces a resource entirely; doing it once or ten times leaves the resource in the exact same state. POST creates a new resource, so doing it 10 times creates 10 resources (not idempotent)."
+    },
+    {
+      "id": "q5",
+      "text": "Which C++ keyword is used to prevent an object from being modified?",
+      "options": ["static", "const", "volatile", "mutable"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q6",
+      "text": "If a drawer contains 5 red socks and 5 blue socks, what is the minimum number of socks you must pull out blindly to guarantee you have a matching pair?",
+      "options": ["2", "3", "5", "6"],
+      "correctIndex": 1,
+      "Explanation": "This relies on the Pigeonhole Principle. If you pull 3 socks, the worst-case scenario is pulling 1 red and 1 blue. The 3rd sock MUST be either red or blue, guaranteeing a pair."
+    },
+    {
+      "id": "q7",
+      "text": "In Python, which of the following data types is mutable?",
+      "options": ["String", "Tuple", "List", "Integer"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q8",
+      "text": "How is a session ID typically transmitted between the client browser and the PHP server?",
+      "options": ["Through the URL only", "Via a Cookie named PHPSESSID", "Inside the HTML body", "Through an AJAX header"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q9",
+      "text": "What does CSS 'Specificity' determine?",
+      "options": ["Which CSS rule is applied by the browsers when multiple rules apply to the same element", "How fast the CSS file loads", "Which browser is compatible with the CSS", "The exact pixel dimensions of an element"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q10",
+      "text": "What is the difference between `==` and `===` in PHP and JavaScript?",
+      "options": ["`===` compares only value, `==` compares type", "`===` assigns a value, `==` compares value", "`==` performs type coercion before comparing values; `===` checks both value and strict type match", "There is no difference"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q11",
+      "text": "Which SQL command is used to remove all records from a table, including all spaces allocated for the records, while keeping the table structure intact?",
+      "options": ["DROP", "DELETE", "TRUNCATE", "REMOVE"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q12",
+      "text": "In C++, what is a memory leak?",
+      "options": ["When a program accesses array bounds that are out of range", "When a program uses more RAM than the OS allows", "When dynamically allocated memory is not freed using `delete` before losing the pointer to it", "When the stack overflows due to deep recursion"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q13",
+      "text": "Which tag is used in HTML5 to specify self-contained, independent content like a forum post or newspaper article?",
+      "options": ["<section>", "<article>", "<div>", "<main>"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q14",
+      "text": "What is the output of `print(3 * 'A')` in Python?",
+      "options": ["3A", "A A A", "AAA", "Error"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q15",
+      "text": "What is the next number: 1, 4, 9, 16, 25, ...?",
+      "options": ["30", "32", "35", "36"],
+      "correctIndex": 3,
+      "Explanation": "These are perfect squares: 1², 2², 3², 4², 5². The next is 6² = 36."
+    },
+    {
+      "id": "q16",
+      "text": "Which global array in PHP is used to upload files to the server?",
+      "options": ["$_UPLOAD", "$_FILES", "$_POST", "$_SERVER"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q17",
+      "text": "What is a 'Closure' in JavaScript?",
+      "options": ["A function that takes another function as an argument", "A way to close the browser window", "A feature where an inner function has access to the outer enclosing function's variables, even after the outer function has returned", "A loop that never ends"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q18",
+      "text": "In SQL, what is the primary purpose of a Foreign Key?",
+      "options": ["To index the table for faster searching", "To automatically generate unique IDs", "To link two tables together and enforce referential integrity", "To encrypt specific columns"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q19",
+      "text": "What is the time complexity of pushing an element onto a standard Stack?",
+      "options": ["O(1)", "O(n)", "O(log n)", "O(n^2)"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q20",
+      "text": "How do you define a single-line comment in CSS?",
+      "options": ["// comment", "", "/* comment */", "' comment"],
+      "correctIndex": 2,
+      "Explanation": "CSS only supports the `/* */` syntax for comments, whether they span one line or multiple lines."
+    },
+    {
+      "id": "q21",
+      "text": "What does the `pass` statement do in Python?",
+      "options": ["Exits the program", "Skips an iteration in a loop", "Returns a value from a function", "It is a null operation; nothing happens when it executes"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q22",
+      "text": "In C++, how are arguments passed to a function by default?",
+      "options": ["By Reference", "By Pointer", "By Value", "By Address"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q23",
+      "text": "Which PHP function is used to prevent SQL Injection when using the old `mysql_` or `mysqli_` extensions (without prepared statements)?",
+      "options": ["htmlspecialchars()", "strip_tags()", "mysqli_real_escape_string()", "addslashes()"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q24",
+      "text": "A man buys an item for $80 and sells it for $100. What is his profit percentage?",
+      "options": ["20%", "25%", "30%", "80%"],
+      "correctIndex": 1,
+      "Explanation": "Profit = $20. Percentage = (Profit / Cost) * 100 = (20 / 80) * 100 = 25%."
+    },
+    {
+      "id": "q25",
+      "text": "Which HTML element provides a machine-readable format of data for search engines, usually placed in the `<head>`?",
+      "options": ["<meta>", "<data>", "<script>", "<link>"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q26",
+      "text": "In JavaScript, how do you declare a block-scoped variable that cannot be reassigned?",
+      "options": ["var", "let", "const", "static"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q27",
+      "text": "What does the `GROUP BY` statement do in SQL?",
+      "options": ["Sorts the result set alphabetically", "Filters records based on a condition", "Groups rows that have the same values into summary rows, often used with aggregate functions", "Joins multiple tables together"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q28",
+      "text": "Which of the following creates a dictionary in Python?",
+      "options": ["d = []", "d = ()", "d = {}", "d = set()"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q29",
+      "text": "What is the output of `sizeof(char)` in C/C++?",
+      "options": ["1 byte", "2 bytes", "4 bytes", "8 bytes"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q30",
+      "text": "Which PHP superglobal is used to collect form data after submitting an HTML form with `method=\"post\"`?",
+      "options": ["$_GET", "$_REQUEST", "$_POST", "Both B and C"],
+      "correctIndex": 3,
+      "Explanation": "$_POST strictly holds POST data. However, $_REQUEST holds the contents of $_GET, $_POST, and $_COOKIE."
+    },
+    {
+      "id": "q31",
+      "text": "In CSS, what is the default value of the `position` property?",
+      "options": ["relative", "absolute", "fixed", "static"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q32",
+      "text": "What does a Javascript `Promise` represent?",
+      "options": ["A guaranteed variable value", "The eventual completion (or failure) of an asynchronous operation and its resulting value", "A loop that will always execute", "A strict data type declaration"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q33",
+      "text": "In database normalization, which normal form eliminates transitive dependencies?",
+      "options": ["First Normal Form (1NF)", "Second Normal Form (2NF)", "Third Normal Form (3NF)", "Boyce-Codd Normal Form (BCNF)"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q34",
+      "text": "If ALL programmers are analytical, and SOME programmers are artists. Which conclusion is logically true?",
+      "options": ["All artists are analytical", "Some artists are analytical", "All analytical people are programmers", "No artists are analytical"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q35",
+      "text": "What is the purpose of the `virtual` keyword in C++?",
+      "options": ["To create an inline function", "To enable dynamic/runtime polymorphism via function overriding", "To prevent a class from being inherited", "To manage virtual memory"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q36",
+      "text": "How do you handle exceptions in Python?",
+      "options": ["try...catch", "try...except", "do...catch", "throw...catch"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q37",
+      "text": "In HTML, which attribute is used to specify that a link should open in a new tab or window?",
+      "options": ["src=\"_blank\"", "href=\"_new\"", "target=\"_blank\"", "rel=\"external\""],
+      "correctIndex": 2
+    },
+    {
+      "id": "q38",
+      "text": "Which PHP function is used to include a file and causes a fatal error if the file cannot be found?",
+      "options": ["include()", "require()", "include_once()", "import()"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q39",
+      "text": "What does the `display: flex;` property do in CSS?",
+      "options": ["Makes the text flexible", "Enables the Flexbox layout module for the element's direct children", "Allows the element to be dragged around the screen", "Converts the element into an inline element"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q40",
+      "text": "In JS, what is 'hoisting'?",
+      "options": ["Lifting a variable to a higher server", "Moving HTML elements to the top of the DOM", "JavaScript's default behavior of moving variable and function declarations to the top of their current scope", "Deleting unused variables"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q41",
+      "text": "Which SQL statement is used to modify existing records in a table?",
+      "options": ["ALTER", "MODIFY", "UPDATE", "CHANGE"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q42",
+      "text": "In Python, what is the output of `len([1, 2, 3, [4, 5]])`?",
+      "options": ["4", "5", "6", "Error"],
+      "correctIndex": 0,
+      "Explanation": "The list contains 4 distinct elements: the integers 1, 2, and 3, and a nested list [4, 5] which counts as a single element."
+    },
+    {
+      "id": "q43",
+      "text": "Find the missing number: 8, 16, 32, 64, ?, 256",
+      "options": ["100", "128", "120", "144"],
+      "correctIndex": 1,
+      "Explanation": "Each number is multiplied by 2 to get the next number."
+    },
+    {
+      "id": "q44",
+      "text": "What is a 'pointer' in C/C++?",
+      "options": ["A variable that holds the memory address of another variable", "A keyword for looping", "A function that returns a boolean", "An array of characters"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q45",
+      "text": "What does the `HAVING` clause do in SQL?",
+      "options": ["It acts exactly like a WHERE clause but is placed at the end", "It filters the results of aggregate functions after a GROUP BY", "It joins two tables", "It sorts the result set"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q46",
+      "text": "Which of the following is the correct way to write an array in PHP?",
+      "options": ["$colors = array(\"Red\", \"Green\", \"Blue\");", "$colors = [\"Red\", \"Green\", \"Blue\"];", "Both A and B are correct", "$colors = {\"Red\", \"Green\", \"Blue\"};"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q47",
+      "text": "In JS, `document.querySelector('.btn')` selects:",
+      "options": ["All elements with the class 'btn'", "Only the first element with the class 'btn'", "An element with the ID 'btn'", "The <btn> HTML tag"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q48",
+      "text": "What does the `z-index` property in CSS govern?",
+      "options": ["The zoom level of an image", "The opacity of a div", "The stack order of an element (which element appears in front of or behind another)", "The vertical height of the font"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q49",
+      "text": "Which built-in Python function allows you to get user input from the console?",
+      "options": ["get()", "scan()", "cin", "input()"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q50",
+      "text": "If a train travels 120 km in 2 hours, what is its speed in km/h?",
+      "options": ["60 km/h", "240 km/h", "120 km/h", "30 km/h"],
+      "correctIndex": 0
+    }
+  ]
+}

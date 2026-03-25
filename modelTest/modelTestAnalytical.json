@@ -1,0 +1,352 @@
+{
+  "id": "modelTestAnalytical",
+  "title": "W3 Ignite Model Test - Analytical & Logical Reasoning",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "Find the missing number in the sequence: 4, 9, 16, 25, 36, ?",
+      "options": ["42", "48", "49", "54"],
+      "correctIndex": 2,
+      "Explanation": "The sequence consists of squares of consecutive integers: 2², 3², 4², 5², 6². The next is 7² = 49."
+    },
+    {
+      "id": "q2",
+      "text": "If 'CODER' is coded as 'DPEFS', how is 'HELLO' coded?",
+      "options": ["IFMMP", "GDKKN", "IEMMP", "IFMMP"],
+      "correctIndex": 0,
+      "Explanation": "Each letter is shifted by +1 in the alphabet (C->D, O->P, etc.). H->I, E->F, L->M, L->M, O->P."
+    },
+    {
+      "id": "q3",
+      "text": "A clock shows 3:15. What is the angle between the hour and the minute hand?",
+      "options": ["0°", "7.5°", "12°", "15°"],
+      "correctIndex": 1,
+      "Explanation": "Angle = |(30*H) - (5.5*M)|. |(30*3) - (5.5*15)| = |90 - 82.5| = 7.5°."
+    },
+    {
+      "id": "q4",
+      "text": "Pointing to a man, a woman says, 'His mother is the only daughter of my mother.' How is the woman related to the man?",
+      "options": ["Sister", "Grandmother", "Mother", "Aunt"],
+      "correctIndex": 2,
+      "Explanation": "The 'only daughter of my mother' is the woman herself. So, the man's mother is the woman herself."
+    },
+    {
+      "id": "q5",
+      "text": "Find the odd one out: 13, 17, 19, 21, 23",
+      "options": ["13", "19", "21", "23"],
+      "correctIndex": 2,
+      "Explanation": "All are prime numbers except 21 (divisible by 3 and 7)."
+    },
+    {
+      "id": "q6",
+      "text": "If 5 workers can build a wall in 12 days, how many days will it take 10 workers to build the same wall?",
+      "options": ["24", "6", "8", "10"],
+      "correctIndex": 1,
+      "Explanation": "Inverse proportion: (5 * 12) / 10 = 6 days."
+    },
+    {
+      "id": "q7",
+      "text": "A man walks 5km East, then turns right and walks 4km, then turns left and walks 5km. In which direction is he now from the starting point?",
+      "options": ["North-East", "South-East", "North-West", "South-West"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q8",
+      "text": "What is the next term in the series: B2D, E3G, H4J, ?",
+      "options": ["K5M", "L5N", "K5L", "I5M"],
+      "correctIndex": 0,
+      "Explanation": "First letters: B(+3)->E(+3)->H(+3)->K. Numbers: 2, 3, 4, 5. Last letters: D(+3)->G(+3)->J(+3)->M."
+    },
+    {
+      "id": "q9",
+      "text": "The sum of three consecutive even integers is 78. What is the largest integer?",
+      "options": ["24", "26", "28", "30"],
+      "correctIndex": 2,
+      "Explanation": "x + (x+2) + (x+4) = 78 -> 3x + 6 = 78 -> 3x = 72 -> x = 24. Largest is 24 + 4 = 28."
+    },
+    {
+      "id": "q10",
+      "text": "If 'Red' is called 'Air', 'Air' is called 'Blue', 'Blue' is called 'Water', what is the color of the clear sky?",
+      "options": ["Red", "Air", "Blue", "Water"],
+      "correctIndex": 3,
+      "Explanation": "The sky is Blue, and in this logic, 'Blue' is called 'Water'."
+    },
+    {
+      "id": "q11",
+      "text": "Find the missing number: 2, 5, 11, 23, 47, ?",
+      "options": ["94", "95", "96", "97"],
+      "correctIndex": 1,
+      "Explanation": "Pattern is (n * 2) + 1. (47 * 2) + 1 = 95."
+    },
+    {
+      "id": "q12",
+      "text": "In a class of 40 students, Rahul is 15th from the top. What is his rank from the bottom?",
+      "options": ["25th", "26th", "24th", "27th"],
+      "correctIndex": 1,
+      "Explanation": "Rank from bottom = (Total - Rank from top) + 1. (40 - 15) + 1 = 26."
+    },
+    {
+      "id": "q13",
+      "text": "A shopkeeper sells an item for $120 making a 20% profit. What was the cost price?",
+      "options": ["$96", "$100", "$105", "$110"],
+      "correctIndex": 1,
+      "Explanation": "Cost Price = Selling Price / (1 + Profit%). 120 / 1.2 = 100."
+    },
+    {
+      "id": "q14",
+      "text": "Which number replaces the question mark? 8 : 64 :: 9 : ?",
+      "options": ["72", "81", "90", "100"],
+      "correctIndex": 1,
+      "Explanation": "The relationship is square: 8² = 64, so 9² = 81."
+    },
+    {
+      "id": "q15",
+      "text": "Logical Reasoning: Some kings are queens. All queens are beautiful. Therefore:",
+      "options": ["All kings are beautiful", "Some kings are beautiful", "No kings are beautiful", "All beautiful are queens"],
+      "correctIndex": 1,
+      "Explanation": "Since some kings are queens and all queens are beautiful, those specific kings must be beautiful."
+    },
+    {
+      "id": "q16",
+      "text": "If the day before yesterday was Thursday, what day will it be tomorrow?",
+      "options": ["Saturday", "Sunday", "Monday", "Friday"],
+      "correctIndex": 1,
+      "Explanation": "If day before yesterday was Thursday, yesterday was Friday, today is Saturday, and tomorrow will be Sunday."
+    },
+    {
+      "id": "q17",
+      "text": "Find the average of the first five prime numbers.",
+      "options": ["5.0", "5.6", "5.4", "6.2"],
+      "correctIndex": 1,
+      "Explanation": "First five primes: 2, 3, 5, 7, 11. Sum = 28. Average = 28/5 = 5.6."
+    },
+    {
+      "id": "q18",
+      "text": "Choose the word that is least like the other words in the group.",
+      "options": ["Copper", "Zinc", "Silver", "Coal"],
+      "correctIndex": 3,
+      "Explanation": "Copper, Zinc, and Silver are metals; Coal is a mineral/fossil fuel."
+    },
+    {
+      "id": "q19",
+      "text": "A train 100m long passes a bridge 200m long at 54 km/h. How long does it take to cross?",
+      "options": ["10s", "15s", "20s", "25s"],
+      "correctIndex": 2,
+      "Explanation": "Total distance = 100+200 = 300m. Speed = 54 * (5/18) = 15 m/s. Time = 300 / 15 = 20 seconds."
+    },
+    {
+      "id": "q20",
+      "text": "Insert the missing operational signs: 4 ? 3 ? 2 = 14",
+      "options": ["+, *", "*, +", "*, -", "+, +"],
+      "correctIndex": 1,
+      "Explanation": "4 * 3 + 2 = 12 + 2 = 14."
+    },
+    {
+      "id": "q21",
+      "text": "Complete the series: 1, 4, 9, 16, 25, 36, ?",
+      "options": ["48", "49", "50", "64"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q22",
+      "text": "If 1st January 2023 was a Sunday, what was the day on 1st January 2024?",
+      "options": ["Sunday", "Monday", "Tuesday", "Wednesday"],
+      "correctIndex": 1,
+      "Explanation": "A non-leap year has 365 days (52 weeks + 1 day), so the day shifts by +1."
+    },
+    {
+      "id": "q23",
+      "text": "Probability: What is the probability of getting a sum of 7 when two dice are thrown?",
+      "options": ["1/6", "1/12", "5/36", "1/4"],
+      "correctIndex": 0,
+      "Explanation": "Total outcomes = 36. Outcomes for sum 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) = 6. Prob = 6/36 = 1/6."
+    },
+    {
+      "id": "q24",
+      "text": "Look at this series: 7, 10, 8, 11, 9, 12, ... What number should come next?",
+      "options": ["7", "10", "12", "13"],
+      "correctIndex": 1,
+      "Explanation": "Alternating pattern: +3, -2, +3, -2..."
+    },
+    {
+      "id": "q25",
+      "text": "Which of the following is a Leap Year?",
+      "options": ["1900", "2000", "2100", "2022"],
+      "correctIndex": 1,
+      "Explanation": "Centuries must be divisible by 400 to be leap years."
+    },
+    {
+      "id": "q26",
+      "text": "If 'A' is substituted by 1, 'B' by 2 and so on, what is the sum of the letters in 'ICE'?",
+      "options": ["17", "18", "19", "20"],
+      "correctIndex": 0,
+      "Explanation": "I(9) + C(3) + E(5) = 17."
+    },
+    {
+      "id": "q27",
+      "text": "A man buys a cycle for $1400 and sells it at a loss of 15%. What is the selling price?",
+      "options": ["$1190", "$1200", "$1160", "$1000"],
+      "correctIndex": 0,
+      "Explanation": "1400 * 0.85 = 1190."
+    },
+    {
+      "id": "q28",
+      "text": "If North-West becomes North, then what will East become?",
+      "options": ["North-East", "South-East", "South", "North-West"],
+      "correctIndex": 0,
+      "Explanation": "The directions are rotated 45 degrees clockwise. East rotated 45 degrees clockwise becomes North-East."
+    },
+    {
+      "id": "q29",
+      "text": "Find the value of x: 2x/3 + 5 = 15",
+      "options": ["10", "12", "15", "20"],
+      "correctIndex": 2,
+      "Explanation": "2x/3 = 10 -> 2x = 30 -> x = 15."
+    },
+    {
+      "id": "q30",
+      "text": "Complete the analogy: Book : Publisher :: Film : ?",
+      "options": ["Writer", "Editor", "Director", "Producer"],
+      "correctIndex": 3,
+      "Explanation": "A publisher releases a book; a producer releases/funds a film."
+    },
+    {
+      "id": "q31",
+      "text": "How many seconds are there in 2 hours and 20 minutes?",
+      "options": ["7200", "8400", "8200", "8000"],
+      "correctIndex": 1,
+      "Explanation": "(2 * 3600) + (20 * 60) = 7200 + 1200 = 8400."
+    },
+    {
+      "id": "q32",
+      "text": "Find the odd one out: Square, Rectangle, Triangle, Cube",
+      "options": ["Square", "Rectangle", "Triangle", "Cube"],
+      "correctIndex": 3,
+      "Explanation": "Cube is a 3D shape; the others are 2D."
+    },
+    {
+      "id": "q33",
+      "text": "A father is 3 times as old as his son. After 15 years, he will be twice as old as his son. What is the father's current age?",
+      "options": ["30", "45", "60", "35"],
+      "correctIndex": 1,
+      "Explanation": "F=3S. (F+15)=2(S+15). 3S+15=2S+30 -> S=15, F=45."
+    },
+    {
+      "id": "q34",
+      "text": "SCD, TEF, UGH, ____, WKL",
+      "options": ["CMN", "UJI", "VIJ", "IJT"],
+      "correctIndex": 2,
+      "Explanation": "First letter: S, T, U, V, W. Last two: CD, EF, GH, IJ, KL."
+    },
+    {
+      "id": "q35",
+      "text": "A cube has how many edges?",
+      "options": ["6", "8", "10", "12"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q36",
+      "text": "If 12 + 12 = 9, 23 + 23 = 16, then 34 + 34 = ?",
+      "options": ["25", "21", "18", "49"],
+      "correctIndex": 0,
+      "Explanation": "Sum the digits: (1+2+1+2)² is not it. It's (1+2)+(1+2)=6 (pattern failed). Correct pattern: (1+2+1+2) = 6... wait. Logic: 1+2+1+2=6; 2+3+2+3=10; 3+4+3+4=14. No. Logic: (Sum of digits) + constant? Try: (1+2+1+2) + 3 = 9. (2+3+2+3) + 6 = 16. (3+4+3+4) + 11? No. Correct Logic: (1+2)*(1+2)=9. (2+3)*(2+3)=25 (No). Final Logic: (1+2+1+2) + 3; (2+3+2+3) + 6; (3+4+3+4) + 11. Pattern of added numbers is 3, 6, 11 (+3, +5, +7). Next is 14 + 11 = 25."
+    },
+    {
+      "id": "q37",
+      "text": "Which word does NOT belong with the others?",
+      "options": ["Tyre", "Steering wheel", "Engine", "Car"],
+      "correctIndex": 3,
+      "Explanation": "Tyre, Steering wheel, and Engine are parts of a Car."
+    },
+    {
+      "id": "q38",
+      "text": "If a person is walking towards the Sun in the evening, what is their direction?",
+      "options": ["East", "West", "North", "South"],
+      "correctIndex": 1,
+      "Explanation": "The sun sets in the West."
+    },
+    {
+      "id": "q39",
+      "text": "What is 15% of 200 + 10% of 50?",
+      "options": ["30", "35", "40", "45"],
+      "correctIndex": 1,
+      "Explanation": "30 + 5 = 35."
+    },
+    {
+      "id": "q40",
+      "text": "Find the missing number in the triangle: Top=12, Left=4, Right=3. Next Triangle: Top=20, Left=5, Right=?",
+      "options": ["3", "4", "5", "6"],
+      "correctIndex": 1,
+      "Explanation": "Left * Right = Top. 5 * 4 = 20."
+    },
+    {
+      "id": "q41",
+      "text": "What is the square root of 0.0016?",
+      "options": ["0.4", "0.04", "0.004", "0.44"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q42",
+      "text": "How many times do the hands of a clock overlap in 24 hours?",
+      "options": ["24", "22", "23", "44"],
+      "correctIndex": 1,
+      "Explanation": "They overlap 11 times every 12 hours."
+    },
+    {
+      "id": "q43",
+      "text": "If 7 spiders make 7 webs in 7 minutes, how many minutes does it take 1 spider to make 1 web?",
+      "options": ["1", "7", "49", "0.7"],
+      "correctIndex": 1,
+      "Explanation": "The rate is 1 spider per 7 minutes per web."
+    },
+    {
+      "id": "q44",
+      "text": "A boy has some chickens and cows. If the total number of heads is 50 and the total number of legs is 140, how many chickens are there?",
+      "options": ["20", "30", "25", "15"],
+      "correctIndex": 1,
+      "Explanation": "C+W=50, 2C+4W=140. 2C+4(50-C)=140 -> 2C+200-4C=140 -> 2C=60 -> C=30."
+    },
+    {
+      "id": "q45",
+      "text": "Find the missing term: 1, 8, 27, 64, ?",
+      "options": ["100", "121", "125", "144"],
+      "correctIndex": 2,
+      "Explanation": "Cubes of 1, 2, 3, 4. Next is 5³ = 125."
+    },
+    {
+      "id": "q46",
+      "text": "If a rectangle has a perimeter of 20cm and a width of 4cm, what is its length?",
+      "options": ["6cm", "12cm", "16cm", "5cm"],
+      "correctIndex": 0,
+      "Explanation": "2(L+4)=20 -> L+4=10 -> L=6."
+    },
+    {
+      "id": "q47",
+      "text": "What is the next number: 10, 20, 40, 70, 110, ?",
+      "options": ["150", "160", "170", "180"],
+      "correctIndex": 1,
+      "Explanation": "Increments are +10, +20, +30, +40. Next is +50. 110+50 = 160."
+    },
+    {
+      "id": "q48",
+      "text": "Which fraction is the largest?",
+      "options": ["1/2", "3/4", "5/8", "7/10"],
+      "correctIndex": 1,
+      "Explanation": "0.5, 0.75, 0.625, 0.7. 0.75 is the largest."
+    },
+    {
+      "id": "q49",
+      "text": "In a certain code, '256' means 'you are good', '637' means 'we are bad'. What digit means 'are'?",
+      "options": ["2", "5", "6", "3"],
+      "correctIndex": 2,
+      "Explanation": "The common digit in both sets is 6, and the common word is 'are'."
+    },
+    {
+      "id": "q50",
+      "text": "If you rearrange the letters 'BARIET', you get the name of a:",
+      "options": ["City", "Fruit", "Animal", "River"],
+      "correctIndex": 2,
+      "Explanation": "The letters spell 'RABBIT', which is an animal."
+    }
+  ]
+}

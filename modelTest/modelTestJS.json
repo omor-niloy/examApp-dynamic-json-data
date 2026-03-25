@@ -1,0 +1,318 @@
+{
+  "id": "modelTestJS",
+  "title": "W3 Ignite Model Test - JavaScript Specialty",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "What is the output of `console.log(1 + '2' + 3)`?",
+      "options": ["6", "'123'", "NaN", "'33'"],
+      "correctIndex": 1,
+      "Explanation": "JavaScript performs string concatenation from left to right. 1 + '2' becomes '12', then '12' + 3 becomes '123'."
+    },
+    {
+      "id": "q2",
+      "text": "Which keyword is used to declare a block-scoped variable that cannot be reassigned?",
+      "options": ["var", "let", "const", "fixed"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q3",
+      "text": "What is the result of `[] == ![]`?",
+      "options": ["true", "false", "undefined", "TypeError"],
+      "correctIndex": 0,
+      "Explanation": "This is a quirk of JS coercion. ![] is false. [] == false performs type conversion resulting in 0 == 0, which is true."
+    },
+    {
+      "id": "q4",
+      "text": "Which method is used to add an element to the beginning of an array?",
+      "options": ["push()", "pop()", "shift()", "unshift()"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q5",
+      "text": "What is the purpose of the 'use strict' directive?",
+      "options": ["To make the code run faster", "To enforce stricter parsing and error handling", "To enable ES6 features", "To prevent the use of comments"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q6",
+      "text": "What is the output of `typeof []`?",
+      "options": ["'array'", "'object'", "'list'", "'undefined'"],
+      "correctIndex": 1,
+      "Explanation": "In JavaScript, arrays are technically specialized objects."
+    },
+    {
+      "id": "q7",
+      "text": "Which of the following is NOT a falsy value in JavaScript?",
+      "options": ["0", "'' (empty string)", "[] (empty array)", "null"],
+      "correctIndex": 2,
+      "Explanation": "An empty array [] is truthy. Only 0, '', null, undefined, NaN, and false are falsy."
+    },
+    {
+      "id": "q8",
+      "text": "What does the `map()` method return?",
+      "options": ["A new array with the results of a function on every element", "The original array modified", "A single value", "undefined"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q9",
+      "text": "How do you check if a property 'x' exists in an object 'obj'?",
+      "options": ["obj.has('x')", "'x' in obj", "obj.exists('x')", "obj['x'] == true"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "text": "What is a 'Closure' in JavaScript?",
+      "options": ["Closing a browser tab", "A function that has access to its outer function's scope", "A way to end a loop", "A private class method"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q11",
+      "text": "Which operator is used to check both value and type equality?",
+      "options": ["==", "===", "=", "!="],
+      "correctIndex": 1
+    },
+    {
+      "id": "q12",
+      "text": "What is the output of `console.log(Boolean('false'))`?",
+      "options": ["true", "false", "NaN", "Error"],
+      "correctIndex": 0,
+      "Explanation": "Any non-empty string is 'truthy' in JavaScript, even the string 'false'."
+    },
+    {
+      "id": "q13",
+      "text": "Which built-in method sorts the elements of an array?",
+      "options": ["order()", "changeOrder()", "sort()", "arrange()"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q14",
+      "text": "What is 'Hoisting'?",
+      "options": ["Moving declarations to the top of the scope", "Increasing the speed of the script", "Lifting an element in the DOM", "Removing unused code"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q15",
+      "text": "What is the result of `null == undefined`?",
+      "options": ["true", "false", "TypeError", "NaN"],
+      "correctIndex": 0,
+      "Explanation": "Using loose equality (==), null and undefined are equal to each other."
+    },
+    {
+      "id": "q16",
+      "text": "Which statement is used to handle exceptions?",
+      "options": ["if...else", "try...catch", "switch", "while"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q17",
+      "text": "What does the 'Temporal Dead Zone' refer to?",
+      "options": ["The time between a variable declaration and its initialization with let/const", "The time it takes for a script to load", "The delay in setTimeout", "A period where the CPU is idle"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q18",
+      "text": "Which function is used to parse a string into an integer?",
+      "options": ["Integer.parse()", "parseInt()", "parseNumber()", "toInt()"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q19",
+      "text": "What is the output of `3 > 2 > 1`?",
+      "options": ["true", "false", "NaN", "error"],
+      "correctIndex": 1,
+      "Explanation": "3 > 2 is true. Then true > 1 is evaluated. true is coerced to 1, and 1 > 1 is false."
+    },
+    {
+      "id": "q20",
+      "text": "Which method merges two or more arrays?",
+      "options": ["combine()", "concat()", "join()", "merge()"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q21",
+      "text": "How do you create an arrow function?",
+      "options": ["() => {}", "function => {}", "arrow function()", "const f = () -> {}"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q22",
+      "text": "What is the value of `this` inside an arrow function?",
+      "options": ["The global object", "The object that called it", "It is lexically inherited from the parent scope", "undefined"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q23",
+      "text": "Which API is used for making asynchronous HTTP requests in modern JS?",
+      "options": ["JSON", "Fetch API", "HTTP-Request", "XML-Parser"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q24",
+      "text": "What is the output of `console.log(typeof NaN)`?",
+      "options": ["'NaN'", "'number'", "'undefined'", "'object'"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q25",
+      "text": "Which method removes the last element from an array?",
+      "options": ["pop()", "shift()", "remove()", "last()"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q26",
+      "text": "What does `JSON.stringify()` do?",
+      "options": ["Parses a string into JSON", "Converts a JavaScript object into a JSON string", "Downloads a JSON file", "Compresses a JSON object"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q27",
+      "text": "In the DOM, how do you select an element with id 'app'?",
+      "options": ["document.find('#app')", "document.getElementById('app')", "document.query('app')", "document.app"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q28",
+      "text": "What is the result of `'5' - - '2'`?",
+      "options": ["3", "7", "'5-2'", "NaN"],
+      "correctIndex": 1,
+      "Explanation": "The minus operator coerces both strings to numbers. 5 - (-2) = 7."
+    },
+    {
+      "id": "q29",
+      "text": "Which event occurs when the user clicks on an HTML element?",
+      "options": ["onmouseover", "onchange", "onclick", "onmouseclick"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q30",
+      "text": "What is the purpose of `Promise.all()`?",
+      "options": ["To resolve multiple promises sequentially", "To wait for all given promises to resolve or any to reject", "To stop all promises", "To create a new promise"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q31",
+      "text": "What is the output of `0 == '0'`?",
+      "options": ["true", "false", "undefined", "NaN"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q32",
+      "text": "How do you write a comment in JavaScript?",
+      "options": ["", "// comment", "# comment", "/* comment"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q33",
+      "text": "Which keyword is used to wait for a Promise inside an async function?",
+      "options": ["wait", "pause", "await", "stop"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q34",
+      "text": "What is the output of `!!'hello'`?",
+      "options": ["false", "true", "undefined", "'hello'"],
+      "correctIndex": 1,
+      "Explanation": "The first ! converts the string to boolean false, the second ! flips it to true."
+    },
+    {
+      "id": "q35",
+      "text": "Which method returns the length of a string?",
+      "options": ["size()", "length", "count()", "len()"],
+      "correctIndex": 1,
+      "Explanation": ".length is a property, not a method."
+    },
+    {
+      "id": "q36",
+      "text": "Which operator returns the remainder of a division?",
+      "options": ["/", "%", "&", "#"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q37",
+      "text": "What is 'Event Bubbling'?",
+      "options": ["Events moving from the root to the target", "Events moving from the target element up to the root", "Events disappearing", "Multiple events firing at once"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q38",
+      "text": "How do you declare a constant in JavaScript?",
+      "options": ["constant x = 10;", "const x = 10;", "let x = 10;", "var x = 10;"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q39",
+      "text": "What is the result of `typeof null`?",
+      "options": ["'null'", "'undefined'", "'object'", "'string'"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q40",
+      "text": "Which function is used to execute a function after a specific number of milliseconds?",
+      "options": ["setInterval()", "setTimeout()", "wait()", "delay()"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q41",
+      "text": "What is the Spread Operator?",
+      "options": ["...", "---", "***", "&&&"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q42",
+      "text": "What is the output of `console.log(2 + 2 + '2')`?",
+      "options": ["6", "42", "'42'", "222"],
+      "correctIndex": 2,
+      "Explanation": "2 + 2 = 4 (number). Then 4 + '2' = '42' (string)."
+    },
+    {
+      "id": "q43",
+      "text": "Which method converts a JSON string into a JavaScript object?",
+      "options": ["JSON.toString()", "JSON.parse()", "JSON.toObject()", "JSON.convert()"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q44",
+      "text": "How can you prevent a form from submitting when a button is clicked?",
+      "options": ["event.stop()", "event.preventDefault()", "event.halt()", "form.cancel()"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q45",
+      "text": "What does the `find()` method do on an array?",
+      "options": ["Returns all elements that match a condition", "Returns the value of the first element that passes a test", "Returns the index of an element", "Sorts the array"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q46",
+      "text": "What is a 'Pure Function'?",
+      "options": ["A function that only uses local variables", "A function that always returns the same output for the same input and has no side effects", "A function that is written in pure JS", "A function without parameters"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q47",
+      "text": "Which scope does a variable declared with `var` have?",
+      "options": ["Block scope", "Global/Function scope", "Local scope only", "No scope"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q48",
+      "text": "What is the output of `console.log(1 < 2 < 3)`?",
+      "options": ["true", "false", "NaN", "undefined"],
+      "correctIndex": 0,
+      "Explanation": "1 < 2 is true. Then true < 3 is evaluated. 1 < 3 is true."
+    },
+    {
+      "id": "q49",
+      "text": "Which method removes the first element from an array?",
+      "options": ["pop()", "unshift()", "shift()", "removeFirst()"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q50",
+      "text": "What is the default value of a variable that has been declared but not assigned?",
+      "options": ["null", "0", "undefined", "NaN"],
+      "correctIndex": 2
+    }
+  ]
+}

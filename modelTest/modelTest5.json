@@ -1,0 +1,326 @@
+{
+  "id": "modelTest5",
+  "title": "W3 Ignite Model Test - Set 5",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "In C++, what is the difference between `delete` and `delete[]`?",
+      "options": ["There is no difference", "`delete` frees a single allocated object; `delete[]` frees an array of allocated objects", "`delete[]` is used for 2D arrays only", "`delete` is for basic data types, `delete[]` is for classes"],
+      "correctIndex": 1,
+      "Explanation": "If you allocate memory using `new[]` (e.g., `int* arr = new int[10];`), you must use `delete[] arr;` to properly call the destructors for all elements and free the entire block."
+    },
+    {
+      "id": "q2",
+      "text": "What does an `inline` function do in C++?",
+      "options": ["It runs in a separate thread", "It suggests to the compiler to insert the function's body where the function call is made, to reduce function call overhead", "It forces the function to be executed before main()", "It restricts the function to only use global variables"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q3",
+      "text": "If `ptr` is an integer pointer pointing to memory address 1000, what will be the memory address of `ptr + 1` (assuming 4-byte integers)?",
+      "options": ["1001", "1002", "1004", "1008"],
+      "correctIndex": 2,
+      "Explanation": "Pointer arithmetic is scaled by the size of the data type it points to. Since an int is 4 bytes, adding 1 to the pointer advances the memory address by 4 bytes."
+    },
+    {
+      "id": "q4",
+      "text": "A C++ class that contains at least one pure virtual function is known as:",
+      "options": ["A base class", "An abstract class", "A static class", "A polymorphic class"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "text": "What is the difference between `#include <filename>` and `#include \"filename\"` in C/C++?",
+      "options": ["<filename> searches standard system directories; \"filename\" searches the current directory first", "\"filename\" searches standard system directories; <filename> searches the current directory first", "They are exactly the same", "<filename> is for C, \"filename\" is for C++"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q6",
+      "text": "Which of the following describes `const int *ptr;` in C++?",
+      "options": ["A constant pointer to an integer", "A pointer to a constant integer", "A constant pointer to a constant integer", "A syntax error"],
+      "correctIndex": 1,
+      "Explanation": "Read it from right to left: ptr is a pointer (*) to an integer (int) that is constant (const). You can change where the pointer points, but you cannot change the value it points to."
+    },
+    {
+      "id": "q7",
+      "text": "Which STL container in C++ implements a First-In-First-Out (FIFO) data structure?",
+      "options": ["std::stack", "std::vector", "std::queue", "std::set"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q8",
+      "text": "In CSS, what is the key difference between `display: none;` and `visibility: hidden;`?",
+      "options": ["They are identical", "`display: none` removes the element from the document flow; `visibility: hidden` hides it but keeps its space reserved", "`visibility: hidden` removes the element from the flow; `display: none` keeps its space", "`display: none` only works on text"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q9",
+      "text": "Which CSS unit is relative to the font-size of the root element (usually the `<html>` tag)?",
+      "options": ["em", "rem", "vh", "px"],
+      "correctIndex": 1,
+      "Explanation": "`rem` stands for 'root em'. `em` is relative to the font-size of its direct parent, which can cause compounding issues in nested elements."
+    },
+    {
+      "id": "q10",
+      "text": "What is the correct syntax for a CSS media query triggering at a maximum width of 600px?",
+      "options": ["@media screen and (max-width: 600px) {}", "@media (width <= 600px) {}", "@media screen (max-width: 600px) {}", "@css media (max: 600px) {}"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q11",
+      "text": "Which HTML5 semantic tag is best suited for a self-contained composition in a document, like a blog post or news story?",
+      "options": ["<div>", "<section>", "<article>", "<aside>"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q12",
+      "text": "How do you apply a CSS style to an element when the user clicks and holds down the mouse button on it?",
+      "options": [":hover", ":active", ":focus", ":visited"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q13",
+      "text": "Which property in CSS Flexbox controls the wrapping of items when they run out of space on the main axis?",
+      "options": ["flex-wrap", "flex-direction", "justify-content", "align-content"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q14",
+      "text": "What does the HTML `<datalist>` element do?",
+      "options": ["Creates a bulleted list", "Defines an external database connection", "Provides a list of pre-defined options for an <input> element, acting like an autocomplete", "Formats table data"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q15",
+      "text": "In JavaScript, what will `console.log([] == false)` output?",
+      "options": ["true", "false", "undefined", "TypeError"],
+      "correctIndex": 0,
+      "Explanation": "Due to JavaScript's type coercion rules for the abstract equality operator (`==`), the empty array is coerced to an empty string, which is then coerced to the number 0. `false` is also coerced to 0. Since 0 === 0, it returns true."
+    },
+    {
+      "id": "q16",
+      "text": "What is 'Event Delegation' in JavaScript?",
+      "options": ["Passing an event from a child to a parent element manually", "Attaching a single event listener to a parent element to manage events for all its current and future children", "Preventing an event from bubbling up the DOM tree", "Executing events synchronously"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q17",
+      "text": "Which of the following allows you to unpack values from arrays, or properties from objects, into distinct variables in JS?",
+      "options": ["Spread operator", "Rest parameter", "Destructuring assignment", "Concatenation"],
+      "correctIndex": 2,
+      "Explanation": "Destructuring assignment syntax looks like this: `const { name, age } = userObject;` or `const [first, second] = myArray;`."
+    },
+    {
+      "id": "q18",
+      "text": "What happens if one of the promises passed to `Promise.all()` rejects?",
+      "options": ["It returns the results of all resolved promises and ignores the rejected one", "The entire `Promise.all()` immediately rejects with the reason of the first rejected promise", "It waits for all promises to finish and then rejects", "It throws a syntax error"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q19",
+      "text": "What will `console.log(1 + \"2\" + \"2\");` output in JavaScript?",
+      "options": ["\"122\"", "\"5\"", "5", "\"14\""],
+      "correctIndex": 0,
+      "Explanation": "JavaScript evaluates left to right. 1 (number) + \"2\" (string) coerces the 1 to a string, resulting in \"12\". Then \"12\" + \"2\" results in \"122\"."
+    },
+    {
+      "id": "q20",
+      "text": "Which JavaScript method is used to execute a reducer function on each element of the array, resulting in a single output value?",
+      "options": ["filter()", "map()", "reduce()", "concat()"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q21",
+      "text": "Which statement best describes JavaScript's execution model?",
+      "options": ["Multi-threaded, synchronous", "Multi-threaded, asynchronous", "Single-threaded, blocking", "Single-threaded, non-blocking asynchronous concurrent"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q22",
+      "text": "Why is using a mutable default argument (like a list `def func(my_list=[]):`) considered bad practice in Python?",
+      "options": ["It causes a syntax error", "The default list is instantiated only once when the function is defined, meaning the same list is shared across all subsequent calls that omit the argument", "It makes the function run slower", "Lists cannot be passed as arguments"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q23",
+      "text": "What is the purpose of the statement `if __name__ == \"__main__\":` in a Python script?",
+      "options": ["To define the main class of the program", "To ensure the code block only runs if the script is executed directly, and not when imported as a module", "To force the Python interpreter to run in strict mode", "To declare global variables"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q24",
+      "text": "A Python function that contains the `yield` keyword is called a:",
+      "options": ["Lambda function", "Recursive function", "Generator function", "Decorator function"],
+      "correctIndex": 2,
+      "Explanation": "Generators allow you to declare a function that behaves like an iterator. It yields a value and pauses its execution, maintaining its state for the next time it is called."
+    },
+    {
+      "id": "q25",
+      "text": "How do you iterate over both keys and values in a Python dictionary simultaneously?",
+      "options": ["for k, v in my_dict.keys():", "for k, v in my_dict.items():", "for k, v in my_dict:", "for k, v in enumerate(my_dict):"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q26",
+      "text": "In a Python `try...except...else...finally` block, when does the `else` block execute?",
+      "options": ["Only if an exception was raised", "Only if NO exception was raised in the try block", "Regardless of whether an exception was raised", "It is used to catch remaining unhandled exceptions"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q27",
+      "text": "What is the output of the following Python code? `print(type(lambda x: x+1))`",
+      "options": ["<class 'lambda'>", "<class 'function'>", "<class 'method'>", "<class 'object'>"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q28",
+      "text": "In Python, `copy.copy()` performs a shallow copy. What does a shallow copy do?",
+      "options": ["Creates a new object but inserts references to the objects found in the original", "Creates a completely independent clone of the original and all nested objects", "Copies only the first element of a list", "Renames the variable without using new memory"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q29",
+      "text": "Which SQL constraint is used to ensure that all values in a column are different?",
+      "options": ["NOT NULL", "UNIQUE", "INDEX", "PRIMARY KEY"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q30",
+      "text": "What is the physical difference between a Clustered and a Non-Clustered Index in a database?",
+      "options": ["There is no difference", "A Clustered index physically sorts the data rows in the table; a Non-Clustered index creates a separate structure that points to the data rows", "A Non-Clustered index sorts the actual table data; a Clustered index just creates pointers", "Clustered indexes only work on integer columns"],
+      "correctIndex": 1,
+      "Explanation": "Because a clustered index dictates the physical storage order of the rows on disk, a table can only have one clustered index."
+    },
+    {
+      "id": "q31",
+      "text": "In SQL, what is a Correlated Subquery?",
+      "options": ["A subquery that returns multiple columns", "A subquery that runs entirely independent of the outer query", "A subquery that uses values from the outer query, meaning it must be evaluated once for each row processed by the outer query", "A subquery used inside a JOIN clause"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q32",
+      "text": "What does the `VARCHAR` data type stand for?",
+      "options": ["Variable Character", "Various Character", "Validated Character", "Value Character"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q33",
+      "text": "If you want to delete records in a parent table and have the database automatically delete related records in a child table, what foreign key constraint should you use?",
+      "options": ["ON DELETE SET NULL", "ON DELETE RESTRICT", "ON DELETE CASCADE", "ON DELETE NO ACTION"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q34",
+      "text": "Which SQL command is used to permanently save changes made during a transaction?",
+      "options": ["SAVE", "COMMIT", "ROLLBACK", "UPDATE"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q35",
+      "text": "What is the result of `SELECT 5 % 2;` in SQL?",
+      "options": ["2.5", "2", "1", "0"],
+      "correctIndex": 2,
+      "Explanation": "The % operator is the modulo operator, which returns the remainder of a division. 5 divided by 2 is 2 with a remainder of 1."
+    },
+    {
+      "id": "q36",
+      "text": "In PHP, what is the difference between `isset()` and `empty()`?",
+      "options": ["They do exactly the same thing", "`isset()` checks if a variable is declared and not null; `empty()` checks if a variable is empty (e.g., \"\", 0, null, false)", "`empty()` checks for null only; `isset()` checks for 0", "`isset()` is for arrays, `empty()` is for strings"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q37",
+      "text": "How do you pass a variable by reference in PHP?",
+      "options": ["function myFunc(*$var)", "function myFunc(&$var)", "function myFunc(ref $var)", "function myFunc($var->ref)"],
+      "correctIndex": 1,
+      "Explanation": "Prepending an ampersand (&) to a variable name in a function parameter list tells PHP to pass a reference to the original variable, meaning any changes made inside the function will modify the original variable."
+    },
+    {
+      "id": "q38",
+      "text": "Which PHP function allows you to register multiple custom functions to automatically load undeclared classes when they are instantiated?",
+      "options": ["__autoload()", "spl_autoload_register()", "class_loader()", "require_once()"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q39",
+      "text": "What is the primary benefit of using Prepared Statements with PDO or MySQLi in PHP?",
+      "options": ["They execute queries much faster", "They completely prevent SQL Injection attacks by separating the query structure from the data", "They automatically format HTML output", "They allow you to write SQL in PHP syntax"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q40",
+      "text": "Which PHP function applies a callback function to the elements of a given array and returns a new array?",
+      "options": ["array_walk()", "array_filter()", "array_map()", "array_reduce()"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q41",
+      "text": "To prevent Session Fixation attacks in PHP, which function should you call immediately after verifying a user's login credentials?",
+      "options": ["session_destroy()", "session_start()", "session_regenerate_id(true)", "session_unset()"],
+      "correctIndex": 2,
+      "Explanation": "session_regenerate_id(true) creates a completely new session ID for the user upon logging in, rendering any pre-existing session ID (which an attacker might have planted) useless."
+    },
+    {
+      "id": "q42",
+      "text": "What does the spaceship operator `<=>` do in PHP 7+?",
+      "options": ["Checks for strict equality", "Combines two arrays", "Performs a three-way comparison, returning -1, 0, or 1", "Creates an anonymous class"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q43",
+      "text": "Find the next number in the sequence: 2, 5, 10, 17, 26, ?",
+      "options": ["35", "36", "37", "39"],
+      "correctIndex": 2,
+      "Explanation": "The sequence follows the pattern n² + 1. (1²+1=2), (2²+1=5), (3²+1=10), (4²+1=17), (5²+1=26). The next is 6² + 1 = 37. Alternatively, the differences are +3, +5, +7, +9... next is +11 (26+11=37)."
+    },
+    {
+      "id": "q44",
+      "text": "A clock shows the time as 4:20. What is the exact angle between the hour and minute hands?",
+      "options": ["0 degrees", "10 degrees", "20 degrees", "30 degrees"],
+      "correctIndex": 1,
+      "Explanation": "At exactly 4:00, the angle is 120 degrees. In 20 minutes, the minute hand moves to the 4 (120 degrees). The hour hand moves 0.5 degrees every minute. In 20 minutes, the hour hand moves 10 degrees past the 4. Therefore, the difference is 10 degrees."
+    },
+    {
+      "id": "q45",
+      "text": "If CAT is coded as 24 and DOG is coded as 26, how is RAT coded?",
+      "options": ["36", "38", "39", "42"],
+      "correctIndex": 2,
+      "Explanation": "The code is the sum of the alphabetical positions of the letters. C(3) + A(1) + T(20) = 24. D(4) + O(15) + G(7) = 26. Therefore, R(18) + A(1) + T(20) = 39."
+    },
+    {
+      "id": "q46",
+      "text": "A man walks 10 meters North, turns right and walks 10 meters, turns right again and walks 10 meters. How far is he from his starting point?",
+      "options": ["0 meters", "10 meters", "20 meters", "30 meters"],
+      "correctIndex": 1,
+      "Explanation": "He walks 10m North. Turning right puts him facing East; he walks 10m East. Turning right again puts him facing South; he walks 10m South. He is now exactly 10m directly East of his original starting position."
+    },
+    {
+      "id": "q47",
+      "text": "Two fair six-sided dice are rolled. What is the probability that the sum of the numbers rolled is exactly 7?",
+      "options": ["1/7", "1/6", "1/12", "7/36"],
+      "correctIndex": 1,
+      "Explanation": "There are 36 possible outcomes (6 * 6). The combinations that equal 7 are: (1,6), (2,5), (3,4), (4,3), (5,2), and (6,1). There are 6 winning outcomes. 6/36 simplifies to 1/6."
+    },
+    {
+      "id": "q48",
+      "text": "A can finish a job in 10 days. B can finish the same job in 15 days. If they work together, how many days will it take them to finish the job?",
+      "options": ["6 days", "8 days", "12.5 days", "25 days"],
+      "correctIndex": 0,
+      "Explanation": "A's rate is 1/10 of the job per day. B's rate is 1/15 per day. Together: 1/10 + 1/15 = 3/30 + 2/30 = 5/30 = 1/6 of the job per day. Therefore, it takes them 6 days to complete 1 full job."
+    },
+    {
+      "id": "q49",
+      "text": "Premise 1: All cats are animals. Premise 2: Some animals are wild. Conclusion: Some cats are wild. Is the conclusion valid?",
+      "options": ["Yes, it is definitely true", "No, it is definitely false", "It is invalid (uncertain based on premises)", "The premises are contradictory"],
+      "correctIndex": 2,
+      "Explanation": "While some animals are wild, there is no guarantee that the subset of animals known as 'cats' intersects with the subset of 'wild' animals. The conclusion might be true in real life, but it is logically invalid based strictly on the provided premises."
+    },
+    {
+      "id": "q50",
+      "text": "Which number is the odd one out: 8, 27, 64, 100, 125?",
+      "options": ["8", "64", "100", "125"],
+      "correctIndex": 2,
+      "Explanation": "All the numbers except 100 are perfect cubes: 2³=8, 3³=27, 4³=64, 5³=125. 100 is a perfect square (10²), but not a perfect cube."
+    }
+  ]
+}

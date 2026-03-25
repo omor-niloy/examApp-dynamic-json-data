@@ -1,0 +1,326 @@
+{
+  "id": "modelTest11",
+  "title": "W3 Ignite Model Test - Set 11",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "In C++, what is the size of an empty class?",
+      "options": ["0 bytes", "1 byte", "4 bytes", "Depends on the compiler"],
+      "correctIndex": 1,
+      "Explanation": "To ensure that two different objects of the same empty class have different addresses, C++ assigns a minimum size of 1 byte."
+    },
+    {
+      "id": "q2",
+      "text": "What is the output of `console.log(typeof NaN)` in JavaScript?",
+      "options": ["'number'", "'NaN'", "'undefined'", "'object'"],
+      "correctIndex": 0,
+      "Explanation": "In JavaScript, 'Not-a-Number' is technically a property of the Global object and is categorized under the Number type."
+    },
+    {
+      "id": "q3",
+      "text": "In CSS, which property is used to stack elements along the z-axis, and what is its default value?",
+      "options": ["z-index: 0", "z-index: auto", "stack-order: 1", "position: static"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q4",
+      "text": "In Python, what does the `yield` keyword do within a function?",
+      "options": ["Terminates the function", "Returns a list of values", "Turns the function into a generator", "Pauses execution and returns None"],
+      "correctIndex": 2,
+      "Explanation": "The yield keyword pauses function execution and saves the local state so it can be resumed, making it a generator."
+    },
+    {
+      "id": "q5",
+      "text": "Which SQL constraint uniquely identifies each record in a database table?",
+      "options": ["UNIQUE", "FOREIGN KEY", "PRIMARY KEY", "CHECK"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q6",
+      "text": "What is the output of the following PHP code: `$x = '5' + 10; echo $x;`?",
+      "options": ["510", "15", "Error", "10"],
+      "correctIndex": 1,
+      "Explanation": "PHP performs type juggling; the string '5' is converted to an integer to perform the addition."
+    },
+    {
+      "id": "q7",
+      "text": "Logical Reasoning: If all Bloops are Razzies and all Razzies are Lazzies, then are all Bloops definitely Lazzies?",
+      "options": ["Yes", "No", "Only if Lazzies are Bloops", "Cannot be determined"],
+      "correctIndex": 0,
+      "Explanation": "This is a transitive relation in syllogism: if A ⊂ B and B ⊂ C, then A ⊂ C."
+    },
+    {
+      "id": "q8",
+      "text": "In C++, which of the following is used to achieve 'Runtime Polymorphism'?",
+      "options": ["Function Overloading", "Operator Overloading", "Virtual Functions", "Templates"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q9",
+      "text": "Which HTML5 element is used to specify a footer for a document or section?",
+      "options": ["<bottom>", "<footer>", "<section-end>", "<end>"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "text": "In JavaScript, what is 'Hoisting'?",
+      "options": ["A method to lift heavy objects", "Moving function/variable declarations to the top of their scope", "A way to increase performance", "Removing unused variables"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q11",
+      "text": "What is the result of `bool(\"False\")` in Python?",
+      "options": ["False", "True", "None", "Error"],
+      "correctIndex": 1,
+      "Explanation": "Any non-empty string in Python evaluates to True when cast to a boolean, regardless of its content."
+    },
+    {
+      "id": "q12",
+      "text": "In SQL, which command is used to remove all records from a table without deleting the table structure?",
+      "options": ["DROP", "DELETE", "TRUNCATE", "REMOVE"],
+      "correctIndex": 2,
+      "Explanation": "TRUNCATE is a DDL command that removes all rows but keeps the table structure; it is faster than DELETE."
+    },
+    {
+      "id": "q13",
+      "text": "In PHP, how do you start a session?",
+      "options": ["session_begin();", "start_session();", "session_start();", "$_SESSION['start'] = true;"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q14",
+      "text": "Math: A car travels at 60 km/h for 2 hours and then 40 km/h for 3 hours. What is its average speed?",
+      "options": ["50 km/h", "48 km/h", "45 km/h", "52 km/h"],
+      "correctIndex": 1,
+      "Explanation": "Total distance = (60*2) + (40*3) = 240km. Total time = 5h. Average = 240/5 = 48."
+    },
+    {
+      "id": "q15",
+      "text": "What is the purpose of the `extern` keyword in C++?",
+      "options": ["To declare a variable in another file", "To make a variable constant", "To export a function", "To define a global variable"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q16",
+      "text": "Which CSS unit is relative to the font-size of the root element?",
+      "options": ["em", "px", "rem", "vh"],
+      "correctIndex": 2,
+      "Explanation": "'rem' stands for 'Root EM'."
+    },
+    {
+      "id": "q17",
+      "text": "In JavaScript, what is the output of `0.1 + 0.2 === 0.3`?",
+      "options": ["true", "false", "undefined", "NaN"],
+      "correctIndex": 1,
+      "Explanation": "Due to floating-point precision issues in IEEE 754, 0.1 + 0.2 equals 0.30000000000000004."
+    },
+    {
+      "id": "q18",
+      "text": "What is the time complexity of searching for an element in a balanced Binary Search Tree (BST)?",
+      "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q19",
+      "text": "In Python, which of these is an immutable data type?",
+      "options": ["List", "Dictionary", "Set", "Tuple"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q20",
+      "text": "Which SQL clause is used to filter the results of an aggregate function?",
+      "options": ["WHERE", "HAVING", "GROUP BY", "ORDER BY"],
+      "correctIndex": 1,
+      "Explanation": "WHERE cannot be used with aggregate functions; HAVING is designed for that purpose."
+    },
+    {
+      "id": "q21",
+      "text": "In PHP, which superglobal array contains information about headers, paths, and script locations?",
+      "options": ["$_GET", "$_POST", "$_SERVER", "$_ENV"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q22",
+      "text": "Reasoning: Complete the series: 2, 6, 12, 20, 30, ?",
+      "options": ["40", "42", "44", "46"],
+      "correctIndex": 1,
+      "Explanation": "The increments are +4, +6, +8, +10. The next increment is +12. 30 + 12 = 42."
+    },
+    {
+      "id": "q23",
+      "text": "What does 'RAII' stand for in C++?",
+      "options": ["Resource Allocation Is Immediate", "Resource Acquisition Is Initialization", "Runtime Analysis Is Important", "Remote Access Interface Implementation"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q24",
+      "text": "In CSS, what does the 'box-sizing: border-box' property do?",
+      "options": ["Adds a border to the box", "Includes padding and border in the element's total width/height", "Excludes padding from the width", "Makes the box circular"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q25",
+      "text": "In JavaScript, what is the 'this' keyword in a regular function (not an arrow function) called in the global scope?",
+      "options": ["The function itself", "The Window object", "undefined", "null"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q26",
+      "text": "In Python, what is the output of `print(2 ** 3 ** 2)`?",
+      "options": ["64", "512", "128", "256"],
+      "correctIndex": 1,
+      "Explanation": "Exponentiation operators in Python are right-associative. So it is 2**(3**2) = 2**9 = 512."
+    },
+    {
+      "id": "q27",
+      "text": "Which SQL JOIN returns all records when there is a match in either left or right table?",
+      "options": ["INNER JOIN", "LEFT JOIN", "RIGHT JOIN", "FULL OUTER JOIN"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q28",
+      "text": "In PHP, what is the difference between `echo` and `print`?",
+      "options": ["echo can take multiple parameters; print cannot", "print is faster than echo", "echo returns a value; print does not", "There is no difference"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q29",
+      "text": "Logical Reasoning: Pointing to a photograph, a man said, 'I have no brother or sister but that man's father is my father's son.' Who was in the photograph?",
+      "options": ["His father", "His son", "Himself", "His nephew"],
+      "correctIndex": 1,
+      "Explanation": "My father's son (and I have no siblings) is ME. So, the man's father is ME. Therefore, the man in the photo is my son."
+    },
+    {
+      "id": "q30",
+      "text": "In C++, what is a 'friend' function?",
+      "options": ["A function that can access private/protected members of a class", "A function that is part of a different class", "A function that cannot be inherited", "A function that has no parameters"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q31",
+      "text": "Which HTML tag is used for an unordered list?",
+      "options": ["<ol>", "<li>", "<ul>", "<list>"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q32",
+      "text": "What is the output of `typeof null` in JavaScript?",
+      "options": ["'null'", "'undefined'", "'object'", "'string'"],
+      "correctIndex": 2,
+      "Explanation": "This is a long-standing bug/feature in JavaScript where null is considered an object."
+    },
+    {
+      "id": "q33",
+      "text": "In Python, what is a 'lambda' function?",
+      "options": ["A recursive function", "An anonymous, one-line function", "A function used for plotting", "A function that returns a list"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q34",
+      "text": "In SQL, which operator is used to search for a specified pattern in a column?",
+      "options": ["GET", "MATCH", "LIKE", "SEARCH"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q35",
+      "text": "How do you declare a variable in PHP?",
+      "options": ["var name;", "$name;", "int name;", "variable name;"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q36",
+      "text": "Math: If a rectangle's length is increased by 20% and width is decreased by 20%, what is the net change in area?",
+      "options": ["0%", "4% increase", "4% decrease", "2% decrease"],
+      "correctIndex": 2,
+      "Explanation": "Area = L*W. New Area = (1.2L)*(0.8W) = 0.96LW. Change = 4% decrease."
+    },
+    {
+      "id": "q37",
+      "text": "In C++, which header file is required for using `std::cout`?",
+      "options": ["<conio.h>", "<stdio.h>", "<iostream>", "<stdlib.h>"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q38",
+      "text": "Which CSS selector targets all `<p>` elements that are immediate children of a `<div>`?",
+      "options": ["div p", "div + p", "div > p", "div ~ p"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q39",
+      "text": "In JavaScript, what is the result of `'5' - 3`?",
+      "options": ["2", "'53'", "8", "NaN"],
+      "correctIndex": 0,
+      "Explanation": "The minus operator triggers numeric conversion, unlike the plus operator which triggers string concatenation."
+    },
+    {
+      "id": "q40",
+      "text": "What is the purpose of the `__init__` method in Python classes?",
+      "options": ["To destroy an object", "To initialize object attributes", "To define a private variable", "To inherit from another class"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q41",
+      "text": "Which SQL keyword is used to sort the result-set?",
+      "options": ["SORT BY", "ALIGN BY", "ORDER BY", "GROUP BY"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q42",
+      "text": "In PHP, what is the correct way to add a comment?",
+      "options": ["//", "#", "/* */", "All of the above"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q43",
+      "text": "Reasoning: Find the odd one out: 27, 64, 125, 144.",
+      "options": ["27", "64", "125", "144"],
+      "correctIndex": 3,
+      "Explanation": "27 (3^3), 64 (4^3), and 125 (5^3) are perfect cubes. 144 is a perfect square (12^2)."
+    },
+    {
+      "id": "q44",
+      "text": "In C++, what does the `new` operator do?",
+      "options": ["Allocates memory on the stack", "Allocates memory on the heap", "Declares a new variable", "Resets the program"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q45",
+      "text": "Which HTML attribute is used to provide an alternative text for an image?",
+      "options": ["title", "alt", "src", "caption"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q46",
+      "text": "In JavaScript, how do you check if a variable is an array?",
+      "options": ["typeof x === 'array'", "x instanceof Array", "Array.isArray(x)", "Both B and C"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q47",
+      "text": "In Python, what is the output of `list(range(5, 0, -1))`?",
+      "options": ["[5, 4, 3, 2, 1, 0]", "[5, 4, 3, 2, 1]", "[4, 3, 2, 1, 0]", "[0, 1, 2, 3, 4, 5]"],
+      "correctIndex": 1,
+      "Explanation": "Range starts at 5, ends before 0, and decrements by 1."
+    },
+    {
+      "id": "q48",
+      "text": "What is the default port for MySQL?",
+      "options": ["80", "443", "3306", "8080"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q49",
+      "text": "In PHP, how do you concatenate two strings?",
+      "options": ["+", ".", "&", "concat()"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q50",
+      "text": "Math: If the probability of an event happening is 0.35, what is the probability of it NOT happening?",
+      "options": ["0.35", "0.55", "0.65", "0.75"],
+      "correctIndex": 2,
+      "Explanation": "P(Not A) = 1 - P(A) = 1 - 0.35 = 0.65."
+    }
+  ]
+}

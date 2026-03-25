@@ -1,0 +1,326 @@
+{
+  "id": "modelTest7",
+  "title": "W3 Ignite Model Test - Set 7",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "In C, what is the primary difference between `malloc()` and `calloc()`?",
+      "options": ["`malloc()` allocates memory on the stack; `calloc()` on the heap", "`calloc()` allocates memory and initializes all bits to zero; `malloc()` leaves memory uninitialized", "`malloc()` is for integers; `calloc()` is for arrays", "There is no difference"],
+      "correctIndex": 1,
+      "Explanation": "Both allocate memory on the heap. However, `malloc()` leaves the allocated memory block with whatever garbage values were previously there, while `calloc()` explicitly clears the memory to zero."
+    },
+    {
+      "id": "q2",
+      "text": "In C++, what does the `size()` of a `std::vector` represent compared to its `capacity()`?",
+      "options": ["`size()` is the number of elements currently in the vector; `capacity()` is the total space currently allocated before it needs to reallocate", "`size()` and `capacity()` are exactly the same", "`capacity()` is the number of elements; `size()` is the bytes allocated", "`size()` is the maximum possible length of the vector"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "text": "How are `static` member variables of a class initialized in C++?",
+      "options": ["Inside the class constructor", "Automatically when an object is created", "Outside the class definition, typically in a .cpp file", "They cannot be initialized"],
+      "correctIndex": 2,
+      "Explanation": "Static members belong to the class itself, not any individual object. Therefore, they must be defined and initialized outside the class declaration to allocate memory for them exactly once."
+    },
+    {
+      "id": "q4",
+      "text": "What is a 'Function Pointer' in C?",
+      "options": ["A pointer that stores the memory address of a function, allowing functions to be passed as arguments", "A function that returns a pointer", "A pointer that automatically frees memory when a function ends", "A built-in macro for debugging"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q5",
+      "text": "In C++ exception handling, if you have multiple `catch` blocks for a base class and a derived class exception, what is the correct order?",
+      "options": ["Base class must be caught first", "Derived class must be caught first", "The order does not matter", "You cannot catch both"],
+      "correctIndex": 1,
+      "Explanation": "If you put the base class catch block first, it will intercept all exceptions of the derived type as well (due to polymorphism), making the derived catch block unreachable."
+    },
+    {
+      "id": "q6",
+      "text": "Which C++ casting operator is used to safely cast a base class pointer to a derived class pointer at runtime?",
+      "options": ["static_cast", "const_cast", "reinterpret_cast", "dynamic_cast"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q7",
+      "text": "What does the `volatile` keyword do in C/C++?",
+      "options": ["Makes a variable thread-safe", "Tells the compiler that the variable's value may change at any time without any action being taken by the code nearby, preventing aggressive optimization", "Prevents a variable from being modified", "Stores the variable in CPU cache"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q8",
+      "text": "In HTML5, what is the advantage of using the `<picture>` tag over a standard `<img>` tag?",
+      "options": ["It automatically applies CSS filters", "It allows developers to specify multiple source images for different screen sizes or formats (Art Direction)", "It supports 3D rendering", "It prevents users from downloading the image"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q9",
+      "text": "Why might the CSS `z-index` property fail to work on an element?",
+      "options": ["The element is a block-level element", "The element's `position` property is set to `static` (the default)", "The `z-index` value is negative", "The element has a background color"],
+      "correctIndex": 1,
+      "Explanation": "`z-index` only affects elements that have a position value other than `static` (e.g., `relative`, `absolute`, `fixed`, or `sticky`)."
+    },
+    {
+      "id": "q10",
+      "text": "Which CSS Grid unit represents a fraction of the available space in the grid container?",
+      "options": ["px", "em", "fr", "%"],
+      "correctIndex": 2,
+      "Explanation": "The `fr` (fractional) unit allows you to divide the available space dynamically without needing to calculate exact percentages or pixels."
+    },
+    {
+      "id": "q11",
+      "text": "What is the difference between `<script defer>` and `<script async>` in HTML?",
+      "options": ["There is no difference", "`async` executes scripts as soon as they download, potentially out of order; `defer` waits until HTML parsing is complete and executes in order", "`defer` is for CSS, `async` is for JS", "`defer` blocks HTML parsing; `async` does not"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q12",
+      "text": "How do you select every `<p>` element that is the second child of its parent in CSS?",
+      "options": ["p:nth-child(2)", "p:child(2)", "p:second-child", "p:nth-of-type(2)"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q13",
+      "text": "To perfectly center a div both vertically and horizontally using CSS Absolute Positioning, you use `top: 50%; left: 50%;` and what else?",
+      "options": ["margin: auto;", "transform: translate(-50%, -50%);", "align-items: center;", "justify-content: center;"],
+      "correctIndex": 1,
+      "Explanation": "`top: 50%; left: 50%;` moves the top-left corner of the div to the center. `transform: translate(-50%, -50%);` pulls the div back up and to the left by 50% of its own width and height, centering it perfectly."
+    },
+    {
+      "id": "q14",
+      "text": "Which CSS property is used to specify whether an element is treated as a block or inline element?",
+      "options": ["position", "float", "display", "visibility"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q15",
+      "text": "What does the directive `\"use strict\";` do in JavaScript?",
+      "options": ["Forces variables to be strongly typed", "Enforces stricter parsing and error handling, preventing the use of undeclared variables", "Makes the script execute synchronously", "Encrypts the source code"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q16",
+      "text": "What is the purpose of `Object.freeze()` in JavaScript?",
+      "options": ["It pauses the execution of an object's methods", "It completely prevents new properties from being added and existing properties from being modified or removed", "It converts an object into a JSON string", "It deep copies an object"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q17",
+      "text": "Which `Promise` method returns a promise that fulfills or rejects as soon as one of the promises in an iterable fulfills or rejects?",
+      "options": ["Promise.all()", "Promise.any()", "Promise.race()", "Promise.first()"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q18",
+      "text": "What is an IIFE in JavaScript?",
+      "options": ["Immediately Invoked Function Expression", "Internal Iteration For Each", "Integrated Interface For Events", "Inherited Instance From Extension"],
+      "correctIndex": 0,
+      "Explanation": "An IIFE is a function that runs as soon as it is defined, typically used to create a private scope. Syntax: `(function() { /* code */ })();`"
+    },
+    {
+      "id": "q19",
+      "text": "What is the difference between `Array.prototype.map()` and `Array.prototype.forEach()`?",
+      "options": ["`forEach` returns a new array, `map` does not", "`map` returns a new array containing the results of the callback, `forEach` returns `undefined`", "They do exactly the same thing", "`map` modifies the original array, `forEach` does not"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q20",
+      "text": "In the JavaScript Event Loop, which queue has a higher priority and is executed first?",
+      "options": ["Macrotask Queue (setTimeout, setInterval)", "Microtask Queue (Promises)", "Render Queue", "They are executed randomly"],
+      "correctIndex": 1,
+      "Explanation": "After the current execution context finishes, the event loop empties the entire Microtask Queue (where Promise `.then` callbacks go) before taking a single task from the Macrotask Queue."
+    },
+    {
+      "id": "q21",
+      "text": "What happens when you declare a variable using `var` inside a block (like an `if` statement) in JavaScript?",
+      "options": ["It throws a syntax error", "It is scoped only to that block", "It 'hoists' to the top of the function or global scope, making it accessible outside the block", "It becomes a constant"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q22",
+      "text": "In Python, what is the difference between the `__init__` and `__new__` magic methods?",
+      "options": ["There is no difference", "`__new__` creates the object instance and returns it; `__init__` initializes the state of that already-created instance", "`__init__` creates the object; `__new__` allocates memory", "`__new__` is only used for integers"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q23",
+      "text": "What does the Python slicing syntax `my_list[::-1]` do?",
+      "options": ["Returns the first element", "Returns the last element", "Returns a reversed copy of the list", "Throws an IndexError"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q24",
+      "text": "How do you modify a global variable from inside a function in Python?",
+      "options": ["Just assign a new value to it", "Use the `global` keyword before the variable name inside the function", "Pass it as a parameter", "It is impossible"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q25",
+      "text": "What is the purpose of the `with` statement (Context Managers) in Python?",
+      "options": ["To loop through files", "To automatically manage resources, ensuring setup and teardown operations (like closing a file) occur cleanly even if errors happen", "To combine two dictionaries", "To handle asynchronous code"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q26",
+      "text": "Which method can be used to safely get a value from a Python dictionary, and if the key doesn't exist, insert it with a default value?",
+      "options": ["dict.get()", "dict.update()", "dict.insert()", "dict.setdefault()"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q27",
+      "text": "What does a single asterisk `*` do when placed before an iterable in a Python function call (e.g., `func(*my_list)`)?",
+      "options": ["Multiplies the list", "Unpacks the iterable into separate positional arguments", "Passes the list as a single tuple", "Calculates a pointer"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q28",
+      "text": "Which built-in Python function is used to convert an integer to a binary string?",
+      "options": ["bin()", "binary()", "to_bin()", "hex()"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q29",
+      "text": "In Database Normalization, what condition must be met for a table to be in Second Normal Form (2NF)?",
+      "options": ["It must be in 1NF and have no partial dependencies (all non-key attributes depend on the WHOLE primary key)", "It must have no foreign keys", "It must have no transitive dependencies", "All columns must be integers"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q30",
+      "text": "How can you write a SQL query to find rows in Table A that do NOT have a matching row in Table B?",
+      "options": ["INNER JOIN where TableB.id = NULL", "LEFT JOIN Table B, then filter WHERE TableB.id IS NULL", "RIGHT JOIN where TableA.id IS NULL", "UNION ALL Table B"],
+      "correctIndex": 1,
+      "Explanation": "This is called an Anti-Join. You LEFT JOIN the tables, which returns all rows from A and matches from B. Then you filter for rows where B's primary key `IS NULL`, leaving only the rows in A that had no match."
+    },
+    {
+      "id": "q31",
+      "text": "What is the difference between `ROW_NUMBER()` and `RANK()` window functions in SQL?",
+      "options": ["There is no difference", "`ROW_NUMBER()` gives a unique sequential integer to each row; `RANK()` gives the same rank to ties and skips subsequent numbers", "`RANK()` is unique; `ROW_NUMBER()` allows ties", "`ROW_NUMBER()` only works on dates"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q32",
+      "text": "What does the SQL data type `DECIMAL(10,2)` mean?",
+      "options": ["A number up to 10 digits before the decimal and 2 after", "A number with exactly 10 decimals", "A number with a total of 10 digits, 2 of which are after the decimal point", "An array of 10 integers and 2 strings"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q33",
+      "text": "What is a Database Trigger?",
+      "options": ["A button in the UI that executes a query", "Procedural code that is automatically executed in response to certain events (INSERT, UPDATE, DELETE) on a particular table", "A scheduled task that runs every night", "A tool for generating primary keys"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q34",
+      "text": "In a SQL WHERE clause, what is generally faster: `IN` or `EXISTS`?",
+      "options": ["`IN` is always faster", "`EXISTS` is often faster when checking against a large subquery, because it stops scanning as soon as it finds the first true match", "They execute at the exact same speed", "`IN` works asynchronously"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q35",
+      "text": "What is a 'Deadlock' in a database system?",
+      "options": ["When the hard drive is full", "When the database server crashes", "When two or more transactions are waiting indefinitely for one another to release locks on resources", "When a query runs for more than 30 seconds"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q36",
+      "text": "In PHP 7+, what does the Null Coalescing Operator `??` do?",
+      "options": ["It adds two numbers", "It returns its first operand if it exists and is not NULL; otherwise it returns its second operand", "It forces a variable to become NULL", "It strictly compares two variables"],
+      "correctIndex": 1,
+      "Explanation": "`$username = $_GET['user'] ?? 'nobody';` is a clean way to handle missing array keys or null values without throwing an undefined index warning."
+    },
+    {
+      "id": "q37",
+      "text": "What is the difference between `implode()` and `explode()` in PHP?",
+      "options": ["`implode()` converts a string to an array; `explode()` converts an array to a string", "`explode()` converts a string to an array based on a delimiter; `implode()` joins array elements into a single string", "They do the exact same thing", "`explode()` deletes a file; `implode()` creates one"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q38",
+      "text": "Which PHP function reads an entire file into a single string variable?",
+      "options": ["fopen()", "file()", "file_get_contents()", "readfile()"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q39",
+      "text": "How do you create an Anonymous Class in PHP 7+?",
+      "options": ["class {}()", "new class {}", "create class()", "anonymous()"],
+      "correctIndex": 1,
+      "Explanation": "Anonymous classes are useful when simple, one-off objects need to be created without defining a full class structure. Syntax: `$obj = new class { public function log() { } };`"
+    },
+    {
+      "id": "q40",
+      "text": "When using PDO in PHP to query a database, what is the sequence of methods for using a prepared statement?",
+      "options": ["prepare() then query()", "query() then execute()", "prepare() then execute()", "execute() then fetch()"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q41",
+      "text": "In PHP, if a class uses a Trait that has a method with the same name as a method inherited from a Base Class, which method takes precedence?",
+      "options": ["The Trait's method overrides the Base Class method", "The Base Class method overrides the Trait's method", "A fatal error is thrown", "Neither is executed"],
+      "correctIndex": 0,
+      "Explanation": "Precedence order: Methods in the current class override Trait methods, which in turn override inherited Base Class methods."
+    },
+    {
+      "id": "q42",
+      "text": "Which error reporting level in PHP warns about variables being used before they are declared or array keys that do not exist?",
+      "options": ["E_ERROR", "E_WARNING", "E_PARSE", "E_NOTICE"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q43",
+      "text": "Find the next number: 2, 3, 5, 7, 11, 13, ?",
+      "options": ["15", "16", "17", "19"],
+      "correctIndex": 2,
+      "Explanation": "This is the sequence of prime numbers. The next prime number after 13 is 17."
+    },
+    {
+      "id": "q44",
+      "text": "If 'WATER' is coded as 'YCVGT', how is 'FIRE' coded?",
+      "options": ["HKTG", "HLTG", "GJSF", "EJQD"],
+      "correctIndex": 0,
+      "Explanation": "Each letter is shifted 2 places forward in the alphabet. W(+2)=Y, A(+2)=C, T(+2)=V, E(+2)=G, R(+2)=T. For FIRE: F(+2)=H, I(+2)=K, R(+2)=T, E(+2)=G."
+    },
+    {
+      "id": "q45",
+      "text": "A is 3 years older than B and 3 years younger than C, while B and D are twins. How many years older is C than D?",
+      "options": ["3", "6", "9", "0"],
+      "correctIndex": 1,
+      "Explanation": "C is 3 years older than A. A is 3 years older than B. So, C is 6 years older than B. Since B and D are twins (same age), C is 6 years older than D."
+    },
+    {
+      "id": "q46",
+      "text": "Pipe A can fill a tank in 10 hours. Pipe B can fill it in 15 hours. Pipe C can empty the full tank in 20 hours. If all three are opened together, how long will it take to fill the tank?",
+      "options": ["12 hours", "8.57 hours", "6 hours", "10.5 hours"],
+      "correctIndex": 1,
+      "Explanation": "Net rate = (1/10) + (1/15) - (1/20) = 6/60 + 4/60 - 3/60 = 7/60. The time taken is 60/7 hours, which is approximately 8.57 hours."
+    },
+    {
+      "id": "q47",
+      "text": "In a class of 40 students, 60% are girls. How many boys are in the class?",
+      "options": ["16", "24", "18", "20"],
+      "correctIndex": 0,
+      "Explanation": "If 60% are girls, 40% are boys. 40% of 40 = 0.40 * 40 = 16 boys."
+    },
+    {
+      "id": "q48",
+      "text": "The ratio of two numbers is 3:4 and their sum is 70. What is the larger number?",
+      "options": ["30", "40", "35", "45"],
+      "correctIndex": 1,
+      "Explanation": "Let the numbers be 3x and 4x. 3x + 4x = 7x. 7x = 70, so x = 10. The larger number is 4x = 40."
+    },
+    {
+      "id": "q49",
+      "text": "A girl is facing West. She turns 45 degrees in the clockwise direction and then 180 degrees in the same direction. Which direction is she facing now?",
+      "options": ["South-East", "North-West", "North-East", "South-West"],
+      "correctIndex": 0,
+      "Explanation": "Facing West (270 degrees). Turns 45 clockwise = 315 (North-West). Turns another 180 clockwise = exact opposite direction, which is South-East (135 degrees)."
+    },
+    {
+      "id": "q50",
+      "text": "If 5 spiders can catch 5 flies in 5 minutes, how many spiders do you need to catch 100 flies in 100 minutes?",
+      "options": ["100", "50", "5", "1"],
+      "correctIndex": 2,
+      "Explanation": "This is a classic rate trap. 5 spiders catch 5 flies in 5 minutes, which means 1 spider catches 1 fly in 5 minutes. Therefore, 1 spider catches 20 flies in 100 minutes. To catch 100 flies in 100 minutes, you need 100 / 20 = 5 spiders."
+    }
+  ]
+}

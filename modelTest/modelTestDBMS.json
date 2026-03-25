@@ -1,0 +1,317 @@
+{
+  "id": "modelTestDBMS",
+  "title": "W3 Ignite Model Test - DBMS & SQL Special",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "Which of the following is considered a 'Data Control Language' (DCL) command?",
+      "options": ["ALTER", "GRANT", "UPDATE", "TRUNCATE"],
+      "correctIndex": 1,
+      "Explanation": "DCL commands like GRANT and REVOKE are used to control access and permissions in the database."
+    },
+    {
+      "id": "q2",
+      "text": "In a relational schema, what is a 'Foreign Key' used for?",
+      "options": ["To identify a row uniquely", "To improve query speed", "To enforce referential integrity", "To store encrypted data"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q3",
+      "text": "Which Normal Form (NF) specifically deals with 'Transitive Dependency'?",
+      "options": ["1NF", "2NF", "3NF", "BCNF"],
+      "correctIndex": 2,
+      "Explanation": "3NF requires that no non-prime attribute is transitively dependent on the primary key."
+    },
+    {
+      "id": "q4",
+      "text": "What is the result of a CROSS JOIN between a table with 5 rows and a table with 10 rows?",
+      "options": ["15 rows", "5 rows", "50 rows", "10 rows"],
+      "correctIndex": 2,
+      "Explanation": "A CROSS JOIN produces a Cartesian product (5 * 10 = 50)."
+    },
+    {
+      "id": "q5",
+      "text": "Which ACID property ensures that all operations within a work unit are completed successfully; otherwise, the transaction is aborted?",
+      "options": ["Atomicity", "Consistency", "Isolation", "Durability"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q6",
+      "text": "How do you select all columns from a table named 'Users' where the 'Age' is between 18 and 25 inclusive?",
+      "options": ["SELECT * FROM Users WHERE Age > 18 AND Age < 25", "SELECT * FROM Users WHERE Age BETWEEN 18 AND 25", "SELECT Age FROM Users WHERE 18 <= Age <= 25", "SELECT * FROM Users WHERE Age IN (18, 25)"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q7",
+      "text": "Which SQL aggregate function ignores NULL values?",
+      "options": ["SUM()", "COUNT(*)", "COUNT(column_name)", "Both A and C"],
+      "correctIndex": 3,
+      "Explanation": "SUM() and COUNT(column_name) ignore NULLs, but COUNT(*) counts every row regardless of NULL values."
+    },
+    {
+      "id": "q8",
+      "text": "In SQL, what is the default sorting order of the ORDER BY clause?",
+      "options": ["Descending", "Ascending", "Random", "Case-sensitive"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q9",
+      "text": "Which command is used to change the structure of an existing table?",
+      "options": ["UPDATE", "CHANGE", "ALTER", "SET"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q10",
+      "text": "What does the 'I' in ACID stand for?",
+      "options": ["Index", "Integrity", "Isolation", "Iterative"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q11",
+      "text": "Which of the following is a 'TCL' (Transaction Control Language) command?",
+      "options": ["DELETE", "SELECT", "ROLLBACK", "DROP"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q12",
+      "text": "What is a 'Composite Key'?",
+      "options": ["A key that uses a single column", "A key composed of two or more columns to uniquely identify a row", "A key that links to another table", "A hidden system key"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q13",
+      "text": "Which operator is used for pattern matching using wildcards?",
+      "options": ["EXISTS", "LIKE", "MATCH", "IN"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q14",
+      "text": "In the context of indexing, what is a 'Clustered Index'?",
+      "options": ["An index that does not affect physical storage", "An index that determines the physical order of data in a table", "A collection of multiple non-clustered indexes", "An index used only for strings"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q15",
+      "text": "What happens if you use DELETE without a WHERE clause?",
+      "options": ["The table structure is deleted", "The first row is deleted", "All rows in the table are deleted", "The command throws an error"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q16",
+      "text": "Which keyword is used to return only different values?",
+      "options": ["UNIQUE", "DISTINCT", "DIFFERENT", "FILTER"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q17",
+      "text": "What is a 'View' in SQL?",
+      "options": ["A physical table stored on disk", "A virtual table based on the result-set of an SQL statement", "A graphical representation of the schema", "A backup of a table"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q18",
+      "text": "Which SQL constraint prevents the insertion of duplicate values into a column, but allows NULL?",
+      "options": ["PRIMARY KEY", "UNIQUE", "NOT NULL", "CHECK"],
+      "correctIndex": 1,
+      "Explanation": "PRIMARY KEY does not allow NULLs, whereas UNIQUE allows one or more NULLs depending on the DB engine."
+    },
+    {
+      "id": "q19",
+      "text": "In a 1-to-Many relationship, where is the Foreign Key usually placed?",
+      "options": ["On the 'One' side", "On the 'Many' side", "In a new junction table", "On both sides"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q20",
+      "text": "Which join returns all rows from the right table, and matched rows from the left?",
+      "options": ["LEFT JOIN", "RIGHT JOIN", "FULL JOIN", "INNER JOIN"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q21",
+      "text": "What is the purpose of the 'GROUP BY' clause?",
+      "options": ["To sort data", "To group rows that have the same values into summary rows", "To join multiple tables", "To delete duplicates"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q22",
+      "text": "In SQL, how do you find the number of rows in the 'Products' table?",
+      "options": ["SELECT COUNT(*) FROM Products", "SELECT SUM(*) FROM Products", "SELECT TOTAL(*) FROM Products", "SELECT ROWS(*) FROM Products"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q23",
+      "text": "What is 'Normalization'?",
+      "options": ["Process of increasing redundancy", "Process of organizing data to reduce redundancy", "Process of indexing columns", "Process of caching queries"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q24",
+      "text": "Which command is used to remove a table from the database permanently?",
+      "options": ["DELETE TABLE", "TRUNCATE TABLE", "DROP TABLE", "REMOVE TABLE"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q25",
+      "text": "What is a 'Subquery'?",
+      "options": ["A query that runs after the main query", "A query nested inside another query", "A query that only selects one column", "A query used to create indexes"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q26",
+      "text": "Which SQL clause is used to filter the records of a GROUP BY result?",
+      "options": ["WHERE", "HAVING", "LIMIT", "ORDER BY"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q27",
+      "text": "What is 'Cardinality' in DBMS?",
+      "options": ["The number of columns in a table", "The number of rows/tuples in a relationship", "The complexity of a query", "The speed of the database"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q28",
+      "text": "Which wild card character represents 'zero or more characters' in SQL?",
+      "options": ["_", "?", "%", "*"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q29",
+      "text": "What is the difference between TRUNCATE and DELETE?",
+      "options": ["TRUNCATE is DML, DELETE is DDL", "TRUNCATE cannot be rolled back, DELETE can", "TRUNCATE deletes specific rows, DELETE deletes all", "There is no difference"],
+      "correctIndex": 1,
+      "Explanation": "TRUNCATE is a DDL operation and is generally faster as it doesn't log individual row deletions."
+    },
+    {
+      "id": "q30",
+      "text": "A 'Strong Entity' in an ER diagram is represented by:",
+      "options": ["Double Rectangle", "Rectangle", "Oval", "Diamond"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q31",
+      "text": "What is 'Concurrency Control'?",
+      "options": ["Speeding up the database", "Managing simultaneous operations without conflict", "Connecting to multiple databases", "Backing up data while users are online"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q32",
+      "text": "Which type of lock prevents any other transaction from reading or writing a data item?",
+      "options": ["Shared Lock", "Exclusive Lock", "Binary Lock", "Read Lock"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q33",
+      "text": "Which Normal Form handles 'Multivalued Dependencies'?",
+      "options": ["3NF", "BCNF", "4NF", "5NF"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q34",
+      "text": "What is the 'Degree' of a relation?",
+      "options": ["Number of tuples", "Number of attributes", "Number of primary keys", "Depth of the B-Tree"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q35",
+      "text": "Which SQL statement is used to insert new data into a database?",
+      "options": ["ADD RECORD", "INSERT INTO", "UPDATE", "SAVE"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q36",
+      "text": "What is a 'Candidate Key'?",
+      "options": ["A key that failed to become a primary key", "A minimal set of attributes that can uniquely identify a tuple", "A foreign key that points to itself", "An index used for searching"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q37",
+      "text": "Which SQL function is used to convert all characters in a string to uppercase?",
+      "options": ["UPPER()", "UCASE()", "Both A and B", "CAPS()"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q38",
+      "text": "In ER Modeling, a 'Derived Attribute' is represented by:",
+      "options": ["Solid Oval", "Dashed Oval", "Double Oval", "Multivalued Oval"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q39",
+      "text": "What does the 'COMMIT' command do?",
+      "options": ["Saves changes temporarily", "Permanently saves the changes made by a transaction", "Undoes the last transaction", "Creates a savepoint"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q40",
+      "text": "What is the 'Schema' of a database?",
+      "options": ["The actual data stored", "The logical structure/design of the database", "The user interface", "The physical hardware"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q41",
+      "text": "Which type of dependency is removed to reach 2nd Normal Form (2NF)?",
+      "options": ["Transitive Dependency", "Partial Functional Dependency", "Multivalued Dependency", "Join Dependency"],
+      "correctIndex": 1,
+      "Explanation": "2NF requires that every non-prime attribute is fully functionally dependent on the primary key."
+    },
+    {
+      "id": "q42",
+      "text": "Which command is used to add a new column 'Phone' to table 'Students'?",
+      "options": ["UPDATE Students ADD Phone VARCHAR(15)", "ALTER TABLE Students ADD Phone VARCHAR(15)", "MODIFY TABLE Students ADD Phone", "INSERT INTO Students (Phone)"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q43",
+      "text": "What is the purpose of a 'Savepoint'?",
+      "options": ["To end a transaction", "To roll back a transaction to a specific point without rolling back the entire thing", "To back up the database to a file", "To lock the database"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q44",
+      "text": "In SQL, which command is used to change a user's password?",
+      "options": ["SET PASSWORD", "ALTER USER", "GRANT PASSWORD", "CHANGE PASSWORD"],
+      "correctIndex": 1,
+      "Explanation": "Syntax varies by engine, but 'ALTER USER' is the standard administrative command."
+    },
+    {
+      "id": "q45",
+      "text": "Which SQL keyword is used to rename a column in the output result?",
+      "options": ["RENAME", "AS", "SET", "NAME"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q46",
+      "text": "Which of the following is NOT a characteristic of a Relational Database?",
+      "options": ["Data is stored in tables", "Tables are linked by keys", "Data is stored in a tree-like hierarchy", "SQL is used for querying"],
+      "correctIndex": 2,
+      "Explanation": "Hierarchical databases store data in trees; relational databases use tables."
+    },
+    {
+      "id": "q47",
+      "text": "What is 'Referential Integrity'?",
+      "options": ["Ensuring that every table has a primary key", "Ensuring that a foreign key value always points to an existing primary key value", "Ensuring data is encrypted", "Ensuring queries run fast"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q48",
+      "text": "Which operation in Relational Algebra is used to select specific columns?",
+      "options": ["Selection (σ)", "Projection (π)", "Union (∪)", "Join (⨝)"],
+      "correctIndex": 1,
+      "Explanation": "Projection (π) selects columns; Selection (σ) selects rows."
+    },
+    {
+      "id": "q49",
+      "text": "What is the size of the result of a NATURAL JOIN if there are no common column names?",
+      "options": ["0 rows", "An error occurs", "A Cartesian Product", "None of the above"],
+      "correctIndex": 2,
+      "Explanation": "If no common attributes exist, a NATURAL JOIN behaves like a Cartesian product."
+    },
+    {
+      "id": "q50",
+      "text": "What is a 'Deadlock'?",
+      "options": ["A database crash", "Two transactions waiting for each other to release locks", "A query that takes too long", "A lost connection"],
+      "correctIndex": 1
+    }
+  ]
+}

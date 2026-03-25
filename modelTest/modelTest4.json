@@ -1,0 +1,326 @@
+{
+  "id": "modelTest4",
+  "title": "W3 Ignite Model Test - Set 4",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "What is the primary cause of a 'Segmentation Fault' in C/C++?",
+      "options": ["Syntax error during compilation", "Dividing an integer by zero", "Accessing memory that the program does not own", "Missing a semicolon at the end of a statement"],
+      "correctIndex": 2,
+      "Explanation": "A segmentation fault (segfault) occurs when a program attempts to access a memory location that it is not allowed to access, such as dereferencing a null or uninitialized pointer."
+    },
+    {
+      "id": "q2",
+      "text": "Which keyword is used in C++ to achieve run-time polymorphism?",
+      "options": ["virtual", "inline", "static", "friend"],
+      "correctIndex": 0,
+      "Explanation": "The 'virtual' keyword is used in a base class to declare a function that can be overridden in derived classes, allowing the program to decide at runtime which function implementation to call."
+    },
+    {
+      "id": "q3",
+      "text": "What does the `malloc()` function return if it fails to allocate memory?",
+      "options": ["-1", "0", "NULL", "A garbage memory address"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q4",
+      "text": "What is the purpose of the scope resolution operator `::` in C++?",
+      "options": ["To define a variable inside a loop", "To access a global variable when a local variable has the same name", "To create a pointer to a class", "To overload an operator"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "text": "In C, what is the result of applying the `sizeof` operator to an array versus a pointer to that array?",
+      "options": ["They return the same value", "The array returns its total size in bytes; the pointer returns the size of a memory address", "The array returns the number of elements; the pointer returns 0", "Both return the size of the first element"],
+      "correctIndex": 1,
+      "Explanation": "sizeof(array) returns the total bytes allocated for the array. sizeof(pointer) only returns the size of the pointer itself (usually 4 or 8 bytes depending on the system architecture)."
+    },
+    {
+      "id": "q6",
+      "text": "Which of the following bitwise operators is the XOR operator in C?",
+      "options": ["&", "|", "^", "~"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q7",
+      "text": "In C++, a 'friend' function of a class:",
+      "options": ["Is inherited by derived classes", "Can access private and protected members of the class", "Must be a member of another class", "Cannot modify the class's data"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q8",
+      "text": "Which HTML5 element is used to draw graphics via scripting (usually JavaScript)?",
+      "options": ["<svg>", "<graphic>", "<canvas>", "<draw>"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q9",
+      "text": "In CSS Flexbox, which property aligns items along the main axis?",
+      "options": ["align-items", "justify-content", "flex-direction", "align-content"],
+      "correctIndex": 1,
+      "Explanation": "justify-content aligns items on the main axis (horizontal by default), while align-items aligns them on the cross axis (vertical by default)."
+    },
+    {
+      "id": "q10",
+      "text": "What is the purpose of `data-*` attributes in HTML?",
+      "options": ["To link external CSS files", "To store custom data private to the page or application", "To define database schemas", "To hide elements from screen readers"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q11",
+      "text": "An element with `position: absolute` is positioned relative to:",
+      "options": ["The viewport", "The document body", "Its nearest positioned ancestor", "Its nearest sibling"],
+      "correctIndex": 2,
+      "Explanation": "Absolute positioning looks up the DOM tree and positions the element relative to the closest ancestor that has a position other than 'static'. If none exists, it uses the document body."
+    },
+    {
+      "id": "q12",
+      "text": "Which CSS property alters the layout of an element to include padding and borders in the element's total width and height?",
+      "options": ["box-sizing: border-box;", "display: inline-block;", "width: 100%;", "box-shadow: none;"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q13",
+      "text": "In CSS specificity, which selector carries the most weight?",
+      "options": ["Class selectors (.class)", "Type selectors (h1, p)", "ID selectors (#id)", "Universal selector (*)"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q14",
+      "text": "Which `<meta>` tag is essential for responsive web design on mobile devices?",
+      "options": ["<meta charset=\"UTF-8\">", "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">", "<meta name=\"description\" content=\"...\">", "<meta http-equiv=\"refresh\" content=\"30\">"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q15",
+      "text": "What is the key difference between `let` and `var` in JavaScript?",
+      "options": ["`var` is block-scoped, `let` is function-scoped", "`let` is block-scoped, `var` is function-scoped", "`let` allows redeclaration, `var` does not", "There is no difference"],
+      "correctIndex": 1,
+      "Explanation": "Variables declared with `var` are scoped to the nearest function block. Variables declared with `let` are scoped to the nearest enclosing block (like an if statement or a for loop), which prevents common scoping bugs."
+    },
+    {
+      "id": "q16",
+      "text": "How does an arrow function `() => {}` handle the `this` keyword in JavaScript?",
+      "options": ["It binds `this` to the global window object", "It creates its own `this` context", "It inherits `this` from its enclosing lexical context", "It sets `this` to undefined"],
+      "correctIndex": 2,
+      "Explanation": "Unlike regular functions which have their own `this` based on how they are called, arrow functions capture the `this` value of the enclosing context at the time they are defined."
+    },
+    {
+      "id": "q17",
+      "text": "Which JavaScript array method creates a new array populated with the results of calling a provided function on every element?",
+      "options": ["forEach()", "map()", "filter()", "reduce()"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q18",
+      "text": "What is 'Event Bubbling' in the DOM?",
+      "options": ["Events triggering repeatedly in a loop", "An event starting at the most specific element and flowing upwards to the document root", "An event starting at the document root and flowing down to the target element", "Canceling an event before it executes"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q19",
+      "text": "What is the output of `typeof NaN` in JavaScript?",
+      "options": ["\"undefined\"", "\"NaN\"", "\"string\"", "\"number\""],
+      "correctIndex": 3,
+      "Explanation": "Despite standing for 'Not-a-Number', the ECMAScript standard defines the data type of NaN as a number."
+    },
+    {
+      "id": "q20",
+      "text": "A closure in JavaScript is a combination of a function and:",
+      "options": ["Its parameters", "The lexical environment within which that function was declared", "An event listener", "A Promise"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q21",
+      "text": "In a JavaScript Promise chain, when is the `.finally()` block executed?",
+      "options": ["Only if the promise is resolved", "Only if the promise is rejected", "When the promise settles, regardless of whether it is resolved or rejected", "Before the `.then()` block"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q22",
+      "text": "What is the purpose of the `__init__` method in Python classes?",
+      "options": ["To destroy an object and free memory", "To initialize the object's state when a new instance is created", "To define class-level variables", "To import external modules"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q23",
+      "text": "Which of the following is a valid Python list comprehension?",
+      "options": ["squares = [x*x for x in range(10)]", "squares = (x*x for x in range(10))", "squares = {x*x for x in range(10)}", "squares = list(x*x in range(10))"],
+      "correctIndex": 0,
+      "Explanation": "Option A is a list comprehension (uses brackets). Option B is a generator expression. Option C is a set comprehension."
+    },
+    {
+      "id": "q24",
+      "text": "What do `*args` and `**kwargs` allow you to do in a Python function?",
+      "options": ["Pass a variable number of positional and keyword arguments", "Define mandatory strict types", "Create private variables", "Force the function to run asynchronously"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q25",
+      "text": "In Python, what is the difference between the `==` operator and the `is` operator?",
+      "options": ["They are completely identical", "`==` checks for identity (same memory location), `is` checks for equality of value", "`==` checks for equality of value, `is` checks for identity (same memory location)", "`is` only works with strings"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q26",
+      "text": "What is a 'decorator' in Python?",
+      "options": ["A tool to style terminal output", "A function that takes another function and extends its behavior without explicitly modifying it", "A module for creating web interfaces", "A syntax for declaring constants"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q27",
+      "text": "Which keyword is used to create small anonymous functions in Python?",
+      "options": ["anon", "function", "def", "lambda"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q28",
+      "text": "Why is it often safer to use `my_dict.get('key')` instead of `my_dict['key']` in Python?",
+      "options": ["It is faster", "It avoids a KeyError if the key does not exist, returning None instead", "It automatically adds the key if it is missing", "It converts the dictionary to a list"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q29",
+      "text": "Which SQL JOIN returns all rows from the left table, and the matched rows from the right table?",
+      "options": ["INNER JOIN", "LEFT JOIN", "RIGHT JOIN", "FULL OUTER JOIN"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q30",
+      "text": "In SQL, what is the primary difference between the WHERE clause and the HAVING clause?",
+      "options": ["WHERE is used with UPDATE, HAVING is used with SELECT", "HAVING filters rows before grouping, WHERE filters after", "WHERE filters rows before grouping, HAVING filters grouped records after an aggregate function is applied", "There is no difference"],
+      "correctIndex": 2,
+      "Explanation": "You cannot use aggregate functions like SUM() or COUNT() in a WHERE clause. You must group the data first, and then use HAVING to filter the results of those aggregations."
+    },
+    {
+      "id": "q31",
+      "text": "What is the primary purpose of an Index in a database table?",
+      "options": ["To compress the database size", "To speed up the retrieval of data", "To enforce primary key uniqueness", "To link tables together"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q32",
+      "text": "What is the difference between `COUNT(*)` and `COUNT(column_name)` in SQL?",
+      "options": ["They produce the exact same result", "`COUNT(*)` counts all rows including NULLs, `COUNT(column_name)` only counts rows where that column is NOT NULL", "`COUNT(*)` is syntax for MySQL, `COUNT(column_name)` is for PostgreSQL", "`COUNT(*)` only counts distinct values"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q33",
+      "text": "A database table is considered to be in First Normal Form (1NF) if:",
+      "options": ["It has no foreign keys", "Every column contains atomic (indivisible) values and there are no repeating groups", "All non-key attributes are fully functional dependent on the primary key", "It has a clustered index"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q34",
+      "text": "What is the difference between UNION and UNION ALL?",
+      "options": ["UNION removes duplicate rows, UNION ALL includes duplicates", "UNION ALL removes duplicate rows, UNION includes duplicates", "UNION joins columns, UNION ALL joins rows", "They are identical"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q35",
+      "text": "In the ACID properties of database transactions, what does the 'I' stand for?",
+      "options": ["Indexing", "Integrity", "Isolation", "Iteration"],
+      "correctIndex": 2,
+      "Explanation": "ACID stands for Atomicity, Consistency, Isolation, Durability. Isolation ensures that concurrent execution of transactions leaves the database in the same state that would have been obtained if the transactions were executed sequentially."
+    },
+    {
+      "id": "q36",
+      "text": "What is the difference between `include` and `require` in PHP?",
+      "options": ["`include` is for HTML files, `require` is for PHP files", "If the file is missing, `include` throws a fatal error and stops the script; `require` throws a warning and continues", "If the file is missing, `require` throws a fatal error and stops the script; `include` throws a warning and continues", "There is no difference"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q37",
+      "text": "Which PHP extension provides a data-access abstraction layer, allowing you to connect to various databases using the same functions?",
+      "options": ["mysqli", "PDO (PHP Data Objects)", "mysql_native", "DBLayer"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q38",
+      "text": "What is the main purpose of Namespaces in PHP?",
+      "options": ["To encrypt code", "To declare global variables", "To prevent class and function name collisions in large applications", "To speed up script execution time"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q39",
+      "text": "Because PHP does not support multiple inheritance, what mechanism allows developers to reuse sets of methods freely in several independent classes?",
+      "options": ["Interfaces", "Abstract Classes", "Traits", "Closures"],
+      "correctIndex": 2,
+      "Explanation": "Traits are a mechanism for code reuse in single inheritance languages like PHP. A Trait is intended to reduce some limitations of single inheritance by enabling a developer to reuse sets of methods freely."
+    },
+    {
+      "id": "q40",
+      "text": "Which magic method in PHP is automatically called when an object is instantiated?",
+      "options": ["__init()", "__construct()", "__start()", "__create()"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q41",
+      "text": "Which PHP function is currently recommended for securely hashing passwords?",
+      "options": ["md5()", "sha1()", "crypt()", "password_hash()"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q42",
+      "text": "How do you read a cookie named 'user' in PHP?",
+      "options": ["cookie('user')", "$_COOKIE['user']", "get_cookie('user')", "Request.Cookie['user']"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q43",
+      "text": "If Some A are B, and All B are C. Which of the following must be true?",
+      "options": ["All A are C", "Some C are A", "No A is C", "All C are B"],
+      "correctIndex": 1,
+      "Explanation": "If some A are inside the B circle, and the entire B circle is inside the C circle, then those A's that are B's must also be C's. Therefore, some C's are A's."
+    },
+    {
+      "id": "q44",
+      "text": "Find the next number in the series: 5, 11, 23, 47, 95, ?",
+      "options": ["189", "191", "190", "195"],
+      "correctIndex": 1,
+      "Explanation": "The pattern is (previous number * 2) + 1. Example: 5*2+1=11. 11*2+1=23. So, 95*2+1 = 191."
+    },
+    {
+      "id": "q45",
+      "text": "A man is facing North. He turns 90 degrees in the clockwise direction, then 135 degrees in the anticlockwise direction. Which direction is he facing now?",
+      "options": ["East", "West", "North-West", "South-West"],
+      "correctIndex": 2,
+      "Explanation": "Starting at North (0 deg). +90 (clockwise) = East. -135 (anticlockwise) = -45 degrees from North, which points North-West."
+    },
+    {
+      "id": "q46",
+      "text": "A can do a piece of work in 15 days and B can do it in 20 days. If they work together for 4 days, what fraction of the work is left?",
+      "options": ["1/4", "8/15", "7/15", "1/2"],
+      "correctIndex": 1,
+      "Explanation": "A's 1-day work = 1/15. B's 1-day work = 1/20. Together in 1 day = 1/15 + 1/20 = 7/60. In 4 days they do 4 * (7/60) = 28/60 = 7/15 of the work. The remaining work is 1 - 7/15 = 8/15."
+    },
+    {
+      "id": "q47",
+      "text": "If COMPUTER is written as RFUVQNPC, how is MEDICINE written in the same code?",
+      "options": ["MFEDJJOE", "EOJDEJFM", "MFEJDJOE", "EOJDJEFM"],
+      "correctIndex": 1,
+      "Explanation": "The word is reversed, and then the middle letters are shifted. However, a simpler pattern is viewing it as reversed, then looking at letter shifts. Reversing COMPUTER is RETUPMOC. R(-0) E(+1)=F T(+1)=U U(+1)=V P(+1)=Q M(+1)=N O(+1)=P C(-0)=C. Following this exactly for MEDICINE yields EOJDEJFM."
+    },
+    {
+      "id": "q48",
+      "text": "Which of the following is the odd one out?",
+      "options": ["HTTP", "FTP", "SMTP", "HTML"],
+      "correctIndex": 3,
+      "Explanation": "HTTP, FTP, and SMTP are network transfer protocols. HTML is a markup language."
+    },
+    {
+      "id": "q49",
+      "text": "A bag contains 3 red, 5 yellow, and 4 green balls. If one ball is drawn at random, what is the probability that it is NOT yellow?",
+      "options": ["5/12", "7/12", "1/3", "1/4"],
+      "correctIndex": 1,
+      "Explanation": "Total balls = 3+5+4 = 12. Number of non-yellow balls (red + green) = 3+4 = 7. Probability = 7/12."
+    },
+    {
+      "id": "q50",
+      "text": "The price of a product is increased by 20% and then decreased by 20%. What is the net effect on the price?",
+      "options": ["No change", "4% decrease", "4% increase", "2% decrease"],
+      "correctIndex": 1,
+      "Explanation": "Let initial price be 100. Increased by 20% = 120. Decreased by 20% of 120 (which is 24) = 120 - 24 = 96. Net effect is a drop from 100 to 96, so a 4% decrease."
+    }
+  ]
+}

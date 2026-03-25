@@ -1,0 +1,331 @@
+{
+  "id": "modelTest8",
+  "title": "W3 Ignite Model Test - Set 8",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "What is the output of `bool(\"False\")` in Python?",
+      "options": ["False", "True", "None", "Error"],
+      "correctIndex": 1,
+      "Explanation": "In Python, any non-empty string evaluates to True. The string literal \"False\" is not empty, so `bool(\"False\")` returns True."
+    },
+    {
+      "id": "q2",
+      "text": "What does `typeof typeof 1` return in JavaScript?",
+      "options": ["\"number\"", "\"undefined\"", "\"string\"", "\"object\""],
+      "correctIndex": 2,
+      "Explanation": "`typeof 1` evaluates to the string `\"number\"`. Then, `typeof \"number\"` evaluates to `\"string\"`."
+    },
+    {
+      "id": "q3",
+      "text": "Town A is 5 km East of Town B. Town C is 5 km South of Town B. What is the direction of Town C with respect to Town A?",
+      "options": ["South-East", "North-West", "South-West", "North-East"],
+      "correctIndex": 2,
+      "Explanation": "If you are at Town A, you must go West to get back to B, and then South to get to C. Therefore, C is South-West of A."
+    },
+    {
+      "id": "q4",
+      "text": "In C++, what is the size of a `union` containing a `char` (1 byte), an `int` (4 bytes), and a `double` (8 bytes)?",
+      "options": ["13 bytes", "1 byte", "4 bytes", "8 bytes"],
+      "correctIndex": 3,
+      "Explanation": "Unlike a `struct` which allocates memory for all members, a `union` allocates just enough memory to hold its largest member (in this case, the double at 8 bytes), and all members share that same memory space."
+    },
+    {
+      "id": "q5",
+      "text": "What is the maximum number of Clustered Indexes a SQL table can have?",
+      "options": ["Unlimited", "1", "255", "Depends on the database engine"],
+      "correctIndex": 1,
+      "Explanation": "A clustered index defines the physical sorting order of the data rows on the disk. Since data can only be sorted physically in one way, a table can only have one clustered index."
+    },
+    {
+      "id": "q6",
+      "text": "In PHP, what does the `strpos()` function return if the search string (needle) is NOT found?",
+      "options": ["-1", "0", "false", "null"],
+      "correctIndex": 2,
+      "Explanation": "It returns the boolean `false`. It's crucial to use strict equality (`=== false`) to check this, because if the string is found at index 0, loose equality (`== false`) would incorrectly evaluate to true."
+    },
+    {
+      "id": "q7",
+      "text": "Which HTML tag is used to define a caption or title for a `<fieldset>` element?",
+      "options": ["<caption>", "<title>", "<heading>", "<legend>"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q8",
+      "text": "How do you correctly create an empty set in Python?",
+      "options": ["my_set = {}", "my_set = set()", "my_set = []", "my_set = ()"],
+      "correctIndex": 1,
+      "Explanation": "`{}` creates an empty dictionary, not a set. To explicitly create an empty set, you must use the `set()` constructor."
+    },
+    {
+      "id": "q9",
+      "text": "What is the output of `[1, 2, 3].map(parseInt)` in JavaScript?",
+      "options": ["[1, 2, 3]", "[1, NaN, NaN]", "[1, NaN, 3]", "Throws an Error"],
+      "correctIndex": 1,
+      "Explanation": "The `map` function passes three arguments to its callback: `(element, index, array)`. `parseInt` takes two: `(string, radix)`. So it runs `parseInt(1, 0)`, `parseInt(2, 1)`, and `parseInt(3, 2)`. Radix 1 is invalid (NaN), and 3 is not a valid binary digit (NaN)."
+    },
+    {
+      "id": "q10",
+      "text": "Find the next number in the series: 2, 9, 28, 65, 126, ?",
+      "options": ["216", "217", "252", "189"],
+      "correctIndex": 1,
+      "Explanation": "The pattern is the cube of the position index plus 1: (1³+1)=2, (2³+1)=9, (3³+1)=28, (4³+1)=65, (5³+1)=126. The next is (6³+1) = 216 + 1 = 217."
+    },
+    {
+      "id": "q11",
+      "text": "In modern standard C++, what happens if the `new` operator fails to allocate memory?",
+      "options": ["It returns a NULL pointer", "It throws a `std::bad_alloc` exception", "It crashes the program silently", "It returns -1"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q12",
+      "text": "Which SQL operator is specifically used to test for the existence of ANY record in a subquery?",
+      "options": ["IN", "ANY", "EXISTS", "SOME"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q13",
+      "text": "What is the primary difference between `isset()` and `array_key_exists()` in PHP?",
+      "options": ["They are completely identical", "`isset()` returns true even if the value is null; `array_key_exists()` returns false", "`array_key_exists()` tells you if the key is in the array; `isset()` will return false if the key exists but its value is NULL", "`isset()` only works on strings"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q14",
+      "text": "What is the default value of the `position` property in CSS?",
+      "options": ["relative", "absolute", "fixed", "static"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q15",
+      "text": "In Python, what does the variable `__name__` evaluate to when a script is executed directly from the terminal?",
+      "options": ["The name of the file", "The name of the main class", "\"__main__\"", "\"__init__\""],
+      "correctIndex": 2
+    },
+    {
+      "id": "q16",
+      "text": "In JavaScript, what is the defining characteristic of a `WeakMap` compared to a standard `Map`?",
+      "options": ["WeakMap keys must be primitive values", "WeakMap keys must be objects, and they do not prevent those objects from being garbage collected", "WeakMaps cannot be iterated over", "Both B and C are correct"],
+      "correctIndex": 3,
+      "Explanation": "WeakMap keys must be objects. Because references to these objects are 'weak', they can be garbage collected if there are no other references to them. Consequently, WeakMaps cannot be iterated over because their size can change unpredictably during garbage collection."
+    },
+    {
+      "id": "q17",
+      "text": "A clock shows 3:30. What is the angle between the hour and minute hands?",
+      "options": ["75 degrees", "90 degrees", "60 degrees", "105 degrees"],
+      "correctIndex": 0,
+      "Explanation": "At 3:30, the minute hand is on the 6 (180 deg). The hour hand is halfway between 3 and 4. 3 is at 90 deg, and it moves 15 deg in 30 minutes, so it's at 105 deg. 180 - 105 = 75 degrees."
+    },
+    {
+      "id": "q18",
+      "text": "In C, what is the result of this code: `char *str = \"Hello\"; str[0] = 'h';`?",
+      "options": ["The string becomes \"hello\"", "A compilation error", "A runtime error (Segmentation Fault)", "Nothing happens"],
+      "correctIndex": 2,
+      "Explanation": "The pointer `str` points to a string literal, which is stored in read-only memory. Attempting to mutate read-only memory causes undefined behavior, typically a segmentation fault."
+    },
+    {
+      "id": "q19",
+      "text": "Is the SQL command `TRUNCATE` classified as DML (Data Manipulation) or DDL (Data Definition)?",
+      "options": ["DML", "DDL", "DCL", "TCL"],
+      "correctIndex": 1,
+      "Explanation": "Even though TRUNCATE deletes data, it is a DDL command because it practically drops and re-creates the table structure to clear it, rather than scanning and deleting individual rows like the DML command DELETE."
+    },
+    {
+      "id": "q20",
+      "text": "In PHP, if you pass `COUNT_RECURSIVE` as the second parameter to the `count()` function on a multidimensional array, what happens?",
+      "options": ["It throws an error", "It only counts the top-level arrays", "It counts all elements across all nested arrays", "It flattens the array"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q21",
+      "text": "Does the HTML `<b>` tag carry the same semantic importance for screen readers and SEO as the `<strong>` tag?",
+      "options": ["Yes, they are identical", "No, `<b>` is only for visual styling, while `<strong>` indicates semantic importance", "No, `<strong>` is only for visual styling", "Yes, but only in HTML5"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q22",
+      "text": "If you add two lists in Python using the `+` operator (`[1, 2] + [3, 4]`), what is the result?",
+      "options": ["An element-wise addition: [4, 6]", "A TypeError", "A nested list: [[1, 2], [3, 4]]", "A concatenated list: [1, 2, 3, 4]"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q23",
+      "text": "Which JavaScript method prevents new properties from being added to an object, but allows the modification of existing properties?",
+      "options": ["Object.freeze()", "Object.lock()", "Object.seal()", "Object.preventExtensions()"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q24",
+      "text": "Person A runs faster than B but slower than C. Person D runs faster than C. Who is the fastest?",
+      "options": ["A", "B", "C", "D"],
+      "correctIndex": 3,
+      "Explanation": "Speed order: B < A < C < D. Therefore, D is the fastest."
+    },
+    {
+      "id": "q25",
+      "text": "Can a virtual function in C++ be declared as `inline`?",
+      "options": ["No, it causes a compilation error", "Yes, but the compiler will usually ignore the `inline` request if the function is called polymorphically", "Yes, and it guarantees faster execution", "No, virtual functions have no body"],
+      "correctIndex": 1,
+      "Explanation": "Inline functions are resolved at compile time. Virtual functions are resolved at runtime using v-tables. If you call a virtual function through a base pointer, the compiler cannot inline it because it doesn't know which function to call until runtime."
+    },
+    {
+      "id": "q26",
+      "text": "In Database Normalization, what is a 'Partial Dependency'?",
+      "options": ["When a row relies on data from another table", "When a non-prime attribute depends on only a part of a composite primary key", "When a primary key is partially empty", "When an index covers only some columns"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q27",
+      "text": "What is the output of `echo 5 . 2;` in PHP?",
+      "options": ["7", "5.2", "\"52\"", "Syntax Error"],
+      "correctIndex": 2,
+      "Explanation": "The dot `.` is the string concatenation operator in PHP. It coerces both numbers to strings and joins them together."
+    },
+    {
+      "id": "q28",
+      "text": "What does the tilde `~` selector do in CSS (e.g., `p ~ ul`)?",
+      "options": ["Selects all `<ul>` elements that are direct children of `<p>`", "Selects all `<ul>` elements that are preceded by a `<p>` element and share the same parent", "Selects the `<ul>` element immediately adjacent to the `<p>`", "Applies an animation hover state"],
+      "correctIndex": 1,
+      "Explanation": "The `~` is the General Sibling Combinator. The `+` is the Adjacent Sibling Combinator (immediately following)."
+    },
+    {
+      "id": "q29",
+      "text": "What is a 'docstring' in Python?",
+      "options": ["A string method that documents variable types", "A string literal specified as the first statement in a module, function, class, or method definition used for documentation", "A comment starting with a `#`", "A built-in module for reading PDFs"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q30",
+      "text": "What does `0.1 + 0.2 === 0.3` evaluate to in JavaScript?",
+      "options": ["true", "false", "undefined", "NaN"],
+      "correctIndex": 1,
+      "Explanation": "Due to floating-point precision issues in JavaScript's IEEE 754 number format, 0.1 + 0.2 actually evaluates to 0.30000000000000004. Therefore, it is strictly not equal to 0.3."
+    },
+    {
+      "id": "q31",
+      "text": "Find the odd number out: 144, 169, 196, 225, 250, 289",
+      "options": ["169", "196", "250", "289"],
+      "correctIndex": 2,
+      "Explanation": "All the numbers are perfect squares (12², 13², 14², 15², 17²) except for 250."
+    },
+    {
+      "id": "q32",
+      "text": "What makes a class 'Abstract' in C++?",
+      "options": ["Using the `abstract` keyword", "Having at least one pure virtual function (e.g., `virtual void func() = 0;`)", "Having only private members", "Omitting a constructor"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q33",
+      "text": "What is a primary difference between a Standard View and a Materialized View in a database?",
+      "options": ["There is no difference", "A Standard View physically stores the data; a Materialized View generates it on the fly", "A Materialized View physically stores the query results on disk; a Standard View does not", "Standard Views cannot be updated"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q34",
+      "text": "What is the primary function of `extract()` in PHP?",
+      "options": ["Unzips a compressed file", "Imports variables from an associative array into the current symbol table", "Removes elements from an array", "Extracts strings from HTML content"],
+      "correctIndex": 1,
+      "Explanation": "If you have `['name' => 'John']` and you use `extract()`, you will now have a variable `$name` with the value 'John' available in your script."
+    },
+    {
+      "id": "q35",
+      "text": "Which HTML attribute specifies the types of files that the server accepts in an `<input type=\"file\">` element?",
+      "options": ["allow", "type", "accept", "filetype"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q36",
+      "text": "What happens if you try to mutate a tuple in Python (e.g., `my_tuple[0] = 5`)?",
+      "options": ["The value is updated successfully", "A TypeError is raised because tuples are immutable", "It creates a new tuple in memory", "It converts the tuple to a list"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q37",
+      "text": "In JavaScript: `let x = [1, 2]; let y = x; y.push(3);` What is the length of `x`?",
+      "options": ["2", "3", "0", "undefined"],
+      "correctIndex": 1,
+      "Explanation": "Arrays are reference types. Variable `y` does not store a copy of the array; it stores a reference to the same array in memory that `x` points to. Pushing to `y` modifies the underlying array shared by both."
+    },
+    {
+      "id": "q38",
+      "text": "P is Q's brother. R is Q's mother. S is R's father. How is P related to S?",
+      "options": ["Son", "Grandson", "Nephew", "Brother"],
+      "correctIndex": 1,
+      "Explanation": "Since P and Q are siblings, R is the mother of both. S is the father of R, meaning S is the maternal grandfather of P and Q. Therefore, P is the grandson of S."
+    },
+    {
+      "id": "q39",
+      "text": "What does the `auto` keyword do in modern C++ (C++11 and later)?",
+      "options": ["Automatically deletes pointers when they go out of scope", "Deduces the type of a declared variable from its initialization expression", "Creates an autonomous thread", "Allocates memory on the heap"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q40",
+      "text": "In SQL Server, what is the main difference between `VARCHAR` and `NVARCHAR`?",
+      "options": ["NVARCHAR allows numbers, VARCHAR does not", "NVARCHAR stores Unicode (multi-byte) characters, supporting international alphabets; VARCHAR stores non-Unicode characters", "NVARCHAR is faster than VARCHAR", "There is no difference"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q41",
+      "text": "Which PHP superglobal variable contains the filename of the currently executing script?",
+      "options": ["$_SERVER['DOCUMENT_ROOT']", "$_SERVER['SCRIPT_NAME']", "$_SERVER['PHP_SELF']", "Both B and C"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q42",
+      "text": "Which CSS property applies a box-model calculation where padding and border are included in the element's specified width and height?",
+      "options": ["box-sizing: content-box;", "box-sizing: border-box;", "box-sizing: padding-box;", "display: block;"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q43",
+      "text": "What is the purpose of the `pass` statement in Python?",
+      "options": ["It skips an iteration in a loop", "It is a null operation used as a syntactic placeholder where code is required but no action is needed", "It exits the program", "It passes variables to a function"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q44",
+      "text": "In JavaScript DOM events, what does `Event.preventDefault()` do?",
+      "options": ["It stops the event from bubbling up the DOM tree", "It cancels the browser's default native action associated with the event (like a form submitting or a link navigating)", "It deletes the HTML element that triggered the event", "It removes all event listeners"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q45",
+      "text": "Pointing to a woman, a man says, \"Her mother is the only daughter of my mother-in-law.\" How is the man related to the woman?",
+      "options": ["Uncle", "Brother", "Father", "Husband"],
+      "correctIndex": 2,
+      "Explanation": "The man's mother-in-law's only daughter is the man's wife. Therefore, the woman's mother is the man's wife. This makes the man the father of the woman."
+    },
+    {
+      "id": "q46",
+      "text": "In C, if you pass an array to a function, what does the `sizeof` operator return when used on that array parameter inside the function?",
+      "options": ["The total size of the array in bytes", "The size of a pointer in bytes", "The size of the first element", "0"],
+      "correctIndex": 1,
+      "Explanation": "When passed to a function, an array 'decays' into a pointer. Inside the function, `sizeof` evaluates the size of that pointer (typically 4 or 8 bytes), not the original array's size."
+    },
+    {
+      "id": "q47",
+      "text": "In SQL, does the `COUNT(*)` function ignore NULL values in rows?",
+      "options": ["Yes, it ignores rows with NULLs", "No, it counts all rows, including those with NULL values", "It throws an error if NULLs exist", "It only counts rows where all columns are NULL"],
+      "correctIndex": 1,
+      "Explanation": "`COUNT(column_name)` ignores NULLs in that specific column. `COUNT(*)` counts the physical rows in the result set, regardless of whether they contain NULL values."
+    },
+    {
+      "id": "q48",
+      "text": "What does PDO stand for in PHP?",
+      "options": ["PHP Data Objects", "Public Database Oriented", "Personal Data Organizer", "Pre-processed Document Output"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q49",
+      "text": "Which CSS declaration physically removes an element from the document layout flow, as if it does not exist?",
+      "options": ["visibility: hidden;", "opacity: 0;", "display: none;", "z-index: -999;"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q50",
+      "text": "How does an arrow function `() => {}` differ from a regular `function() {}` regarding the `this` keyword in JavaScript?",
+      "options": ["Arrow functions bind `this` to the global object", "Arrow functions do not have their own `this`; they inherit it from the surrounding lexical context", "Regular functions cannot use `this`", "There is no difference"],
+      "correctIndex": 1
+    }
+  ]
+}

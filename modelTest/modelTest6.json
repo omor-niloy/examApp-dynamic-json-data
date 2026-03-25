@@ -1,0 +1,324 @@
+{
+  "id": "modelTest6",
+  "title": "W3 Ignite Model Test - Set 6",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "Why is it important to make destructors virtual in C++ base classes?",
+      "options": ["To prevent the class from being instantiated", "To ensure that the derived class's destructor is called when an object is deleted through a base class pointer", "To allocate memory faster", "To allow multiple inheritance"],
+      "correctIndex": 1,
+      "Explanation": "If a base class pointer points to a derived class object and you delete that pointer, a non-virtual base destructor will only destroy the base part, leading to a memory leak of the derived part. A virtual destructor ensures the derived destructor runs first."
+    },
+    {
+      "id": "q2",
+      "text": "In C, which mode is used with `fopen()` to open a text file for appending data to the end without overwriting?",
+      "options": ["w", "r+", "a", "w+"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q3",
+      "text": "What happens when you use the `continue` statement inside a `for` loop?",
+      "options": ["The loop terminates completely", "The current iteration is skipped and the loop proceeds to the next iteration", "The program exits", "The loop pauses waiting for user input"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q4",
+      "text": "Which C++ feature allows you to define multiple functions with the same name but different parameters?",
+      "options": ["Function overriding", "Function overloading", "Function mapping", "Function shadowing"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "text": "What does the `&` operator do when placed before a variable name in C/C++?",
+      "options": ["Dereferences a pointer", "Returns the memory address of the variable", "Performs a logical AND operation", "Passes the variable by value"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q6",
+      "text": "In C++, how do you catch any type of exception in a `try...catch` block?",
+      "options": ["catch(Exception e)", "catch(all)", "catch(...)", "catch(*)" ],
+      "correctIndex": 2,
+      "Explanation": "The ellipsis `...` inside the catch block is a catch-all handler that will intercept any exception thrown within the try block that wasn't caught by a previous specific catch block."
+    },
+    {
+      "id": "q7",
+      "text": "Which of the following cannot be overloaded in C++?",
+      "options": ["The + operator", "The == operator", "The scope resolution operator (::)", "The [] operator"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q8",
+      "text": "In HTML forms, what is the purpose of the `for` attribute in a `<label>` tag?",
+      "options": ["To loop through an array of inputs", "To bind the label to a specific input element using its 'id'", "To submit the form to a specific URL", "To style the text explicitly"],
+      "correctIndex": 1,
+      "Explanation": "When a user clicks on a `<label>` that has a `for` attribute matching the `id` of an input field, the browser automatically transfers focus to that associated input field."
+    },
+    {
+      "id": "q9",
+      "text": "What is the primary difference between CSS Grid and CSS Flexbox?",
+      "options": ["Flexbox is for images; Grid is for text", "Grid is for 2D layouts (rows and columns); Flexbox is for 1D layouts (rows OR columns)", "Flexbox requires JavaScript to work", "There is no difference"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "text": "What does the CSS unit `vh` stand for?",
+      "options": ["Vertical Height", "Visual Height", "Viewport Height", "Vector Height"],
+      "correctIndex": 2,
+      "Explanation": "`1vh` represents 1% of the total height of the browser's viewport."
+    },
+    {
+      "id": "q11",
+      "text": "Which HTML element is used to embed another HTML document within the current one?",
+      "options": ["<embed>", "<object>", "<iframe>", "<frame>"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q12",
+      "text": "What is the effect of appending `!important` to a CSS property value?",
+      "options": ["It makes the text bold and red", "It overrides all other declarations for that property, regardless of specificity rules", "It caches the CSS rule in the browser", "It marks the CSS file as read-only"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q13",
+      "text": "Which property allows you to create a shadow behind a text element in CSS?",
+      "options": ["box-shadow", "drop-shadow", "text-shadow", "font-shadow"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q14",
+      "text": "Which of the following is an HTML5 semantic element used to define navigation links?",
+      "options": ["<navigation>", "<links>", "<menu>", "<nav>"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q15",
+      "text": "In modern JavaScript, what must be true for the `await` keyword to be used?",
+      "options": ["It must be used inside a `try...catch` block", "It must be used inside a function declared with the `async` keyword", "It must be used inside a loop", "It requires the jQuery library"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q16",
+      "text": "What happens when you compare two different empty objects in JavaScript `{} === {}`?",
+      "options": ["It returns true", "It returns false", "It throws a TypeError", "It returns undefined"],
+      "correctIndex": 1,
+      "Explanation": "Objects are compared by reference, not by value. Even though both objects look identical (empty), they occupy different locations in memory, making them strictly unequal."
+    },
+    {
+      "id": "q17",
+      "text": "What is the 'Temporal Dead Zone' in JavaScript?",
+      "options": ["A period where the browser stops executing scripts to save memory", "The time between parsing and executing code", "The area of a block where a `let` or `const` variable is in scope but not yet initialized, causing a ReferenceError if accessed", "A deprecated feature in ES5"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q18",
+      "text": "Which JavaScript method creates a new function that, when called, has its `this` keyword set to a provided value?",
+      "options": ["call()", "apply()", "bind()", "attach()"],
+      "correctIndex": 2,
+      "Explanation": "`call()` and `apply()` execute the function immediately with the new context. `bind()` returns a completely new function mapped to that context for you to execute later."
+    },
+    {
+      "id": "q19",
+      "text": "What is the difference between an Array and a Set in JavaScript?",
+      "options": ["Sets only store numbers", "Arrays are zero-indexed; Sets are one-indexed", "Arrays can contain duplicate values; Sets only store unique values", "There is no difference"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q20",
+      "text": "How do you correctly check if a property exists in a JavaScript object?",
+      "options": ["if (obj.has('key'))", "if ('key' in obj)", "if (obj.key != null)", "Both B and C are acceptable ways"],
+      "correctIndex": 1,
+      "Explanation": "The `in` operator checks if the property exists on the object or its prototype chain. `obj.hasOwnProperty('key')` is also correct for checking only the object itself."
+    },
+    {
+      "id": "q21",
+      "text": "What is the output of `console.log(typeof NaN)` in JavaScript?",
+      "options": ["\"NaN\"", "\"undefined\"", "\"string\"", "\"number\""],
+      "correctIndex": 3
+    },
+    {
+      "id": "q22",
+      "text": "In Python, which built-in function pairs elements from two or more iterables together into tuples?",
+      "options": ["pair()", "combine()", "zip()", "join()"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q23",
+      "text": "Which of the following can NOT be used as a dictionary key in Python?",
+      "options": ["A String", "An Integer", "A Tuple", "A List"],
+      "correctIndex": 3,
+      "Explanation": "Dictionary keys must be immutable types (like strings, numbers, or tuples containing only immutable elements) so they can be securely hashed. Lists are mutable and therefore unhashable."
+    },
+    {
+      "id": "q24",
+      "text": "What does the `enumerate()` function do in Python?",
+      "options": ["It counts the total number of elements in a list", "It adds an automatic counter to an iterable, returning it as an enumerate object", "It checks if all elements in an iterable are true", "It converts numbers to strings"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q25",
+      "text": "What is the primary use of the `assert` statement in Python?",
+      "options": ["To handle user input securely", "To enforce a condition as a debugging aid; if the condition is false, it raises an AssertionError", "To securely encrypt data", "To define a private variable"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q26",
+      "text": "What is the difference between `__str__` and `__repr__` in Python classes?",
+      "options": ["They are identical", "`__str__` is for readable string output for end-users; `__repr__` is for unambiguous string output for developers/debugging", "`__repr__` is for readable output; `__str__` is for debugging", "`__str__` only returns numbers"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q27",
+      "text": "What does the `**` operator do when used in a function call like `my_func(**my_dict)`?",
+      "options": ["It multiplies the dictionary by 2", "It unpacks the dictionary into keyword arguments", "It converts the dictionary to a list of tuples", "It passes the dictionary by reference"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q28",
+      "text": "How do you create a set in Python containing the single element 'apple'?",
+      "options": ["my_set = {'apple'}", "my_set = set('apple')", "my_set = ['apple']", "my_set = ('apple',)"],
+      "correctIndex": 0,
+      "Explanation": "`set('apple')` would actually create a set of distinct characters: {'a', 'p', 'l', 'e'}."
+    },
+    {
+      "id": "q29",
+      "text": "Which SQL function returns the first non-null value in a list?",
+      "options": ["FIRST()", "ISNULL()", "COALESCE()", "NVL()"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q30",
+      "text": "What is a 'Self-Join' in SQL?",
+      "options": ["A query that joins a table to itself, requiring the use of table aliases", "A query that automatically joins all tables in a database", "A query that joins a table to a view", "A query without a WHERE clause"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q31",
+      "text": "In SQL Data Control Language (DCL), which two commands are used to manage user permissions?",
+      "options": ["INSERT and DELETE", "GRANT and REVOKE", "COMMIT and ROLLBACK", "CREATE and DROP"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q32",
+      "text": "What is the main requirement for combining result sets using the `UNION` operator?",
+      "options": ["Both tables must have primary keys", "The queries must have the same number of columns with similar data types in the same order", "The queries must use GROUP BY", "The tables must be indexed"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q33",
+      "text": "What is a SQL `VIEW`?",
+      "options": ["A physical copy of table data", "A graphical user interface for the database", "A virtual table based on the result-set of a stored SELECT statement", "An index used for faster reading"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q34",
+      "text": "Which constraint ensures that a combination of values across multiple columns is entirely unique within a table?",
+      "options": ["A Composite Primary Key or Composite Unique constraint", "A Foreign Key", "A CHECK constraint", "A Default constraint"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q35",
+      "text": "What type of tree data structure is most commonly used by relational databases to store indexes?",
+      "options": ["Binary Tree", "Red-Black Tree", "B-Tree (Balanced Tree)", "AVL Tree"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q36",
+      "text": "Which PHP magic method is invoked when trying to call an object method that does not exist or is inaccessible?",
+      "options": ["__invoke()", "__get()", "__call()", "__error()"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q37",
+      "text": "What is the difference between `password_hash()` and `md5()` in PHP?",
+      "options": ["There is no difference", "`md5()` is secure for passwords; `password_hash()` is for files", "`password_hash()` uses strong, modern algorithms (like bcrypt) and generates a random salt automatically; `md5()` is outdated, fast, and highly vulnerable to brute force", "`password_hash()` can be decrypted; `md5()` cannot"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q38",
+      "text": "How do you safely throw a custom error in modern PHP?",
+      "options": ["return error(\"Message\");", "die(\"Message\");", "throw new Exception(\"Message\");", "raise Exception(\"Message\");"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q39",
+      "text": "In PHP, which superglobal variable holds the IP address of the user viewing the current page?",
+      "options": ["$_ENV['USER_IP']", "$_SERVER['REMOTE_ADDR']", "$_POST['IP']", "$_REQUEST['CLIENT_IP']"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q40",
+      "text": "What happens when you use the `+` operator on two arrays in PHP (e.g., `$array1 + $array2`)?",
+      "options": ["It performs an arithmetic addition of their values", "It merges them, overwriting keys in $array1 with keys from $array2", "It appends the right array to the left array, but ignores keys in the right array that already exist in the left array", "It throws a TypeError"],
+      "correctIndex": 2,
+      "Explanation": "The `+` operator is the union operator for arrays. It appends the right-hand array to the left-hand, but if keys intersect, the values from the left-hand array are kept, and the right-hand values are discarded. This is the opposite behavior of `array_merge()`."
+    },
+    {
+      "id": "q41",
+      "text": "In PHP Object-Oriented Programming, what is an `interface`?",
+      "options": ["A class that can only be instantiated once", "A contract specifying which methods a class must implement, without defining how they are implemented", "A file containing HTML code to be rendered", "A built-in database connection object"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q42",
+      "text": "Which PHP function is used to convert an associative array into a JSON string?",
+      "options": ["json_decode()", "json_stringify()", "json_encode()", "array_to_json()"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q43",
+      "text": "Look at this series: 1, 1, 2, 3, 5, 8, ... What number should come next?",
+      "options": ["10", "11", "12", "13"],
+      "correctIndex": 3,
+      "Explanation": "This is the Fibonacci sequence. Each number is the sum of the two preceding numbers (5 + 8 = 13)."
+    },
+    {
+      "id": "q44",
+      "text": "If 72 x 96 = 6927, and 58 x 87 = 7885, then what does 79 x 86 equal?",
+      "options": ["6897", "8697", "6879", "7986"],
+      "correctIndex": 0,
+      "Explanation": "The pattern reverses the second number and places it at the front, followed by the reversed first number. For 72 x 96: 96 reversed is 69, 72 reversed is 27 -> 6927. For 79 x 86: 86 reversed is 68, 79 reversed is 97 -> 6897."
+    },
+    {
+      "id": "q45",
+      "text": "A is the mother of B. B is the sister of C. C is the father of D. How is A related to D?",
+      "options": ["Mother", "Grandmother", "Aunt", "Sister"],
+      "correctIndex": 1,
+      "Explanation": "Since B and C are siblings, A is the mother of both B and C. Because C is the father of D, C's mother (A) is the grandmother of D."
+    },
+    {
+      "id": "q46",
+      "text": "A car travels from Point A to Point B at a speed of 40 km/h and returns to Point A at 60 km/h. What is the average speed for the entire journey?",
+      "options": ["48 km/h", "50 km/h", "52 km/h", "45 km/h"],
+      "correctIndex": 0,
+      "Explanation": "The formula for average speed over equal distances is (2 * v1 * v2) / (v1 + v2). So, (2 * 40 * 60) / (40 + 60) = 4800 / 100 = 48 km/h."
+    },
+    {
+      "id": "q47",
+      "text": "If today is Monday, what day of the week will it be 61 days from today?",
+      "options": ["Saturday", "Sunday", "Monday", "Tuesday"],
+      "correctIndex": 0,
+      "Explanation": "Since there are 7 days in a week, divide 61 by 7. 61 / 7 = 8 with a remainder of 5. Add 5 days to Monday, which brings you to Saturday."
+    },
+    {
+      "id": "q48",
+      "text": "A man sold a bicycle for $250, incurring a 20% loss. What was the original cost price of the bicycle?",
+      "options": ["$300", "$312.50", "$270", "$320"],
+      "correctIndex": 1,
+      "Explanation": "If he incurred a 20% loss, the selling price represents 80% of the cost price. Let Cost = X. 0.8 * X = $250. X = 250 / 0.8 = $312.50."
+    },
+    {
+      "id": "q49",
+      "text": "Choose the word that does not belong with the others.",
+      "options": ["Guitar", "Flute", "Violin", "Cello"],
+      "correctIndex": 1,
+      "Explanation": "Guitar, Violin, and Cello are all stringed instruments. A Flute is a wind instrument."
+    },
+    {
+      "id": "q50",
+      "text": "If a rectangle's length is increased by 10% and its width is decreased by 10%, what is the net effect on its area?",
+      "options": ["Area remains the same", "Area increases by 1%", "Area decreases by 1%", "Area decreases by 10%"],
+      "correctIndex": 2,
+      "Explanation": "Let length = 10, width = 10. Original Area = 100. New length = 11, new width = 9. New Area = 99. The area decreased from 100 to 99, which is a 1% decrease."
+    }
+  ]
+}
