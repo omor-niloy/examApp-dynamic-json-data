@@ -1,4 +1,5 @@
 [
   { "id": "modelTest1", "title": "W3 Ignite Model Test - Set 1", "durationMinutes": 20 },
-  { "id": "modelTest2", "title": "W3 Ignite Model Test - Set 2", "durationMinutes": 20 }
+  { "id": "modelTest2", "title": "W3 Ignite Model Test - Set 2", "durationMinutes": 20 },
+  { "id": "modelTest3", "title": "W3 Ignite Model Test - Set 3", "durationMinutes": 20 }
 ]
