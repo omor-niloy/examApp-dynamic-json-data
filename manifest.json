@@ -13,5 +13,9 @@
   { "id": "modelTestDBMS", "title": "W3 Ignite Model Test - DBMS & SQL Special", "durationMinutes": 20 },
   { "id": "modelTestPHP", "title": "W3 Ignite Model Test - PHP Specialty", "durationMinutes": 20 },
   { "id": "modelTestJS", "title": "W3 Ignite Model Test - JavaScript Specialty", "durationMinutes": 20 }, 
-  { "id": "modelTestAnalytical", "title": "W3 Ignite Model Test - Analytical & Logical Reasoning", "durationMinutes": 30 }
+  { "id": "modelTestAnalytical", "title": "W3 Ignite Model Test - Analytical & Logical Reasoning", "durationMinutes": 30 },
+  { "id": "modelTest12", "title": "W3 Ignite Model Test - Set 12", "durationMinutes": 20 },
+  { "id": "modelTest13", "title": "W3 Ignite Model Test - Set 13", "durationMinutes": 20 },
+  { "id": "modelTest14", "title": "W3 Ignite Model Test - Set 14", "durationMinutes": 20 }
+
 ]

@@ -1,0 +1,318 @@
+{
+  "id": "modelTest12",
+  "title": "W3 Ignite Model Test - Set 12 (Mixed Technical & Analytical)",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "In C++, what is the default access modifier for members of a `class`?",
+      "options": ["public", "private", "protected", "internal"],
+      "correctIndex": 1,
+      "Explanation": "By default, all members of a class in C++ are private unless specified otherwise. In contrast, struct members are public by default."
+    },
+    {
+      "id": "q2",
+      "text": "Which SQL query correctly finds all users whose name starts with 'A'?",
+      "options": ["SELECT * FROM users WHERE name LIKE 'A%'", "SELECT * FROM users WHERE name LIKE '%A'", "SELECT * FROM users WHERE name = 'A*'", "SELECT * FROM users WHERE name STARTS 'A'"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q3",
+      "text": "What is the output of the following JavaScript code: `console.log([1, 2, 3].map(x => x * 2));`?",
+      "options": ["1, 2, 3", "[1, 2, 3]", "[2, 4, 6]", "undefined"],
+      "correctIndex": 2,
+      "Explanation": "The `map()` method creates a new array populated with the results of calling a provided function on every element in the calling array."
+    },
+    {
+      "id": "q4",
+      "text": "In Python, which of the following creates a dictionary?",
+      "options": ["d = [1, 2, 3]", "d = (1, 2, 3)", "d = {1, 2, 3}", "d = {'a': 1, 'b': 2}"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q5",
+      "text": "How do you concatenate two strings in PHP?",
+      "options": ["$str1 + $str2", "$str1 . $str2", "$str1 & $str2", "concat($str1, $str2)"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q6",
+      "text": "Which HTML tag is used to define a table row?",
+      "options": ["<td>", "<th>", "<tr>", "<table>"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q7",
+      "text": "If A can do a piece of work in 10 days and B can do it in 15 days, how long will it take if they work together?",
+      "options": ["5 days", "6 days", "8 days", "12.5 days"],
+      "correctIndex": 1,
+      "Explanation": "A's 1-day work = 1/10. B's 1-day work = 1/15. Together = 1/10 + 1/15 = 3/30 + 2/30 = 5/30 = 1/6. So it takes 6 days."
+    },
+    {
+      "id": "q8",
+      "text": "In CSS, what is the difference between `display: none;` and `visibility: hidden;`?",
+      "options": ["They are exactly the same", "`display: none` removes the element from the document flow; `visibility: hidden` leaves the space allocated", "`visibility: hidden` removes the element from the flow; `display: none` leaves the space allocated", "`display: none` only works on block elements"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q9",
+      "text": "How do you select an element with the ID 'main' in JavaScript?",
+      "options": ["document.querySelector('.main')", "document.getElementById('main')", "document.select('main')", "document.getElement('#main')"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q10",
+      "text": "In C++, what does the `&` operator do when placed before a variable name (e.g., `&var`)?",
+      "options": ["Declares a pointer", "Returns the memory address of the variable", "Dereferences the variable", "Creates a global variable"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q11",
+      "text": "Which keyword is used to define a function in Python?",
+      "options": ["func", "function", "def", "define"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q12",
+      "text": "What does a FOREIGN KEY do in SQL?",
+      "options": ["Uniquely identifies a record in its own table", "Links two tables together by referencing the PRIMARY KEY of another table", "Encrypts the column data", "Automatically increments the column value"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q13",
+      "text": "In PHP, what happens if a file included using `require` is not found?",
+      "options": ["The script continues executing with a warning", "The script stops executing and throws a fatal error", "The script ignores the line", "PHP automatically creates the file"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q14",
+      "text": "Find the missing number in the series: 3, 6, 11, 18, 27, ?",
+      "options": ["34", "36", "38", "40"],
+      "correctIndex": 2,
+      "Explanation": "The differences are +3, +5, +7, +9. The next difference should be +11. So, 27 + 11 = 38."
+    },
+    {
+      "id": "q15",
+      "text": "Which attribute is used to group radio buttons together in HTML?",
+      "options": ["class", "id", "name", "group"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q16",
+      "text": "What is the output of `typeof function(){}` in JavaScript?",
+      "options": ["'object'", "'function'", "'undefined'", "'string'"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q17",
+      "text": "In C++, which operator is used to free memory allocated by `new`?",
+      "options": ["free", "remove", "delete", "clear"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q18",
+      "text": "What will `print(\"Hello World\"[::-1])` output in Python?",
+      "options": ["Hello World", "dlroW olleH", "Error", "H"],
+      "correctIndex": 1,
+      "Explanation": "The slice `[::-1]` steps backwards through the string, effectively reversing it."
+    },
+    {
+      "id": "q19",
+      "text": "Which SQL statement is used to update existing data in a database?",
+      "options": ["MODIFY", "SAVE", "UPDATE", "CHANGE"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q20",
+      "text": "How do you store a value in a PHP session variable?",
+      "options": ["$SESSION['user'] = 'John';", "$_SESSION['user'] = 'John';", "session('user', 'John');", "set_session('user', 'John');"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q21",
+      "text": "A father is twice as old as his daughter. 20 years ago, he was 4 times as old as his daughter. What is the daughter's current age?",
+      "options": ["20", "30", "40", "50"],
+      "correctIndex": 1,
+      "Explanation": "Let daughter's age be D, father's F. F = 2D. 20 years ago: (F - 20) = 4(D - 20). Substitute F: 2D - 20 = 4D - 80. 60 = 2D. D = 30."
+    },
+    {
+      "id": "q22",
+      "text": "Which CSS selector has the highest specificity?",
+      "options": ["div p", ".class-name", "#id-name", "p:hover"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q23",
+      "text": "In JavaScript, what are the three states of a Promise?",
+      "options": ["Pending, Running, Finished", "Pending, Fulfilled, Rejected", "Waiting, Resolved, Error", "Start, Success, Fail"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q24",
+      "text": "What is the purpose of a `virtual` function in C++?",
+      "options": ["To prevent a function from being overridden", "To achieve runtime polymorphism", "To make the function execute faster", "To hide the function from derived classes"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q25",
+      "text": "What is the output of `len([1, [2, 3], 4])` in Python?",
+      "options": ["4", "3", "Error", "1"],
+      "correctIndex": 1,
+      "Explanation": "The list contains 3 elements: the integer 1, the list [2, 3] (which counts as a single element), and the integer 4."
+    },
+    {
+      "id": "q26",
+      "text": "Which SQL clause is used to filter the results grouped by the `GROUP BY` clause?",
+      "options": ["WHERE", "ORDER BY", "HAVING", "FILTER"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q27",
+      "text": "In PHP, which function checks if a variable is set and is not NULL?",
+      "options": ["is_null()", "isset()", "empty()", "exists()"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q28",
+      "text": "A car travels 120 miles in 2 hours. What is its speed in miles per hour?",
+      "options": ["50", "60", "70", "120"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q29",
+      "text": "Which of the following is NOT a semantic HTML5 element?",
+      "options": ["<article>", "<footer>", "<div>", "<section>"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q30",
+      "text": "What is the difference between `let` and `var` in JavaScript?",
+      "options": ["`var` is block-scoped, `let` is function-scoped", "`let` is block-scoped, `var` is function-scoped", "There is no difference", "`let` cannot be reassigned"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q31",
+      "text": "What is a constructor in C++?",
+      "options": ["A function that destroys an object", "A special member function that initializes an object", "A keyword used to inherit a class", "A pointer to the current object"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q32",
+      "text": "What will `[x**2 for x in range(3)]` evaluate to in Python?",
+      "options": ["[1, 4, 9]", "[0, 1, 4]", "[0, 2, 4]", "[1, 2, 3]"],
+      "correctIndex": 1,
+      "Explanation": "range(3) yields 0, 1, 2. The list comprehension squares each: 0**2=0, 1**2=1, 2**2=4."
+    },
+    {
+      "id": "q33",
+      "text": "What does the `COUNT(*)` function do in SQL?",
+      "options": ["Counts all columns in a table", "Counts the number of rows in a table, including NULLs", "Counts only distinct values", "Adds all numeric values together"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q34",
+      "text": "Which loop is specifically designed to iterate over arrays in PHP?",
+      "options": ["for", "while", "do-while", "foreach"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q35",
+      "text": "If a coin is flipped 3 times, what is the probability of getting exactly 3 heads?",
+      "options": ["1/2", "1/4", "1/8", "1/6"],
+      "correctIndex": 2,
+      "Explanation": "Each flip has a 1/2 chance. (1/2) * (1/2) * (1/2) = 1/8."
+    },
+    {
+      "id": "q36",
+      "text": "In CSS, what is the purpose of media queries (`@media`)?",
+      "options": ["To insert audio/video files", "To apply different styles for different media types/devices", "To query a database for content", "To load external CSS files dynamically"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q37",
+      "text": "What is the output of `console.log(0 == '0')` in JavaScript?",
+      "options": ["true", "false", "undefined", "TypeError"],
+      "correctIndex": 0,
+      "Explanation": "The loose equality operator `==` performs type coercion before comparison, so the string '0' is converted to the number 0."
+    },
+    {
+      "id": "q38",
+      "text": "In C++, what does the `sizeof` operator return?",
+      "options": ["The number of elements in an array", "The size of a variable or data type in bytes", "The maximum limit of a variable", "The memory address of a variable"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q39",
+      "text": "What is the primary difference between a list and a tuple in Python?",
+      "options": ["Tuples can only hold integers", "Lists are immutable, tuples are mutable", "Lists are mutable, tuples are immutable", "There is no difference"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q40",
+      "text": "Which SQL keyword is used to sort the result set in descending order?",
+      "options": ["DESCENDING", "DESC", "SORT DOWN", "ORDER BY DOWN"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q41",
+      "text": "How do you send a raw HTTP header in PHP to redirect a user?",
+      "options": ["redirect('page.php');", "header('Location: page.php');", "send_header('Location', 'page.php');", "http_redirect('page.php');"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q42",
+      "text": "Pointing to a photograph, a boy said, 'She is the daughter of my grandfather's only son.' How is the girl in the photograph related to the boy?",
+      "options": ["Mother", "Sister", "Aunt", "Cousin"],
+      "correctIndex": 1,
+      "Explanation": "The grandfather's only son is the boy's father. The daughter of his father is his sister."
+    },
+    {
+      "id": "q43",
+      "text": "What does the `defer` attribute do when loading an external script in HTML?",
+      "options": ["Loads the script immediately and blocks HTML parsing", "Delays HTML parsing until the script loads", "Executes the script only after the HTML document has been fully parsed", "Prevents the script from running"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q44",
+      "text": "In JavaScript, how do you correctly declare an Arrow Function?",
+      "options": ["function myFunc() => {}", "const myFunc = () => {}", "const myFunc => () {}", "=> myFunc() {}"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q45",
+      "text": "In C++, what is the only difference between a `struct` and a `class`?",
+      "options": ["Structs cannot have methods", "Structs cannot use inheritance", "Default access modifier (public for struct, private for class)", "Classes allocate memory on the heap automatically"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q46",
+      "text": "What is a `lambda` function in Python?",
+      "options": ["A built-in math function", "An anonymous, inline function", "A function used exclusively for file I/O", "A multi-line macro"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q47",
+      "text": "What is the correct SQL syntax to insert a new record into a table named 'Persons'?",
+      "options": ["INSERT INTO Persons VALUES ('John', 'Doe')", "ADD TO Persons ('John', 'Doe')", "INSERT ('John', 'Doe') INTO Persons", "CREATE ROW Persons ('John', 'Doe')"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q48",
+      "text": "What is the name of the magic method used as a constructor in PHP?",
+      "options": ["__init()", "constructor()", "__construct()", "onLoad()"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q49",
+      "text": "If CAT is coded as 3120, how is DOG coded? (A=1, B=2, C=3...)",
+      "options": ["4157", "4158", "4147", "5157"],
+      "correctIndex": 0,
+      "Explanation": "D = 4, O = 15, G = 7. Thus, 4157."
+    },
+    {
+      "id": "q50",
+      "text": "How do you align items along the cross-axis in CSS Flexbox?",
+      "options": ["justify-content", "align-items", "flex-direction", "align-content"],
+      "correctIndex": 1
+    }
+  ]
+}

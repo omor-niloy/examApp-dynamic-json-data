@@ -1,0 +1,324 @@
+{
+  "id": "modelTest13",
+  "title": "W3 Ignite Model Test - Set 13 (Final Standard Mix)",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "What is the output of the following C++ code: `int x = 5; cout << x++;`?",
+      "options": ["6", "5", "Compiler Error", "Garbage Value"],
+      "correctIndex": 1,
+      "Explanation": "The post-increment operator (x++) returns the original value of x before incrementing it. So, it prints 5, and then x becomes 6 in memory."
+    },
+    {
+      "id": "q2",
+      "text": "In JavaScript, what will `const arr = [1, 2]; arr.push(3); console.log(arr);` output?",
+      "options": ["Error: Assignment to constant variable", "[1, 2]", "[1, 2, 3]", "undefined"],
+      "correctIndex": 2,
+      "Explanation": "The `const` keyword prevents reassignment of the variable identifier, but it does not make the array itself immutable. You can still modify its contents."
+    },
+    {
+      "id": "q3",
+      "text": "Which Python keyword is used to create an anonymous function?",
+      "options": ["def", "anon", "lambda", "function"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q4",
+      "text": "In SQL, which constraint ensures that a column cannot have a NULL value?",
+      "options": ["UNIQUE", "NOT NULL", "PRIMARY KEY", "Both B and C"],
+      "correctIndex": 3,
+      "Explanation": "NOT NULL explicitly prevents NULLs. A PRIMARY KEY implicitly includes a NOT NULL constraint alongside a UNIQUE constraint."
+    },
+    {
+      "id": "q5",
+      "text": "What is the difference between single quotes (' ') and double quotes (\" \") in PHP?",
+      "options": ["There is no difference", "Double quotes parse variables inside them; single quotes do not", "Single quotes parse variables inside them; double quotes do not", "Single quotes are used for characters, double quotes for strings"],
+      "correctIndex": 1,
+      "Explanation": "In PHP, variables enclosed in double quotes are interpolated (evaluated), whereas single quotes treat the text literally."
+    },
+    {
+      "id": "q6",
+      "text": "Find the next number in the series: 1, 1, 2, 3, 5, 8, ?",
+      "options": ["10", "11", "12", "13"],
+      "correctIndex": 3,
+      "Explanation": "This is the Fibonacci sequence. Each number is the sum of the two preceding ones: 5 + 8 = 13."
+    },
+    {
+      "id": "q7",
+      "text": "Which CSS property is used to perfectly center an element horizontally and vertically using Flexbox?",
+      "options": ["align-content: center; justify-items: center;", "align-items: center; justify-content: center;", "text-align: center; vertical-align: middle;", "margin: 0 auto; padding: 50%;"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q8",
+      "text": "In C++, how do you correctly access a member of a structure through a pointer?",
+      "options": ["ptr.member", "ptr->member", "ptr::member", "*ptr.member"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q9",
+      "text": "What does the `HTML5` doctype declaration look like?",
+      "options": ["<!DOCTYPE html5>", "<!DOCTYPE HTML PUBLIC>", "<!DOCTYPE html>", "<?xml version=\"1.0\"?>"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q10",
+      "text": "What is the result of `'5' == 5` and `'5' === 5` in JavaScript?",
+      "options": ["true, true", "false, false", "true, false", "false, true"],
+      "correctIndex": 2,
+      "Explanation": "`==` checks for loose equality (performs type coercion), making it true. `===` checks for strict equality (checks both value and type), making it false."
+    },
+    {
+      "id": "q11",
+      "text": "Which method removes and returns the last item in a Python list?",
+      "options": ["remove()", "delete()", "pop()", "shift()"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q12",
+      "text": "In a database, what is the purpose of the `HAVING` clause?",
+      "options": ["To filter rows before grouping", "To filter groups after the GROUP BY clause is applied", "To sort the data", "To join tables together"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q13",
+      "text": "How do you add a new element 'apple' to the end of an array `$fruits` in PHP?",
+      "options": ["array_push($fruits, 'apple');", "$fruits[] = 'apple';", "Both A and B", "$fruits.add('apple');"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q14",
+      "text": "A train running at 72 km/hr crosses a pole in 10 seconds. What is the length of the train?",
+      "options": ["150 meters", "200 meters", "250 meters", "300 meters"],
+      "correctIndex": 1,
+      "Explanation": "Speed = 72 km/hr = 72 * (5/18) m/s = 20 m/s. Distance (Length) = Speed * Time = 20 * 10 = 200 meters."
+    },
+    {
+      "id": "q15",
+      "text": "What does `box-sizing: border-box;` do in CSS?",
+      "options": ["Adds a border to the element", "Includes padding and border in the element's total width and height", "Excludes padding and border from the element's width", "Makes the element behave like a table cell"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q16",
+      "text": "In C++, which keyword is used to ensure a class cannot be inherited?",
+      "options": ["static", "const", "final", "sealed"],
+      "correctIndex": 2,
+      "Explanation": "Introduced in C++11, the `final` specifier indicates that a class cannot be used as a base class."
+    },
+    {
+      "id": "q17",
+      "text": "What is the purpose of the `alt` attribute in an `<img>` tag?",
+      "options": ["To provide a tooltip when hovering", "To specify an alternative image source", "To provide alternative text for screen readers and if the image fails to load", "To set the image alignment"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q18",
+      "text": "What will `console.log(typeof NaN);` output in JavaScript?",
+      "options": ["'NaN'", "'undefined'", "'number'", "'object'"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q19",
+      "text": "What does the `pass` statement do in Python?",
+      "options": ["Exits the program", "Skips the current loop iteration", "Acts as a null operation; nothing happens when it executes", "Throws an exception"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q20",
+      "text": "Which SQL command is categorized as DDL (Data Definition Language)?",
+      "options": ["SELECT", "UPDATE", "CREATE", "GRANT"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q21",
+      "text": "In PHP, what is the output of `echo empty(0);`?",
+      "options": ["0", "1", "false", "Error"],
+      "correctIndex": 1,
+      "Explanation": "In PHP, 0 is considered an empty value. The `empty()` function returns boolean true, which is printed as '1'."
+    },
+    {
+      "id": "q22",
+      "text": "If selling price is doubled, the profit triples. What is the profit percentage?",
+      "options": ["50%", "100%", "150%", "200%"],
+      "correctIndex": 1,
+      "Explanation": "Let CP = x and original SP = y. Profit = y - x. New SP = 2y, New Profit = 2y - x. Given: 2y - x = 3(y - x) -> 2y - x = 3y - 3x -> y = 2x. Profit = 2x - x = x. Profit% = (x/x)*100 = 100%."
+    },
+    {
+      "id": "q23",
+      "text": "Which CSS selector targets an element with id 'header' and class 'nav' simultaneously?",
+      "options": ["#header .nav", "#header.nav", "header.nav", ".nav #header"],
+      "correctIndex": 1,
+      "Explanation": "No space between the id and class selectors indicates that the element must have both."
+    },
+    {
+      "id": "q24",
+      "text": "In JavaScript, how do you prevent an event from bubbling up the DOM tree?",
+      "options": ["event.preventDefault()", "event.stopPropagation()", "event.halt()", "event.stop()"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q25",
+      "text": "What is a 'pure virtual function' in C++?",
+      "options": ["A function that returns nothing", "A virtual function with no implementation, denoted by '= 0'", "A function that cannot be overridden", "A function executed at compile time"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q26",
+      "text": "Which of the following data types is immutable in Python?",
+      "options": ["List", "Dictionary", "Set", "Tuple"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q27",
+      "text": "What is the difference between `DELETE` and `TRUNCATE` in SQL?",
+      "options": ["DELETE is faster than TRUNCATE", "TRUNCATE can use a WHERE clause; DELETE cannot", "DELETE logs individual row deletions; TRUNCATE does not", "TRUNCATE removes the table structure; DELETE does not"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q28",
+      "text": "How do you include an external PHP file and ensure the script stops if the file is missing?",
+      "options": ["include 'file.php';", "include_once 'file.php';", "require 'file.php';", "import 'file.php';"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q29",
+      "text": "Pointing to a man, a woman said, 'His mother is the only daughter of my mother.' How is the woman related to the man?",
+      "options": ["Aunt", "Sister", "Mother", "Grandmother"],
+      "correctIndex": 2,
+      "Explanation": "The 'only daughter of my mother' is the woman herself. Therefore, the woman is the mother of the man."
+    },
+    {
+      "id": "q30",
+      "text": "Which HTML tag is used to create a drop-down list?",
+      "options": ["<list>", "<dropdown>", "<select>", "<menu>"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q31",
+      "text": "What does the array method `filter()` return in JavaScript?",
+      "options": ["A single boolean value", "The first element that matches the condition", "A new array with all elements that pass the test", "The original array modified"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q32",
+      "text": "In C++, what does the `new` operator return?",
+      "options": ["The size of the allocated memory", "A pointer to the allocated memory", "A reference to the allocated memory", "A boolean indicating success"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q33",
+      "text": "What is the result of `'Hello'[::-1]` in Python?",
+      "options": ["Hello", "o", "olleH", "Error"],
+      "correctIndex": 2,
+      "Explanation": "The slice `[::-1]` steps backward through the string, effectively reversing it."
+    },
+    {
+      "id": "q34",
+      "text": "Which SQL keyword is used to retrieve only unique values?",
+      "options": ["UNIQUE", "DISTINCT", "DIFFERENT", "FILTER"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q35",
+      "text": "In PHP, which superglobal array holds information about headers, paths, and script locations?",
+      "options": ["$_GET", "$_POST", "$_SERVER", "$_ENV"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q36",
+      "text": "A man walks 5 km East, then turns right and walks 3 km, then turns right again and walks 5 km. Which direction is he facing now?",
+      "options": ["North", "South", "East", "West"],
+      "correctIndex": 3,
+      "Explanation": "East -> turns right (faces South) -> turns right (faces West)."
+    },
+    {
+      "id": "q37",
+      "text": "What is the default position value in CSS?",
+      "options": ["relative", "absolute", "static", "fixed"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q38",
+      "text": "What is a 'Closure' in JavaScript?",
+      "options": ["A way to close a browser window", "A function bundled together with its lexical environment", "An IIFE (Immediately Invoked Function Expression)", "A loop that has finished executing"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q39",
+      "text": "What is the difference between `is` and `==` in Python?",
+      "options": ["`is` checks for value equality; `==` checks for reference equality", "`is` checks for reference equality (same object in memory); `==` checks for value equality", "They are identical", "`is` is used for booleans only"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q40",
+      "text": "What is a 'Primary Key' in a database?",
+      "options": ["A key that allows null values", "A combination of a foreign key and a unique key", "A column or set of columns that uniquely identifies each row in a table", "The first column in every table"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q41",
+      "text": "Which PHP function is used to convert an array into a delimited string?",
+      "options": ["split()", "explode()", "implode()", "concat()"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q42",
+      "text": "If 5 workers can paint a house in 12 days, how many days will it take 10 workers?",
+      "options": ["6 days", "24 days", "10 days", "8 days"],
+      "correctIndex": 0,
+      "Explanation": "Inverse proportion: (5 workers * 12 days) / 10 workers = 6 days."
+    },
+    {
+      "id": "q43",
+      "text": "Which HTML tag is used for emphasizing text structurally (usually rendered as italic)?",
+      "options": ["<i>", "<em>", "<italic>", "<strong>"],
+      "correctIndex": 1,
+      "Explanation": "While <i> renders italics, <em> is the correct semantic tag for emphasizing text."
+    },
+    {
+      "id": "q44",
+      "text": "What is the output of `console.log(1 + '1' - 1)` in JavaScript?",
+      "options": ["1", "10", "NaN", "11"],
+      "correctIndex": 1,
+      "Explanation": "1 + '1' concatenates to '11'. Then '11' - 1 triggers numeric coercion for the minus operator, resulting in 10."
+    },
+    {
+      "id": "q45",
+      "text": "In C++, what is a destructor?",
+      "options": ["A function that deletes the class file", "A member function invoked automatically when an object is destroyed", "A pointer that clears memory", "An error handling mechanism"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q46",
+      "text": "How do you access the value associated with the key 'name' in a Python dictionary `d` without throwing an error if the key doesn't exist?",
+      "options": ["d['name']", "d.get('name')", "d.value('name')", "d.key('name')"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q47",
+      "text": "Which SQL clause is used to sort the result set?",
+      "options": ["SORT BY", "GROUP BY", "ORDER BY", "ALIGN BY"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q48",
+      "text": "How do you start a session in PHP?",
+      "options": ["session_begin();", "session_start();", "$_SESSION['start'] = true;", "start_session();"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q49",
+      "text": "Find the odd one out: 16, 25, 36, 72, 144",
+      "options": ["16", "36", "72", "144"],
+      "correctIndex": 2,
+      "Explanation": "16 (4^2), 25 (5^2), 36 (6^2), and 144 (12^2) are perfect squares. 72 is not."
+    },
+    {
+      "id": "q50",
+      "text": "In CSS, what does the `z-index` property control?",
+      "options": ["The zoom level of an element", "The stack order of elements along the z-axis (front to back)", "The opacity of an element", "The horizontal positioning of an element"],
+      "correctIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,324 @@
+{
+  "id": "modelTest14",
+  "title": "W3 Ignite Model Test - Set 14 (Raw Coding, DSA & Algorithms)",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "What is the time complexity of building a Binary Max-Heap from an unsorted array of N elements using the optimal bottom-up approach?",
+      "options": ["O(log N)", "O(N)", "O(N log N)", "O(N^2)"],
+      "correctIndex": 1,
+      "Explanation": "While inserting elements one by one takes O(N log N), the `heapify` operation applied bottom-up takes O(N) time."
+    },
+    {
+      "id": "q2",
+      "text": "Which bitwise operation can be used to quickly check if a positive integer 'x' is a power of 2?",
+      "options": ["(x & (x - 1)) == 0", "(x | (x - 1)) == 0", "(x ^ (x - 1)) == 0", "(x & 1) == 0"],
+      "correctIndex": 0,
+      "Explanation": "Powers of 2 have only one set bit. Subtracting 1 flips all bits after that set bit (including itself). Bitwise ANDing them yields 0."
+    },
+    {
+      "id": "q3",
+      "text": "In C++, what is the worst-case time complexity of searching for an element in `std::unordered_map`?",
+      "options": ["O(1)", "O(log N)", "O(N)", "O(N log N)"],
+      "correctIndex": 2,
+      "Explanation": "Average case is O(1), but in the worst case (many hash collisions), it degrades to O(N)."
+    },
+    {
+      "id": "q4",
+      "text": "What is the primary advantage of using an Object-Relational Mapper (ORM) in backend development?",
+      "options": ["It guarantees faster query execution than raw SQL", "It maps database tables to classes, allowing developers to interact with the database using object-oriented paradigms", "It automatically normalizes the database to 3NF", "It replaces the need for a database engine"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "text": "Which sorting algorithm is NOT stable by default?",
+      "options": ["Merge Sort", "Insertion Sort", "Bubble Sort", "Quick Sort"],
+      "correctIndex": 3,
+      "Explanation": "Quick Sort swaps non-adjacent elements, which can change the relative order of equal elements."
+    },
+    {
+      "id": "q6",
+      "text": "In graph theory, which algorithm is best suited to find the shortest path from a single source to all other vertices in a graph with NO negative weight edges?",
+      "options": ["Bellman-Ford", "Floyd-Warshall", "Dijkstra's Algorithm", "Kruskal's Algorithm"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q7",
+      "text": "What does the C++ GCC compiler function `__builtin_popcount(x)` do?",
+      "options": ["Counts the number of leading zeros", "Counts the number of trailing zeros", "Counts the number of set bits (1s) in the binary representation", "Reverses the bits of the integer"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q8",
+      "text": "In Dynamic Programming, what are the two main properties a problem must have to be solvable using DP?",
+      "options": ["Greedy Choice and Optimal Substructure", "Overlapping Subproblems and Optimal Substructure", "Recursion and Memoization", "Divide and Conquer"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q9",
+      "text": "What is the output of `print(0.1 + 0.2 == 0.3)` in Python?",
+      "options": ["True", "False", "Error", "None"],
+      "correctIndex": 1,
+      "Explanation": "Due to floating-point arithmetic precision issues in IEEE 754, 0.1 + 0.2 evaluates to 0.30000000000000004."
+    },
+    {
+      "id": "q10",
+      "text": "What is the space complexity of a recursive Depth-First Search (DFS) on a perfectly balanced binary tree with N nodes?",
+      "options": ["O(1)", "O(log N)", "O(N)", "O(N log N)"],
+      "correctIndex": 1,
+      "Explanation": "The space complexity is determined by the maximum depth of the call stack, which is O(log N) for a balanced tree."
+    },
+    {
+      "id": "q11",
+      "text": "In JavaScript, what will `[1, 2, 10, 20].sort()` return?",
+      "options": ["[1, 2, 10, 20]", "[1, 10, 2, 20]", "[20, 10, 2, 1]", "Error"],
+      "correctIndex": 1,
+      "Explanation": "By default, JS `sort()` converts elements to strings and compares their UTF-16 code unit values. '10' comes before '2'."
+    },
+    {
+      "id": "q12",
+      "text": "When writing a test case generator for a graph problem, what is the maximum number of edges in a simple undirected graph with V vertices?",
+      "options": ["V * (V - 1)", "V * (V - 1) / 2", "V^2", "2^V"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q13",
+      "text": "What is the primary cause of the 'N+1 query problem' when using an ORM?",
+      "options": ["The database crashing after N queries", "Executing one query to fetch N records, and then N additional queries to fetch related data for each record", "A syntax error in the SELECT statement", "Missing indexes on foreign keys"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q14",
+      "text": "Which data structure is typically used to implement a Least Recently Used (LRU) Cache?",
+      "options": ["Array + Binary Search Tree", "Hash Map + Doubly Linked List", "Stack + Queue", "Segment Tree"],
+      "correctIndex": 1,
+      "Explanation": "Hash Map provides O(1) access, and the Doubly Linked List provides O(1) removal and insertion to keep track of recency."
+    },
+    {
+      "id": "q15",
+      "text": "What is the time complexity of querying the sum of a range [L, R] using a standard Segment Tree?",
+      "options": ["O(1)", "O(log N)", "O(sqrt N)", "O(N)"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q16",
+      "text": "In Python, which of the following is the fastest way to check if an element exists in a large collection?",
+      "options": ["item in list", "item in tuple", "item in set", "Iterating with a for loop"],
+      "correctIndex": 2,
+      "Explanation": "Sets use hash tables, making membership testing O(1) on average, compared to O(N) for lists and tuples."
+    },
+    {
+      "id": "q17",
+      "text": "What is the output of `5 ^ 5` in C/C++, Java, or JS?",
+      "options": ["25", "5", "0", "1"],
+      "correctIndex": 2,
+      "Explanation": "The caret (^) is the bitwise XOR operator. XORing a number with itself always results in 0."
+    },
+    {
+      "id": "q18",
+      "text": "If a function calls itself as its very last action, what compiler optimization can prevent stack overflow?",
+      "options": ["Loop Unrolling", "Tail Call Optimization (TCO)", "Inline Expansion", "Dead Code Elimination"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q19",
+      "text": "Which algorithm is used to find the Minimum Spanning Tree (MST) of a graph by sorting all edges and adding them one by one while avoiding cycles?",
+      "options": ["Prim's", "Kruskal's", "Dijkstra's", "Kosaraju's"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q20",
+      "text": "In PHP, what is the time complexity of `isset($array[$key])`?",
+      "options": ["O(1)", "O(log N)", "O(N)", "O(N^2)"],
+      "correctIndex": 0,
+      "Explanation": "PHP arrays are implemented as hash tables, so key lookups take O(1) time on average."
+    },
+    {
+      "id": "q21",
+      "text": "Which of the following problems is classic for applying the 'Sliding Window' technique?",
+      "options": ["Finding the shortest path in a graph", "Finding the maximum sum of a contiguous subarray of size K", "Sorting an array of strings", "Finding the prime factors of a number"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q22",
+      "text": "What is 'memoization' in the context of algorithms?",
+      "options": ["Caching the results of expensive function calls to avoid repeating the same calculations", "Storing data in RAM instead of a hard drive", "Converting a recursive function to an iterative one", "Allocating memory dynamically using malloc"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q23",
+      "text": "In C++, `std::vector::push_back` has an amortized time complexity of O(1). What happens internally when its capacity is reached?",
+      "options": ["It throws an exception", "It allocates a new memory block (usually double the size), copies old elements, and deletes the old block", "It links a new block of memory via a pointer", "It silently drops the new element"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q24",
+      "text": "What is the expected height of a randomly built Binary Search Tree with N distinct keys?",
+      "options": ["O(1)", "O(log N)", "O(sqrt N)", "O(N)"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q25",
+      "text": "In JavaScript, what is the output of `console.log(Math.max())`?",
+      "options": ["Infinity", "-Infinity", "0", "NaN"],
+      "correctIndex": 1,
+      "Explanation": "With no arguments, Math.max() returns -Infinity so that any subsequent number compared to it will be larger."
+    },
+    {
+      "id": "q26",
+      "text": "Which traversal of a Binary Search Tree (BST) visits the nodes in ascending sorted order?",
+      "options": ["Pre-order", "In-order", "Post-order", "Level-order"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q27",
+      "text": "What is the time complexity of the Knuth-Morris-Pratt (KMP) algorithm for string matching? (N = length of text, M = length of pattern)",
+      "options": ["O(N * M)", "O(N log M)", "O(N + M)", "O(M^2)"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q28",
+      "text": "When solving the '0/1 Knapsack' problem using DP, what do the dimensions of the DP table typically represent?",
+      "options": ["Rows: Items considered, Columns: Current capacity", "Rows: Current capacity, Columns: Total value", "Rows: Total value, Columns: Item weights", "Rows: Item weights, Columns: Item values"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q29",
+      "text": "In Python, how is memory managed for objects when they are no longer referenced?",
+      "options": ["Manual memory freeing", "Reference counting combined with a cycle-detecting garbage collector", "Stack unwinding", "Memory is never freed until the program exits"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q30",
+      "text": "Which operator is heavily used in a 'Fenwick Tree' (Binary Indexed Tree) to quickly find the parent/child index?",
+      "options": ["Modulo (%)", "Bitwise AND with two's complement (i & -i)", "Left Shift (<<)", "Right Shift (>>)"],
+      "correctIndex": 1,
+      "Explanation": "`i & -i` isolates the lowest set bit of `i`, which is crucial for traversing a Fenwick Tree."
+    },
+    {
+      "id": "q31",
+      "text": "In SQL, what is the main risk of concatenating user input directly into a database query string?",
+      "options": ["Syntax Error", "N+1 Query Problem", "SQL Injection", "Deadlock"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q32",
+      "text": "What is the worst-case time complexity of Quick Sort?",
+      "options": ["O(N)", "O(N log N)", "O(N^2)", "O(2^N)"],
+      "correctIndex": 2,
+      "Explanation": "If the pivot chosen is consistently the smallest or largest element (e.g., already sorted array with naive pivot selection), it degrades to O(N^2)."
+    },
+    {
+      "id": "q33",
+      "text": "Which data structure is naturally used to evaluate a postfix expression (Reverse Polish Notation)?",
+      "options": ["Queue", "Stack", "Binary Tree", "Linked List"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q34",
+      "text": "What does a 'Promise' represent in JavaScript?",
+      "options": ["A synchronous block of code", "A guarantee that an error will not occur", "The eventual completion (or failure) of an asynchronous operation and its resulting value", "A loop that runs indefinitely"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q35",
+      "text": "In C++, what does `std::unique` do when applied to a vector?",
+      "options": ["Removes all duplicate elements from the entire vector", "Removes consecutive duplicate elements, returning an iterator to the new end", "Throws an error if there are duplicates", "Sorts the vector and removes duplicates"],
+      "correctIndex": 1,
+      "Explanation": "It only removes consecutive duplicates. You must sort the vector first if you want to remove all duplicates."
+    },
+    {
+      "id": "q36",
+      "text": "If a hash table uses chaining to resolve collisions, what is the data structure at each bucket?",
+      "options": ["A Binary Tree", "A Linked List", "A Stack", "A Queue"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q37",
+      "text": "What is the base case of the classic recursive Fibonacci function `fib(n)`?",
+      "options": ["if (n == 0) return 1;", "if (n <= 1) return n;", "if (n < 0) return -1;", "if (n == 1) return 2;"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q38",
+      "text": "Which graph algorithm relies heavily on a Disjoint Set Union (DSU) / Union-Find data structure?",
+      "options": ["Dijkstra's", "Kruskal's", "Bellman-Ford", "Topological Sort"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q39",
+      "text": "In PHP, what is the difference between `==` and `===`?",
+      "options": ["No difference", "`===` compares values, `==` compares references", "`==` checks value equality after type juggling, `===` checks both value and type strict equality", "`===` is an assignment operator"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q40",
+      "text": "What does 'Eager Loading' attempt to solve in the context of an ORM?",
+      "options": ["Memory leaks", "The N+1 Query Problem", "Slow network connections", "Data type mismatches"],
+      "correctIndex": 1,
+      "Explanation": "Eager loading uses JOINs or subsequent IN queries to fetch all related records upfront, avoiding N+1 separate queries."
+    },
+    {
+      "id": "q41",
+      "text": "In Python, what is a decorator?",
+      "options": ["A tool for formatting code", "A function that takes another function and extends its behavior without explicitly modifying it", "A class that inherits from multiple parents", "A specific type of list comprehension"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q42",
+      "text": "What is the time complexity of finding the diameter of a tree using the 'Two BFS/DFS' method?",
+      "options": ["O(1)", "O(V + E)", "O(V^2)", "O(E log V)"],
+      "correctIndex": 1,
+      "Explanation": "Running two standard traversals takes linear time relative to the number of vertices and edges."
+    },
+    {
+      "id": "q43",
+      "text": "Which of the following is an example of an NP-Complete problem?",
+      "options": ["Sorting an array", "Finding the shortest path", "Traveling Salesperson Problem (Decision version)", "Matrix Multiplication"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q44",
+      "text": "What is the purpose of the `volatile` keyword in C/C++?",
+      "options": ["To make a variable accessible across threads", "To prevent the compiler from optimizing code related to that variable because its value may change outside the program's control", "To define a constant", "To dynamically allocate memory"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q45",
+      "text": "In JS, how does `setTimeout(fn, 0)` affect the execution of `fn`?",
+      "options": ["Executes immediately, blocking the main thread", "Puts it in the callback queue to be executed after the current execution stack clears", "Cancels the function", "Runs it on a separate background thread"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q46",
+      "text": "What is a 'Trie' data structure primarily used for?",
+      "options": ["Graph shortest paths", "Efficient string matching and prefix searches (like autocomplete)", "Database indexing of integers", "Load balancing"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q47",
+      "text": "Which paradigm does Dart heavily utilize for its UI layout rendering in Flutter?",
+      "options": ["Imperative DOM manipulation", "Declarative UI", "Two-way data binding strictly", "Model-View-Controller only"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q48",
+      "text": "What is 'Polymorphism' in Object-Oriented Programming?",
+      "options": ["Hiding internal state", "Bundling data and methods", "Creating new classes from existing ones", "The ability of different objects to respond to the same method call in their own specific way"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q49",
+      "text": "In SQL, what is the result of joining a table with itself?",
+      "options": ["Syntax Error", "Self Join", "Cross Join exclusively", "Union"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q50",
+      "text": "If you need to update elements in a range `[L, R]` and query point values efficiently, which array-based structure is ideal?",
+      "options": ["Standard Array", "Hash Map", "Difference Array", "Prefix Sum Array"],
+      "correctIndex": 2,
+      "Explanation": "A Difference Array allows O(1) range updates. You can reconstruct the point values by calculating the prefix sum of the difference array."
+    }
+  ]
+}
